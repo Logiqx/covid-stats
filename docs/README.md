@@ -16,7 +16,7 @@ Since mid-February, I have acquired an interest in the data and developments rel
 
 In early March the UK experts were saying that we were probably around two weeks behind Italy but there were still a fair number of sceptics amongst the wider UK population and some people still remain sceptical today. I've been tracking the disease for about 6 weeks now and found some of my charts pretty interesting so I've decided to share them more widely.
 
-There are plenty of good lectures and resources on the internet, describing the nature of epidemics; how they progress and how they can be controlled. The main point of note is that early in any epidemic the growth is expected to be near exponential (without mitigation) and the two variables that best describe the growth in the number of cases and resultant deaths are the R<sub>0</sub> (reproduction number) and the doubling rate. When the number of people (without immunity) being exposed to the disease reduces sufficiently then so does the number of new cases and ultimately the number of daily deaths.
+There are plenty of good lectures and resources on the internet, describing the nature of epidemics; how they progress and how they can be controlled. The main point of note is that early in any epidemic the initial growth is expected to be near exponential (without mitigation) and the two variables that best describe the growth in the number of cases and resultant deaths are the R<sub>0</sub> (reproduction number) and the doubling rate. When the number of people (without immunity) being exposed to the disease reduces sufficiently then so does the number of new cases and ultimately the number of daily deaths.
 
 
 
@@ -80,7 +80,7 @@ The [Office for National Statistics](https://www.ons.gov.uk/) (ONS) publishes we
 
 Just like the daily death statistics the weekly ONS statistics also suffer from reporting delays and show large fluctuations (especially around Christmas) so it is helpful to show the trends using a moving average.
 
-The legend on the graph below explains what the lines are but it essentially compares the last 5 years; all deaths, respiratory related deaths and COVID-19 related deaths. The graph starts at the beginning of the seasonal flu season (early October) and the nature of a typical flu seasonal can be clearly be seen both in total deaths and respiratory related deaths.
+The legend on the graph below explains what the lines are but it essentially compares the last 5 years; all deaths, respiratory related deaths and COVID-19 related deaths. The graph starts at the beginning of the seasonal flu season (early October) and the nature of a typical flu seasonal can be clearly be seen both in total deaths and respiratory related deaths. †
 
 ![alt text](img/uk_ons.png "ONS Statistics")
 
@@ -88,7 +88,7 @@ What is most striking in the graph above is the impact of COVID-19 since late-Ma
 
 There is a two-three week lag before deaths appear in the ONS data so the graph above (dated 10 April 2020) is only just starting to show the effects of the UK lockdown.  It is quite clear that the early impact of COVID-19 on the UK population and the NHS is far from "normal" and without the UK lockdown it would have almost certainly continued to grow exponentially.
 
-Source: [Deaths registered weekly in England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) (ONS)
+† [Deaths registered weekly in England and Wales](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) (ONS)
 
 
 
@@ -112,7 +112,7 @@ It can be seen that about two to three weeks after the introduction of social di
 
 The graphs in this article have all been created from publicly available data and statistics but illustrated and explained in a way that you may not have seen before now. What happens over coming weeks and months is yet to be seen and there is clearly no simple solution to the COVID-19 issue.
 
-One thing for sure is that the current restrictions cannot be suddenly removed in their entirety or exponential growth will return and we'll see a second spike (potentially worse in the number of cases, ultimately leading to many more deaths. There is no health system on the planet that has enough spare capacity to cope with exponential growth of COVID-19 patients, hence the government mantra; "stay at home, protect the NHS, save lives".
+One thing for sure is that the current restrictions cannot be suddenly removed in their entirety or exponential growth will return and we'll see a second peak (potentially worse) in the number of cases, ultimately leading to many more deaths. There is no health system on the planet that has enough spare capacity to cope with exponential growth of COVID-19 patients, hence the government mantra; "stay at home, protect the NHS, save lives".
 
 The best analogy that I've heard is that we've jumped out of a plane and deployed a parachute which has now slowed down our descent. We still have quite some time until we land safely, so now is not the time to decide that the parachute has done it's job and take it off.
 
@@ -122,9 +122,9 @@ The best analogy that I've heard is that we've jumped out of a plane and deploye
 
 The so called "[herd immunity](https://en.wikipedia.org/wiki/Herd_immunity)" for COVID-19 is ultimately what we need in the medium and long term but how it is acquired is not nearly so clear cut as "protect the vulnerable but let the young and fit catch it to develop natural immunity".
 
-I'll refrain from writing too much on this topic but it should be made clear that there are a lot of unknowns when it comes to COVID-19 (the disease) and any immunity developed through being infected by SARS-COV-2 (the virus). It is already known that naturally developed immunity doesn't last long for other coronaviruses (SARS, MERS, common colds) so allowing vast swathes of the population to become infected is a very risky strategy, would likely cost hundreds of thousands of lives in the UK and it may not even be successful in the medium to long term.
+I'll refrain from writing too much on this topic but it should be made clear that there are a lot of unknowns when it comes to COVID-19 (the disease) and any immunity developed through being infected by SARS-COV-2 (the virus). It is already known that naturally developed immunity doesn't last long for other coronaviruses (SARS, MERS, common colds) so allowing vast swathes of the population to become infected would be a very risky strategy, would likely cost hundreds of thousands of lives in the UK and it may not even be successful in the medium to long term.
 
-It should also be noted that despite numerous discussions in the mainstream media (and social media) dating back to March, herd immunity is not the UK government policy nor indeed their plan. Early modelling of the COVID-19 epidemic was based on prior modelling and assumptions for a major influenza epidemic with a much lower mortality rate than COVID-19. When the Imperial College models were updated to use the latest hospital data coming out of China and Italy it quickly became clear that any "herd immunity" plan would be catastrophic for the NHS and would have a devastating human cost †. One week later the UK was in the current lockdown.
+It should also be noted that despite numerous discussions in the mainstream media (and social media) dating back to March, herd immunity is neither the UK government plan nor the policy. Early modelling of the COVID-19 epidemic was based on prior modelling and assumptions for a major influenza epidemic with a much lower mortality rate than COVID-19. When the Imperial College models were updated to use the latest hospital data coming out of China and Italy it quickly became clear that any "herd immunity" plan would be catastrophic for the NHS and would have a devastating human cost †. After several policy changes in the days following the Imperial College impact assessment, just one week later the UK was in lockdown.
 
 The good news is that there are hundreds of expert teams around the world, working on the creation of a vaccine that is both effective and safe for the general population. A human created vaccine has the additional benefit that it can be synthesised to provide longer term immunity than any naturally developed immunity acquired by survivors of COVID-19. All coronaviruses will mutate over time (just as all other types of virus mutate) but generally speaking coronaviruses mutate more slowly than other virus families such as influenza. The experts are pretty optimistic that an effective vaccine can be developed for COVID-19 but it will take some time to do the clinical trials, prior to vaccinating the majority of the population.
 
