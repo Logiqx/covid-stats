@@ -126,7 +126,7 @@ I'll refrain from writing too much on this topic but it should be made clear tha
 
 It should also be noted that despite numerous discussions in the mainstream media (and social media) dating back to March, herd immunity is neither the UK government plan nor the policy. Early modelling of the COVID-19 epidemic was based on prior modelling and assumptions for a major influenza epidemic with a much lower mortality rate than COVID-19. When the Imperial College models were updated to use the latest hospital data coming out of China and Italy it quickly became clear that any "herd immunity" plan would be catastrophic for the NHS and would have a devastating human cost †. After several policy changes in the days following the Imperial College impact assessment, just one week later the UK was in lockdown.
 
-The good news is that there are hundreds of expert teams around the world, trying to create a vaccine that is both effective and safe for the general population. A human created vaccine has the additional benefit that it can be synthesised to provide longer term immunity than any naturally developed immunity acquired by survivors of COVID-19. All coronaviruses will mutate over time (just as all other types of virus mutate) but generally speaking coronaviruses mutate more slowly than other virus families such as influenza. The experts are pretty optimistic that an effective vaccine can be developed for COVID-19 but it will take some time to complete the necessary clinical trials and manufacture enough doses, prior to vaccinating the majority of the population.
+The good news is that there are hundreds of expert teams around the world, trying to create a vaccine that is both effective and safe for the general population. A human created vaccine has the additional benefit that it can be synthesised to provide longer term immunity than any naturally developed immunity acquired by survivors of COVID-19. All coronaviruses will mutate over time (just as all other types of virus mutate) but generally speaking coronaviruses mutate more slowly than other virus families such as influenza. The experts are pretty optimistic that an effective vaccine can be developed for COVID-19 but it will take some time to complete the necessary clinical trials and manufacture enough doses, prior to vaccinating the majority of the population. ‡
 
 What is clear is that life will be quite different for many months to come but there are several reasons to be optimistic about the future.
 
@@ -134,7 +134,9 @@ Stay at home, protect the NHS, save lives.
 
 † [Report 9 - Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand](https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-9-impact-of-npis-on-covid-19/)
 
+‡ [Andrew Marr speaks to the Professor Sarah Gilbert, Vaccinologist at Oxford University](https://www.bbc.co.uk/programmes/p089xqrl)
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86348435-4"></script>
 <script>window.dataLayer = window.dataLayer || []; function gtag() {dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-86348435-4');</script>
