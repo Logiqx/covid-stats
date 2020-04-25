@@ -44,7 +44,7 @@ These delays cause significant spikes and dips in the daily figures as shown in 
 
 Showing the trend as a moving average smooths out the daily fluctuations, making comparisons across different countries, demographics or time periods somewhat easier. Most of the graphs in this article use moving averages to increase clarity.
 
-![alt text](img/uk_deaths.png "UK Deaths")
+![alt text](img/uk_deaths.png "UK Daily Deaths")
 
 
 
@@ -62,7 +62,7 @@ The graph is rather "noisy" due to the peaks and troughs which is largely down t
 
 Showing the Italy, Spain and UK trends using a 7 day moving average makes the graph a lot clearer and trends easier to interpret:
 
-![alt text](img/european_smoothed.png "Europen Comparison (Smoothed)")
+![alt text](img/european_smoothed.png "European Comparison (Smoothed)")
 
 I am not going to speculate the whys and wherefores of the similarities between the three countries but it is worth noting that the "peaks" are much lower than they would have otherwise been without any lockdown measures. The first few weeks for all three countries exhibited exponential growth which has subsequently been supressed by the lockdown measures, reducing the spread of the virus.
 
@@ -104,7 +104,7 @@ One of the simplest ways to monitor the spread of COVID-19 and whether figures a
 
 It can be seen that about two to three weeks after the introduction of social distancing (16 March 2020) and after one or two weeks of enforced lockdown in the UK (23 March 2020), exponential growth has been supressed and the number of daily deaths is now starting to steadily decline.
 
-![alt text](img/uk_growth.png "UK Growth")
+![alt text](img/uk_growth.png "UK Growth Factor")
 
 
 
