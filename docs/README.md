@@ -36,7 +36,7 @@ As you will see by the graphs later in this article there is a striking similari
 
 #### UK Hospital Deaths
 
-The daily deaths that are reported by the UK media (plus sites such as [Worldometer](https://www.worldometers.info/coronavirus/) and [John Hopkins](https://coronavirus.jhu.edu/map.html)) are almost exclusively the hospital deaths of patients who have tested positive for COVID-19.
+The daily deaths that are reported by the UK media (plus sites such as [Worldometer](https://www.worldometers.info/coronavirus/) and [Johns Hopkins](https://coronavirus.jhu.edu/map.html)) are almost exclusively the hospital deaths of patients who have tested positive for COVID-19.
 
 There can be a lag of several days (sometimes over a week) between a COVID-19 death and it being included in the official daily figures. The UK figures announced on Sundays (up to 5pm on Saturday) and Mondays (up to 5pm on Sunday) are always low because of delays in the weekend reporting.
 
