@@ -18,15 +18,15 @@ Based on the number of daily admissions, deaths and MV beds it was apparent that
 
 Daily deaths - 7 day average slightly under 400:
 
-![Deaths](C:\Projects\WCA\covid-stats\docs\hospital-mortality-rates\dashboard_deaths.png)
+![Deaths](hospital-mortality-rates\dashboard_deaths.png)
 
 Hospital admissions - 7 day average around 750, thus 75 when divided by 10.
 
-![Admissions](C:\Projects\WCA\covid-stats\docs\hospital-mortality-rates\dashboard_admissions.png)
+![Admissions](hospital-mortality-rates\dashboard_admissions.png)
 
 MV beds - 7 day average around 1400, thus 140 when divided by 10.
 
-![Ventilated Beds](C:\Projects\WCA\covid-stats\docs\hospital-mortality-rates\dashboard_ventilated.png)
+![Ventilated Beds](hospital-mortality-rates\dashboard_ventilated.png)
 
 
 
