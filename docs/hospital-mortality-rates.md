@@ -152,3 +152,9 @@ Who knew the power of logic and mathematics in an age when the opinion of Johnny
 
 "All models are wrong, but some are useful" - hopefully I've demonstrated the potential for usefulness of models in this article.
 
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-86348435-4"></script>
+<script>window.dataLayer = window.dataLayer || []; function gtag() {dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-86348435-4');</script>
