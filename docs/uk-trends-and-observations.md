@@ -44,7 +44,7 @@ These delays cause significant spikes and dips in the daily figures as shown in 
 
 Showing the trend as a moving average smooths out the daily fluctuations, making comparisons across different countries, demographics or time periods somewhat easier. Most of the graphs in this article use moving averages to increase clarity.
 
-![alt text](img/uk_deaths.png "UK Daily Deaths")
+![alt text](uk-trends-and-observations/uk_deaths.png "UK Daily Deaths")
 
 
 
@@ -58,11 +58,11 @@ The unfiltered comparison of Italy, Spain and the UK shows a striking similarity
 
 The graph is rather "noisy" due to the peaks and troughs which is largely down to reporting delays (discussed earlier).
 
-![alt text](img/european_comparison.png "European Comparison")
+![alt text](uk-trends-and-observations/european_comparison.png "European Comparison")
 
 Showing the Italy, Spain and UK trends using a 7 day moving average makes the graph a lot clearer and trends easier to interpret:
 
-![alt text](img/european_smoothed.png "European Comparison (Smoothed)")
+![alt text](uk-trends-and-observations/european_smoothed.png "European Comparison (Smoothed)")
 
 I am not going to speculate the whys and wherefores of the similarities between the three countries but it is worth noting that the "peaks" are much lower than they would have otherwise been without any lockdown measures. The first few weeks for all three countries exhibited exponential growth which has subsequently been supressed by the lockdown measures, reducing the spread of the virus.
 
@@ -82,7 +82,7 @@ Just like the daily death statistics the weekly ONS statistics also suffer from 
 
 The legend on the graph below explains what the lines are but it essentially compares the last 5 years; all deaths, respiratory related deaths and COVID-19 related deaths. The graph starts at the beginning of the flu season (early October) and the nature of a typical flu seasonal can clearly be seen both in total deaths and respiratory related deaths. †
 
-![alt text](img/uk_ons.png "ONS Statistics")
+![alt text](uk-trends-and-observations/uk_ons.png "ONS Statistics")
 
 What is most striking in the graph above is the impact of COVID-19 since late-March 2020. This can clearly be seen in both the total number of deaths and the number of deaths where COVID-19 is mentioned on the death certificate. It is worth noting that the mention of COVID-19 on a death certificate may be due to a positive test result (whilst in hospital) or clinical diagnosis (e.g. suspicion of a doctor, based on clinical symptoms) but this is no different to how the total number of seasonal flu deaths is recorded.
 
@@ -104,7 +104,7 @@ One of the simplest ways to monitor the spread of COVID-19 and whether figures a
 
 It can be seen that about two to three weeks after the introduction of social distancing (16 March 2020) and after one or two weeks of enforced lockdown in the UK (23 March 2020), exponential growth has been supressed and the number of daily deaths is now starting to steadily decline.
 
-![alt text](img/uk_growth.png "UK Growth Factor")
+![alt text](uk-trends-and-observations/uk_growth.png "UK Growth Factor")
 
 
 
