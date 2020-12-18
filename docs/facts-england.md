@@ -81,9 +81,9 @@ Links
 
 One might have expected ~1.4% of non-COVID deaths to test positive by chance.
 
-22% of the weekly deaths were reported as COVID-19; ~95% were within 28 days of a positive test.
+22% of the weekly deaths were reported as COVID-19; ~95% were within 28d of a positive test.
 
-This was 15 times higher than chance, suggesting "died with COVID" was at most 1 in 15, likely <6%.
+This was 15 times higher than chance, suggesting "died with COVID, not of COVID" was at most 1 in 15.
 
 
 
