@@ -32,7 +32,7 @@ Links
 
 ~79,000 of ~89,000 G&A beds in England were occupied during November, ~14,300 patients with COVID-19.
 
-This equated to 18% of the patients having COVID-19; 13 times the community prevalence.
+This equated to 18% of the bed patients having COVID-19; 13 times the community prevalence.
 
 Only 1.4% of non-COVID patients should have tested positive by chance!
 
