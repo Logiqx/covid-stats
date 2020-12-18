@@ -8,7 +8,7 @@
 
 This was established from >300,000 ONS and REACT-1 swab tests.
 
-It is corroborated by ZOE which reported symptomatic cases at just under 1% of the UK population.
+This is corroborated by ZOE (COVID symptom study), reporting symptomatic cases in ~1% of the UK population.
 
 
 
