@@ -8,6 +8,9 @@ It also covers "died with COVID, not of COVID" and the plausibility of high "fal
 
 Needs to be considered as a whole!
 
+![ONS map](facts-england/ons-map.png)
+
+
 
 ### 1. Prevalence
 
