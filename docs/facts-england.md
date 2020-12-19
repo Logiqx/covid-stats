@@ -2,6 +2,13 @@
 
 ## Facts for England - November 2020
 
+This thread considers the headline COVID-19 figures (hospitalisations and deaths) in the context of community prevalence.
+
+It also covers "died with COVID, not of COVID" and the plausibility of high "false positives" rates from PCR testing.
+
+Needs to be considered as a whole!
+
+
 ### 1. Prevalence
 
 ~1.4% of the population were testing positive for COVID-19 during mid-Nov and under 1% in the over 70s.
