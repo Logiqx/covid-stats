@@ -123,11 +123,21 @@ Links
 
 
 
-
 ### 6. Summary
+
+I have compared hospital stats and weekly deaths against community prevalence of COVID-19.
+
+It is very significant that COVID-19 patients are 8 times more likely to die than other patients.
+
+Positive PCR results are a strong predictor of mortality which is beyond coincidence.
+
+
+
+### 7. Conclusions
 
 Daily figures from NHS and PHE may not be perfect but they do facilitate COVID-19 surveillance.
 
 Claims about widespread false positives and "died with COVID" do not stack up.
 
 Neither the hospital admission rates nor the high mortality rates can be explained by either claim.
+
