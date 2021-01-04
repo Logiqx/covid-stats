@@ -287,6 +287,7 @@ date,areaName,hospitalAdmissions,hospitalPatients,hospitalPatientsMv
 2020-12-29,South West,148,1124,58
 2020-12-30,South West,220,1166,67
 2020-12-31,South West,140,1177,75
-2021-01-01,South West,,1199,74
-2021-01-02,South West,,1236,79
+2021-01-01,South West,173,1199,74
+2021-01-02,South West,168,1236,79
 2021-01-03,South West,,1323,83
+2021-01-04,South West,,1401,97

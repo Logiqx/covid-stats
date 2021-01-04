@@ -287,6 +287,7 @@ date,areaName,hospitalAdmissions,hospitalPatients,hospitalPatientsMv
 2020-12-29,London,679,5371,599
 2020-12-30,London,681,5524,640
 2020-12-31,London,708,5685,664
-2021-01-01,London,,5511,657
-2021-01-02,London,,5861,713
+2021-01-01,London,796,5511,657
+2021-01-02,London,828,5861,713
 2021-01-03,London,,6358,772
+2021-01-04,London,,6733,814

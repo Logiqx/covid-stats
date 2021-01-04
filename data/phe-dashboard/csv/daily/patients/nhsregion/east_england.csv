@@ -287,6 +287,7 @@ date,areaName,hospitalAdmissions,hospitalPatients,hospitalPatientsMv
 2020-12-29,East of England,373,2922,175
 2020-12-30,East of England,332,3111,197
 2020-12-31,East of England,340,2788,187
-2021-01-01,East of England,,2910,199
-2021-01-02,East of England,,3236,208
+2021-01-01,East of England,386,2910,199
+2021-01-02,East of England,453,3236,208
 2021-01-03,East of England,,3395,221
+2021-01-04,East of England,,3623,261

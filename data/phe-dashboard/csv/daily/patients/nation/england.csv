@@ -363,7 +363,7 @@ date,areaName,hospitalAdmissions,hospitalPatients,hospitalPatientsMv
 2020-12-29,England,2886,21787,1728
 2020-12-30,England,2861,22713,1854
 2020-12-31,England,2536,22728,1899
-2021-01-01,England,,22534,1940
-2021-01-02,England,,23557,2017
+2021-01-01,England,3010,22534,1940
+2021-01-02,England,3145,23557,2017
 2021-01-03,England,,24957,2181
-2021-01-04,England,,,
+2021-01-04,England,,26626,2310

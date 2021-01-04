@@ -1,7 +1,8 @@
 date,areaName,hospitalAdmissions,hospitalPatients,hospitalPatientsMv
+2021-01-04,North West,,2812,223
 2021-01-03,North West,,2605,211
-2021-01-02,North West,,2410,183
-2021-01-01,North West,,2540,195
+2021-01-02,North West,247,2410,183
+2021-01-01,North West,210,2540,195
 2020-12-31,North West,209,2550,198
 2020-12-30,North West,278,2514,188
 2020-12-29,North West,257,2352,171

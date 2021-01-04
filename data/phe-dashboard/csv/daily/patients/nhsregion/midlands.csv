@@ -287,6 +287,7 @@ date,areaName,hospitalAdmissions,hospitalPatients,hospitalPatientsMv
 2020-12-29,Midlands,562,3694,285
 2020-12-30,Midlands,487,3876,306
 2020-12-31,Midlands,435,3944,305
-2021-01-01,Midlands,,3808,312
-2021-01-02,Midlands,,3959,324
+2021-01-01,Midlands,469,3808,312
+2021-01-02,Midlands,546,3959,324
 2021-01-03,Midlands,,4065,359
+2021-01-04,Midlands,,4499,367
