@@ -365,8 +365,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2020-12-31,Derbyshire Dales,1,2.7999999999999998224,1
 2021-01-01,Derbyshire Dales,0,2.7999999999999998224,1
 2021-01-02,Derbyshire Dales,0,2.7999999999999998224,0
-2021-01-03,Derbyshire Dales,0,,0
-2021-01-04,Derbyshire Dales,1,,0
-2021-01-05,Derbyshire Dales,0,,1
-2021-01-06,Derbyshire Dales,0,,1
-2021-01-07,Derbyshire Dales,,,0
+2021-01-03,Derbyshire Dales,0,1.3999999999999999112,0
+2021-01-04,Derbyshire Dales,2,,0
+2021-01-05,Derbyshire Dales,1,,1
+2021-01-06,Derbyshire Dales,1,,1
+2021-01-07,Derbyshire Dales,0,,0
+2021-01-08,Derbyshire Dales,,,3
