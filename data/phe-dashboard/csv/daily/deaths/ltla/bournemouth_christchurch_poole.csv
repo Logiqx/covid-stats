@@ -367,8 +367,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-02,"Bournemouth, Christchurch and Poole",3,6.0999999999999996447,2
 2021-01-03,"Bournemouth, Christchurch and Poole",2,5.7999999999999998224,4
 2021-01-04,"Bournemouth, Christchurch and Poole",2,5.5999999999999996447,0
-2021-01-05,"Bournemouth, Christchurch and Poole",7,,3
-2021-01-06,"Bournemouth, Christchurch and Poole",3,,6
-2021-01-07,"Bournemouth, Christchurch and Poole",9,,7
-2021-01-08,"Bournemouth, Christchurch and Poole",4,,9
-2021-01-09,"Bournemouth, Christchurch and Poole",,,6
+2021-01-05,"Bournemouth, Christchurch and Poole",7,6.2999999999999998224,3
+2021-01-06,"Bournemouth, Christchurch and Poole",6,,6
+2021-01-07,"Bournemouth, Christchurch and Poole",6,,7
+2021-01-08,"Bournemouth, Christchurch and Poole",8,,9
+2021-01-09,"Bournemouth, Christchurch and Poole",0,,6
+2021-01-10,"Bournemouth, Christchurch and Poole",,,4
