@@ -12,7 +12,7 @@ DOCKER_BUILDKIT=1 docker build . --file Dockerfile --build-arg LOGIQX_DEBUG -t $
 run_py_script phe_download.py
 
 # Download NHS data
-run_py_script nhs_download.py
+run_py_script xlsx_download.py
 
 # Docker Tag
 docker tag $IMAGE_NAME:$IMAGE_TAG $IMAGE_NAME:latest
