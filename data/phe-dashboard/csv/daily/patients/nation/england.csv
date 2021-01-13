@@ -375,3 +375,4 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissions
 2021-01-10,England,3571,46.100000000000001421,30758,2963,45.7,1852,23.2,1837,274.7,92957,1324.2,116716,4376.0,59731
 2021-01-11,England,,0,32070,3055,,,,,,,,,,
 2021-01-12,England,,0,32202,3175,,,,,,,,,,
+2021-01-13,England,,0,,,,,,,,,,,,

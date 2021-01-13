@@ -370,8 +370,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-05,East Hertfordshire,2,7.2999999999999998224,2
 2021-01-06,East Hertfordshire,1,7.2999999999999998224,4
 2021-01-07,East Hertfordshire,2,7.2999999999999998224,1
-2021-01-08,East Hertfordshire,1,,0
-2021-01-09,East Hertfordshire,2,,3
+2021-01-08,East Hertfordshire,1,8,0
+2021-01-09,East Hertfordshire,3,,3
 2021-01-10,East Hertfordshire,3,,2
-2021-01-11,East Hertfordshire,0,,3
-2021-01-12,East Hertfordshire,,,6
+2021-01-11,East Hertfordshire,1,,3
+2021-01-12,East Hertfordshire,0,,6
+2021-01-13,East Hertfordshire,,,2
