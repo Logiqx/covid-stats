@@ -1,4 +1,5 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-01-15,London,,0,,,
 2021-01-14,London,,0,7840,1163,
 2021-01-13,London,,0,7686,1138,
 2021-01-12,London,875,65.599999999999994316,7606,1085,"[{'age': '85+', 'rate': 5796.6, 'value': 8505}, {'age': '65_to_84', 'rate': 2120.8, 'value': 19352}, {'age': '18_to_64', 'rate': 396.2, 'value': 23085}, {'age': '0_to_5', 'rate': 82.3, 'value': 609}, {'age': '6_to_17', 'rate': 42.3, 'value': 542}]"

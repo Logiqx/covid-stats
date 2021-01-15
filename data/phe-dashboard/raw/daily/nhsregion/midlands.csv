@@ -1,4 +1,5 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-01-15,Midlands,,0,,,
 2021-01-14,Midlands,,0,5799,532,
 2021-01-13,Midlands,,0,5741,521,
 2021-01-12,Midlands,862,47.799999999999997158,5630,504,"[{'age': '6_to_17', 'rate': 24.8, 'value': 372}, {'age': '85+', 'rate': 4974.5, 'value': 12759}, {'age': '0_to_5', 'rate': 37.4, 'value': 283}, {'age': '65_to_84', 'rate': 1433.5, 'value': 24712}, {'age': '18_to_64', 'rate': 281.5, 'value': 17744}]"

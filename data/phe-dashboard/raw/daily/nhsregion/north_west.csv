@@ -1,4 +1,5 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-01-15,North West,,0,,,
 2021-01-14,North West,,0,3912,343,
 2021-01-13,North West,,0,3849,332,
 2021-01-12,North West,467,42.899999999999998579,3785,319,"[{'age': '85+', 'rate': 5878.5, 'value': 9492}, {'age': '0_to_5', 'rate': 48.0, 'value': 244}, {'age': '65_to_84', 'rate': 1834.9, 'value': 20679}, {'age': '18_to_64', 'rate': 340.4, 'value': 14377}, {'age': '6_to_17', 'rate': 22.0, 'value': 218}]"

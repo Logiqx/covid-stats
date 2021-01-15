@@ -1,4 +1,5 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-01-15,South West,,0,,,
 2021-01-14,South West,,0,2129,173,
 2021-01-13,South West,,0,2054,183,
 2021-01-12,South West,319,34,1946,165,"[{'age': '6_to_17', 'rate': 11.3, 'value': 84}, {'age': '65_to_84', 'rate': 659.3, 'value': 6985}, {'age': '0_to_5', 'rate': 24.7, 'value': 89}, {'age': '18_to_64', 'rate': 173.0, 'value': 5659}, {'age': '85+', 'rate': 2381.9, 'value': 4092}]"

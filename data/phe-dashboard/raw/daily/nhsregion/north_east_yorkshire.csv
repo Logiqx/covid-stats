@@ -1,4 +1,5 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-01-15,North East and Yorkshire,,0,,,
 2021-01-14,North East and Yorkshire,,0,3455,277,
 2021-01-13,North East and Yorkshire,,0,3476,272,
 2021-01-12,North East and Yorkshire,463,35.100000000000001421,3429,258,"[{'age': '0_to_5', 'rate': 49.8, 'value': 295}, {'age': '65_to_84', 'rate': 1513.6, 'value': 21660}, {'age': '85+', 'rate': 5194.7, 'value': 10686}, {'age': '6_to_17', 'rate': 28.4, 'value': 337}, {'age': '18_to_64', 'rate': 283.4, 'value': 14602}]"

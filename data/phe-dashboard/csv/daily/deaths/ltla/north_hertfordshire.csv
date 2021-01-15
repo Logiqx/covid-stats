@@ -372,8 +372,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-07,North Hertfordshire,2,14.199999999999999289,3
 2021-01-08,North Hertfordshire,3,15,3
 2021-01-09,North Hertfordshire,3,15,1
-2021-01-10,North Hertfordshire,2,,1
+2021-01-10,North Hertfordshire,2,15.699999999999999289,1
 2021-01-11,North Hertfordshire,2,,0
-2021-01-12,North Hertfordshire,4,,6
+2021-01-12,North Hertfordshire,6,,6
 2021-01-13,North Hertfordshire,0,,8
 2021-01-14,North Hertfordshire,0,,6
+2021-01-15,North Hertfordshire,,,2
