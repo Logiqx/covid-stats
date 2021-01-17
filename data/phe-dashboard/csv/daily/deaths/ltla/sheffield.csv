@@ -374,8 +374,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-09,Sheffield,6,7.9000000000000003553,9
 2021-01-10,Sheffield,10,8.5,4
 2021-01-11,Sheffield,6,8.4000000000000003553,1
-2021-01-12,Sheffield,5,,11
+2021-01-12,Sheffield,5,7.9000000000000003553,11
 2021-01-13,Sheffield,9,,9
 2021-01-14,Sheffield,4,,9
-2021-01-15,Sheffield,2,,7
-2021-01-16,Sheffield,,,11
+2021-01-15,Sheffield,4,,7
+2021-01-16,Sheffield,4,,11
+2021-01-17,Sheffield,,,6

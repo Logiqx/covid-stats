@@ -374,8 +374,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-09,North East Derbyshire,0,8.9000000000000003553,1
 2021-01-10,North East Derbyshire,1,7.9000000000000003553,0
 2021-01-11,North East Derbyshire,3,8.9000000000000003553,0
-2021-01-12,North East Derbyshire,2,,2
+2021-01-12,North East Derbyshire,2,8.9000000000000003553,2
 2021-01-13,North East Derbyshire,1,,2
 2021-01-14,North East Derbyshire,0,,3
-2021-01-15,North East Derbyshire,0,,1
-2021-01-16,North East Derbyshire,,,0
+2021-01-15,North East Derbyshire,1,,1
+2021-01-16,North East Derbyshire,1,,0
+2021-01-17,North East Derbyshire,,,2
