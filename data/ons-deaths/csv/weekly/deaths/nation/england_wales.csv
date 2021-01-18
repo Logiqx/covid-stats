@@ -1,4 +1,4 @@
-week_ended,week_number,total_registrations,covid_registrations,covid_occurrences,total_occurrences
+week_ended,week_number,total_registrations,covid_registrations,covid_occurrences,estimated_occurrences
 2010-01-08,1,12968,0,0,0
 2010-01-15,2,12541,0,0,0
 2010-01-22,3,11762,0,0,0
