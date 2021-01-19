@@ -37,7 +37,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends tini=0.18.* \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python libraries
-RUN pip install --no-cache-dir xlrd==1.2.* requests==2.25.*
+RUN pip install --no-cache-dir xlrd==1.2.* requests==2.25.* numpy==1.19.* matplotlib==3.3.*
 
 # Copy project files from the builder
 USER ${PY_USER}
