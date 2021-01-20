@@ -36,7 +36,7 @@ RUN addgroup -g ${PY_GID} ${PY_GROUP} && \
 RUN apk add --no-cache tini=~0.18
 
 # Install Python libraries
-RUN pip install --no-cache-dir xlrd==1.2.* requests==2.25.* numpy==1.19.* matplotlib==3.3.*
+RUN pip install --no-cache-dir xlrd==1.2.* requests==2.25.* numpy==1.19.* scipy==1.6.* matplotlib==3.3.*
 
 # Copy project files from the builder
 USER ${PY_USER}
