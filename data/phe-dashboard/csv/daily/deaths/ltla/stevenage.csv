@@ -377,8 +377,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-12,Stevenage,1,8,1
 2021-01-13,Stevenage,2,9.0999999999999996447,2
 2021-01-14,Stevenage,0,8,0
-2021-01-15,Stevenage,1,,3
-2021-01-16,Stevenage,0,,2
+2021-01-15,Stevenage,1,8,3
+2021-01-16,Stevenage,0,8,2
 2021-01-17,Stevenage,4,,0
 2021-01-18,Stevenage,0,,0
-2021-01-19,Stevenage,,,6
+2021-01-19,Stevenage,0,,6
+2021-01-20,Stevenage,1,,0
+2021-01-21,Stevenage,,,1
