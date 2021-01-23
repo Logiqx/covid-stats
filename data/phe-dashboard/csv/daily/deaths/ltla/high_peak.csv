@@ -379,8 +379,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-14,High Peak,1,12.900000000000000355,8
 2021-01-15,High Peak,0,12.900000000000000355,0
 2021-01-16,High Peak,1,11.900000000000000355,2
-2021-01-17,High Peak,3,,4
+2021-01-17,High Peak,3,14,4
 2021-01-18,High Peak,0,,2
-2021-01-19,High Peak,1,,1
+2021-01-19,High Peak,2,,1
 2021-01-20,High Peak,1,,2
-2021-01-21,High Peak,,,2
+2021-01-21,High Peak,0,,2
+2021-01-22,High Peak,,,1
