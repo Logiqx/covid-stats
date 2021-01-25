@@ -380,8 +380,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-15,Northern Ireland,24,7.7000000000000001776,26
 2021-01-16,Northern Ireland,20,7.7000000000000001776,22
 2021-01-17,Northern Ireland,29,8.3000000000000007105,25
-2021-01-18,Northern Ireland,20,,19
-2021-01-19,Northern Ireland,18,,24
+2021-01-18,Northern Ireland,20,8.1999999999999992895,19
+2021-01-19,Northern Ireland,18,8.1999999999999992895,24
 2021-01-20,Northern Ireland,19,,22
 2021-01-21,Northern Ireland,10,,21
 2021-01-22,Northern Ireland,,,12
+2021-01-23,Northern Ireland,,,12
+2021-01-24,Northern Ireland,,,14
