@@ -10,6 +10,22 @@ It utilises the model that has been built by the ONS to estimate total death occ
 
 
 
+### Registration Delays
+
+![Registrations vs Occurrences](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\registrations.png)
+
+
+
+![PHE Surveillance](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\phe-surveillance.png)
+
+
+
+![COVID-19 Occurrences](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\covid-occurrences.png)
+
+
+
+
+
 ### Data
 
 Provisional weekly deaths is published by the ONS every Tuesday, usually around 0930.
@@ -72,9 +88,41 @@ Historical ONS data has also been used from these user data requests:
 
 
 
+Mean absolute error (MAE) is around 2.3% for most regions of England when this approach is tested on 2010-2018.
+
+This is a big improvement on basic registration data that has an MAE of around 5.5% and has large errors around bank holidays.
+
+![Estimates](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\estimates.png)
+
+
+
 ### Previous Years
 
 This method also works well for for previous years by skipping the steps relating to COVID deaths.
 
 You just need to replace "Estimated total deaths 2020" with actual historical figures.
+
+
+
+## Choice of Source
+
+### Weekly Occurrences from ONS Modelling
+
+ONS analysis - [Predicting total weekly death occurrences in England and Wales methodology](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/predictingtotalweeklydeathoccurrencesinenglandandwalesmethodology)
+
+My analysis - [Analysis of Excess Deaths](https://logiqx.github.io/ons-stats/data_prep/)
+
+
+
+![ONS estimates](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\ons-estimates.png)
+
+
+
+### Daily Occurrences from PHE
+
+Comparing the excess winter mortality report from the ONS against the national flu and COVID-19 surveillance reports from PHE.
+
+
+
+![Comparison of ONS and PHE](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\daily-comparison.png)
 
