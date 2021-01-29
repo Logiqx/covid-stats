@@ -386,8 +386,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-21,Dorset,11,14,8
 2021-01-22,Dorset,2,13.199999999999999289,8
 2021-01-23,Dorset,7,12.900000000000000355,10
-2021-01-24,Dorset,8,,2
+2021-01-24,Dorset,8,12.400000000000000355,2
 2021-01-25,Dorset,5,,2
 2021-01-26,Dorset,5,,9
 2021-01-27,Dorset,2,,14
 2021-01-28,Dorset,,,5
+2021-01-29,Dorset,,,0

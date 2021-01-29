@@ -386,8 +386,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-21,Welwyn Hatfield,5,29.300000000000000711,4
 2021-01-22,Welwyn Hatfield,0,26.800000000000000711,9
 2021-01-23,Welwyn Hatfield,3,22.800000000000000711,9
-2021-01-24,Welwyn Hatfield,4,,2
+2021-01-24,Welwyn Hatfield,4,22.800000000000000711,2
 2021-01-25,Welwyn Hatfield,2,,0
 2021-01-26,Welwyn Hatfield,2,,4
 2021-01-27,Welwyn Hatfield,0,,8
 2021-01-28,Welwyn Hatfield,,,2
+2021-01-29,Welwyn Hatfield,,,0

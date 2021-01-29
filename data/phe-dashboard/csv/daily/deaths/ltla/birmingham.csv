@@ -386,8 +386,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-21,Birmingham,26,14.099999999999999645,25
 2021-01-22,Birmingham,29,14.800000000000000711,23
 2021-01-23,Birmingham,15,13.800000000000000711,29
-2021-01-24,Birmingham,28,,16
+2021-01-24,Birmingham,28,14.400000000000000355,16
 2021-01-25,Birmingham,20,,13
 2021-01-26,Birmingham,13,,33
 2021-01-27,Birmingham,5,,45
 2021-01-28,Birmingham,,,19
+2021-01-29,Birmingham,,,0

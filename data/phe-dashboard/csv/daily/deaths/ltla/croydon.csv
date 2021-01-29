@@ -386,8 +386,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-21,Croydon,12,15.300000000000000711,11
 2021-01-22,Croydon,13,16.5,9
 2021-01-23,Croydon,7,16.5,13
-2021-01-24,Croydon,4,,8
+2021-01-24,Croydon,4,16,8
 2021-01-25,Croydon,7,,8
 2021-01-26,Croydon,9,,8
 2021-01-27,Croydon,2,,12
 2021-01-28,Croydon,,,6
+2021-01-29,Croydon,,,0
