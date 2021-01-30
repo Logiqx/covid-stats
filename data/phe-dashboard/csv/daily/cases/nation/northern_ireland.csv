@@ -387,8 +387,9 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-01-22,Northern Ireland,630,282.19999999999998863,865
 2021-01-23,Northern Ireland,485,270.80000000000001137,670
 2021-01-24,Northern Ireland,460,262.19999999999998863,433
-2021-01-25,Northern Ireland,652,,422
+2021-01-25,Northern Ireland,652,247.59999999999999432,422
 2021-01-26,Northern Ireland,649,,550
 2021-01-27,Northern Ireland,638,,527
 2021-01-28,Northern Ireland,477,,592
 2021-01-29,Northern Ireland,,,669
+2021-01-30,Northern Ireland,,,455
