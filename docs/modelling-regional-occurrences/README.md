@@ -12,15 +12,15 @@ It utilises the model that has been built by the ONS to estimate total death occ
 
 ### Registration Delays
 
-![Registrations vs Occurrences](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\registrations.png)
+![Registrations vs Occurrences](registrations.png)
 
 
 
-![PHE Surveillance](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\phe-surveillance.png)
+![PHE Surveillance](phe-surveillance.png)
 
 
 
-![COVID-19 Occurrences](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\covid-occurrences.png)
+![COVID-19 Occurrences](covid-occurrences.png)
 
 
 
@@ -92,7 +92,7 @@ Mean absolute error (MAE) is around 2.3% for most regions of England when this a
 
 This is a big improvement on basic registration data that has an MAE of around 5.5% and has large errors around bank holidays.
 
-![Estimates](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\estimates.png)
+![Estimates](estimates.png)
 
 
 
@@ -114,7 +114,7 @@ My analysis - [Analysis of Excess Deaths](https://logiqx.github.io/ons-stats/dat
 
 
 
-![ONS estimates](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\ons-estimates.png)
+![ONS estimates](ons-estimates.png)
 
 
 
@@ -124,5 +124,5 @@ Comparing the excess winter mortality report from the ONS against the national f
 
 
 
-![Comparison of ONS and PHE](C:\Projects\WCA\covid-stats\docs\modelling-regional-occurrences\daily-comparison.png)
+![Comparison of ONS and PHE](daily-comparison.png)
 
