@@ -6,7 +6,7 @@ I undertook this piece of analysis to investigate the reasons for an apparent ri
 
 The catalyst for my analysis was a claim on [Twitter](https://twitter.com/ClareCraigPath/status/1329702247345827841) that deaths were rising out of proportion to hospital admissions, asking how it could be due to the disease and not an artefact of testing.
 
-![Twitter](hospital-mortality-rates\twitter.png)
+![Twitter](hospital-mortality-rates/twitter.png)
 
 
 
@@ -18,15 +18,15 @@ Based on the number of daily admissions, deaths and MV beds it was apparent that
 
 Daily deaths - 7 day average slightly under 400:
 
-![Deaths](hospital-mortality-rates\dashboard_deaths.png)
+![Deaths](hospital-mortality-rates/dashboard_deaths.png)
 
 Hospital admissions - 7 day average around 750, thus 75 when divided by 10.
 
-![Admissions](hospital-mortality-rates\dashboard_admissions.png)
+![Admissions](hospital-mortality-rates/dashboard_admissions.png)
 
 MV beds - 7 day average around 1400, thus 140 when divided by 10.
 
-![Ventilated Beds](hospital-mortality-rates\dashboard_ventilated.png)
+![Ventilated Beds](hospital-mortality-rates/dashboard_ventilated.png)
 
 
 
@@ -39,7 +39,7 @@ Since this analysis is focused primarily on <u>hospital admissions</u> and <u>da
 
 I calculated centralised 7 day moving averages for daily admissions and daily deaths in Excel, producing the graph below which can be easily compared to the original Twitter post. The graph using NHS England data shows the same trends as the original Twitter post, although the actual numbers are slightly lower because it is specific to hospitals in England. The trends are essentially the same though!
 
-![Dodgy Plot](hospital-mortality-rates\nhs_dodgy_plot.png)
+![Dodgy Plot](hospital-mortality-rates/nhs_dodgy_plot.png)
 
 
 
@@ -55,7 +55,7 @@ The first step was to make a few "improvements" to the original graph:
 
 My revised graph clearly shows how the number of daily deaths started to increase more rapidly than daily admissions from early October onwards. The effect of scaling can also be seen in the two admissions curves, where dividing by 10 is somewhat arbitrary.
 
-![Better Plot](hospital-mortality-rates\nhs_better_plot.png)
+![Better Plot](hospital-mortality-rates/nhs_better_plot.png)
 
 
 
@@ -76,7 +76,7 @@ For this exercise, I used the latest [National flu and COVID-19 surveillance rep
 
 Figure 36a shows the weekly hospital admission rates for COVID-19 cases by age group. I used this exact same data (available in Excel) for my data analysis.
 
-![PHE COVID-19 Admissions](hospital-mortality-rates\phe_covid_admissions.png)
+![PHE COVID-19 Admissions](hospital-mortality-rates/phe_covid_admissions.png)
 
 
 
@@ -90,13 +90,13 @@ What is very clear from the graph below is the changes in demographics (specific
 - The % of admissions over the age of 75 <u>increased</u> from ~37% to ~50%
 - At the beginning of October there was a clear <u>reversal</u> of the under 65 and over 75 age groups
 
-![% Admissions by Age](hospital-mortality-rates\phe_covid_admissions_1.png)
+![% Admissions by Age](hospital-mortality-rates/phe_covid_admissions_1.png)
 
 
 
 A further breakdown of the under 65 age group shows that the biggest decrease was in patients under the age of 45, shown in green.
 
-![% Admissions by Age](hospital-mortality-rates\phe_covid_admissions_2.png)
+![% Admissions by Age](hospital-mortality-rates/phe_covid_admissions_2.png)
 
 
 
@@ -108,7 +108,7 @@ It can also be noted that recent mortality rates (orange) in ICU are lower than 
 
 So is the rising mortality rate (deaths vs admissions) simply due to the rise in elderly admissions? Can we prove this in some way?
 
-![ICNARC Mortality Rates](hospital-mortality-rates\icnarc_mortality.png)
+![ICNARC Mortality Rates](hospital-mortality-rates/icnarc_mortality.png)
 
 
 
@@ -120,11 +120,11 @@ Well, I applied the relative mortality rates from ICNARC report to the weekly ad
 
 The resultant graph clearly shows how the "expected" number of weekly deaths would increase more rapidly than weekly admissions, especially throughout October.
 
-![Expected Mortality](hospital-mortality-rates\expected_mortality.png)
+![Expected Mortality](hospital-mortality-rates/expected_mortality.png)
 
 The "expected" weekly mortality (see above) can now be compared to the daily reality (see below) of the NHS England data.
 
-![NHS Actual Plot](hospital-mortality-rates\nhs_final_plot.png)
+![NHS Actual Plot](hospital-mortality-rates/nhs_final_plot.png)
 
 So, it is quite clear that the weekly estimates (PHE data) match the daily reality (NHS data) incredibly closely. The weekly estimates were simply calculated using the known mortality rate for different age groups.
 
