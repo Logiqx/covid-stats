@@ -5,6 +5,8 @@
 
 Here's a list of some of the articles that I've written about COVID-19 in England and the UK:
 
+- [Weekly Deaths since January 2010](weekly-deaths/README.md) - 31 January 2021
+
 - [Facts for England - November 2020](facts-england.md) - 18 December 2020
 
 - [Hospital Mortality in England](hospital-mortality-rates.md) - 23 November 2020
