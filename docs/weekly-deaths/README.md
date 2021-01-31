@@ -28,39 +28,24 @@ A number of custom Python modules are also used which will become obvious when l
 
 
 
-
 ## Latest Charts
 
-### London + East of England + South East
+There are 3 charts for each region and each region is a single image.
 
-![London](london.png)
+They will be posted as a thread on Twitter with 3 images per tweet - e.g. London + East of England + South East.
 
-![East of England](east_england.png)
+The charts for each region can also be viewed by clicking on the appropriate link.
 
-![South East](south_east.png)
+### Regions
 
+- [London](london.png), [East of England](east_england.png), [South East](south_east.png)
 
-### North West + North East + Yorkshire and The Humber
-![North West](north_west.png)
+- [North West](north_west.png), [North East](north_east.png), [Yorkshire and The Humber](yorkshire_humber.png)
 
-![North East](north_east.png)
-
-![Yorkshire and The Humber](yorkshire_humber.png)
+- [West Midlands](west_midlands.png), [East Midlands](east_midlands.png), [South West](south_west.png)
 
 
-### West Midlands + East Midlands + South West
-![West Midlands](west_midlands.png)
+### Nations
 
-![East Midlands](east_midlands.png)
-
-![South West](south_west.png)
-
-
-### England and Wales + England + Wales
-
-![England and Wales](england_wales.png)
-
-![England](england.png)
-
-![Wales](wales.png)
+- [England and Wales](england_wales.png), [England](england.png), [Wales](wales.png)
 
