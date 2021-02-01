@@ -52,7 +52,7 @@ Since the middle of 2020 the ONS have provided estimates for weekly deaths based
 
 ### Evaluation of the Estimations
 
-Prior to explaining the methodology itself, I will quickly summarise it's effectiveness.
+Prior to explaining the methodology itself, I will quickly summarise its effectiveness.
 
 The 3 charts below show 10 years worth of historical data and illustrate how well the methodology can estimate weekly occurrences. It can clearly be seen that the estimates (green line) are highly representative of the actuals (blue line).
 
