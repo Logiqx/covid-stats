@@ -90,7 +90,7 @@ It is only the non-COVID deaths after 1 Jan 2018 which require the estimation pr
 
 The results of estimating regional occurrences for 1 Jan 2019 onwards have been used to produce a variety of charts, which have been published on [Github Pages](https://logiqx.github.io/covid-stats/weekly-deaths/) and [Twitter](https://twitter.com/Mike_aka_Logiqx).
 
-![](C:\Projects\WCA\covid-stats\docs\weekly-deaths\yorkshire_humber.png)
+![Yorkshire and The Humber](yorkshire_humber.png)
 
 
 
