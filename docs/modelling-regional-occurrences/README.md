@@ -112,7 +112,7 @@ Daily data for England and Wales (1 Jan 2019 to 31 Jul 2020) is available in the
 - [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2018to2019provisionaland2017to2018final#daily-deaths) for England and Wales 2018/2019
 - [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final#daily-deaths) for England and Wales 2019/2020, needs to be re-combined with daily COVID-19 deaths
 
-Note: I have submitted a request for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
+Note: I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
 
 
 
@@ -136,24 +136,24 @@ Python scripts have been written to [download](https://github.com/Logiqx/covid-s
 
 ### Choice of Occurrence Data
 
-It is necessary to have source either daily or weekly occurrence data from Aug 2020 onwards.
+It is necessary to source either daily or weekly occurrence data from Aug 2020 onwards.
 
 There are two options at this time:
 
-- The estimate from the ONS which is included in their weekly deaths dataset.
+- The weekly estimates of deaths by date of occurrence from the ONS which are included in their weekly deaths dataset.
 - The daily deaths data from PHE which has been adjusted to account for registration delays.
 
-A brief description of each source will be given below and reasoning behind which one has been chosen.
+A brief description of each source will be given below and reasoning behind the most suitable choice.
 
 
 
 #### Weekly Estimate from the ONS
 
-The ONS provide an estimate for weekly occurrences in England and Wales and they have carefully documented their [methodology](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/predictingtotalweeklydeathoccurrencesinenglandandwalesmethodology).
+The ONS provide an estimate for weekly occurrences in England and Wales and they have documented the [methodology](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/predictingtotalweeklydeathoccurrencesinenglandandwalesmethodology).
 
-Overlaying all of their historical estimates it is possible to see that the latest week shows some degree of inaccuracy. This is akin to what is observed when overlaying COVID-19 deaths by date of occurrence from the weekly reports. The estimation process automatically corrects itself the following week in much the same way that occurrence data corrects itself when the late registrations are received.
+Overlaying all of the historical estimates it is possible to see that the latest week shows some degree of inaccuracy. This is akin to what is observed when overlaying COVID-19 deaths by date of occurrence from the weekly reports. The estimation of weekly occurrences automatically corrects itself the following week in much the same way that occurrence data corrects itself when the late registrations are received by the ONS.
 
-Analysis of the accuracy of the ONS estimates has shown that this is potentially a good source for recent deaths by date of occurence. It is just important to ignore the latest weekly estimate and thus lag one week behind the available registration data.
+Analysis of the accuracy of the ONS estimates for 2020 has shown that this could be a reliable source for recent deaths by date of occurrence. It is just important to ignore the latest weekly estimate and thus reporting by date of occurrence will lag one week behind the available registration data.
 
 ![ONS estimates](ons-estimates.png)
 
@@ -163,7 +163,7 @@ Analysis of the accuracy of the ONS estimates has shown that this is potentially
 
 The national flu and COVID-19 [surveillance](https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports) reports from PHE also contain daily deaths by date of occurrence, derived from registration data from the GRO but adjusting for the usual registration delays. Whilst this data is only available for England it would still be possible to estimate regional occurrences using the algorithm described earlier.
 
-Observations over recent weeks have shown that the PHE data can be subject to much greater reporting lags than one might expect. The chart below shows how the daily estimates for Dec 2020 changed significantly between the surveillance report published on 29 Dec 2020 and 13 Jan 2021. Due to these unpredictable delays in the PHE data my processing uses the ONS estimate of weekly deaths.
+Observations over recent weeks have shown that the PHE data can be subject to much greater reporting lags than one might expect. The chart below shows how the daily estimates for Dec 2020 changed significantly between the surveillance report published on 29 Dec 2020 and 13 Jan 2021. Due to these unpredictable delays in the PHE data my own processing uses the ONS estimate of weekly deaths by date of occurrence.
 
 ![PHE Surveillance](phe-surveillance.png)
 
@@ -171,13 +171,13 @@ Observations over recent weeks have shown that the PHE data can be subject to mu
 
 ### Summary
 
-To summarise what data is being used for the 9 regions in England and Wales:
+Summary of data being used for weekly deaths by date of occurrence, across all 9 regions in England and Wales:
 
-- All weekly figures up to 31 Dec 2018 are derived from daily occurrences, published by the ONS via user data requests. This is already provided at regional level so no estimation is required for these early years.
-- 1 Jan 2019 to 31 Jul 2020 uses the daily occurrence data from EWM bulletins and COVID-19 occurrence data from the weekly ONS publications. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the daily occurrence data for England and Wales as a baseline.
+- All weekly figures up to 31 Dec 2018 are derived from daily occurrences, published by the ONS in the user data requests. This is already provided at a regional level so no estimation is required for these early years.
+- 1 Jan 2019 to 31 Jul 2020 uses the daily occurrence data from EWM bulletins and daily COVID-19 occurrence data from the weekly ONS publications. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the daily occurrence data for England and Wales as a baseline.
 - 1 Aug 2020 onwards uses the estimated weekly occurrences from the weekly ONS publication. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the ONS estimate for England and Wales as a baseline.
 
-Note: I have submitted a request for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
+Note: I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
 
 The results of estimating regional occurrences for 1 Jan 2019 onwards have been used to produce a variety of charts, which have been published on [Github Pages](https://logiqx.github.io/covid-stats/weekly-deaths/) and [Twitter](https://twitter.com/Mike_aka_Logiqx). The associated Python code and data can be found on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
 
