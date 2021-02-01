@@ -86,7 +86,7 @@ The estimation process is only required for deaths where COVID-19 is not mention
 
 As was mentioned earlier any deaths where COVID-19 is mentioned on the death certificate bypass the estimation process and are 100% accurate. Historical data prior to 31 Dec 2018 can also bypass the estimation process because regional deaths by date of occurrence are readily available on the ONS website.
 
-It is only the non-COVID deaths after 1 Jan 2018 which require the estimation process and as detailed earlier the result has proven to be very accurate when tested using historical data; MAE of ~2.3%. Whilst this approach could be refined by considering the more complex aspects of registration delays and knowledge of bank holidays it is more than adequate for simple charts showing weekly deaths.
+It is only the non-COVID deaths after 1 Jan 2019 which require the estimation process and as detailed earlier the result has proven to be very accurate when tested using historical data; MAE of ~2.3%. Whilst this approach could be refined by considering the more complex aspects of registration delays and knowledge of bank holidays it is more than adequate for simple charts showing weekly deaths.
 
 The results of estimating regional occurrences for 1 Jan 2019 onwards have been used to produce a variety of charts, which have been published on [Github Pages](https://logiqx.github.io/covid-stats/weekly-deaths/) and [Twitter](https://twitter.com/Mike_aka_Logiqx).
 
