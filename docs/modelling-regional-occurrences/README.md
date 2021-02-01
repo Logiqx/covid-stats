@@ -112,7 +112,7 @@ Daily data for England and Wales (1 Jan 2019 to 31 Jul 2020) is available in the
 - [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2018to2019provisionaland2017to2018final#daily-deaths) for England and Wales 2018/2019
 - [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final#daily-deaths) for England and Wales 2019/2020, needs to be re-combined with daily COVID-19 deaths
 
-Note: I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
+I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
 
 
 
@@ -177,7 +177,7 @@ Summary of data being used for weekly deaths by date of occurrence, across all 9
 - 1 Jan 2019 to 31 Jul 2020 uses the daily occurrence data from EWM bulletins and daily COVID-19 occurrence data from the weekly ONS publications. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the daily occurrence data for England and Wales as a baseline.
 - 1 Aug 2020 onwards uses the estimated weekly occurrences from the weekly ONS publication. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the ONS estimate for England and Wales as a baseline.
 
-Note: I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
+I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
 
 The results of estimating regional occurrences for 1 Jan 2019 onwards have been used to produce a variety of charts, which have been published on [Github Pages](https://logiqx.github.io/covid-stats/weekly-deaths/) and [Twitter](https://twitter.com/Mike_aka_Logiqx). The associated Python code and data can be found on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
 
