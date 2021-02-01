@@ -120,7 +120,7 @@ Note: I have submitted a request for deaths by date of occurrence up to 31 Dec 2
 
 The provisional 2020 data for England in the EWM [bulletin](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final#daily-deaths) was combined with daily COVID-19 deaths and compared to the daily [surveillance data](https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports) from Public Health England (PHE). This simple comparison showed that the EWM figures are closely aligned with the daily estimates from PHE and thus perfectly suitable for this activity.
 
-![Comparison of ONS and PHE](C:/Projects/WCA/covid-stats/docs/modelling-regional-occurrences/daily-comparison.png)
+![Comparison of ONS and PHE](daily-comparison.png)
 
 
 
