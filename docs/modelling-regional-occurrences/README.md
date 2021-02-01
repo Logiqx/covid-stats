@@ -73,16 +73,16 @@ Historical ONS data for daily occurrences in the 9 regions across England and Wa
 
 Data for Jan 2019 to July 2020 was taken from the [Excess Winter Mortality (EWM)](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final) bulletin:
 
-- [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2018to2019provisionaland2017to2018final#daily-deaths) for England and Wales 2018/2019, combined with COVID-19 deaths by date of occurrence
+- [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2018to2019provisionaland2017to2018final#daily-deaths) for England and Wales 2018/2019
 - [Daily Deaths](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final#daily-deaths) for England and Wales 2019/2020, combined with COVID-19 deaths by date of occurrence
 
-Note: I have submitted a data request for the daily deaths during 2019 by region.
+Note: I have submitted a user data request for the daily deaths during 2019 by region.
 
 
 
-**Validation**
+**Sanity Check**
 
-The provisional data from the EWM [bulletin](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final#daily-deaths) was combined with daily COVID-19 deaths and compared against the [surveillance data](https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports) from PHE. This simple comparison shows that the EWM figures for Jan to Jul 2020 are suitable for this activity.
+The provisional data from the EWM [bulletin](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/bulletins/excesswintermortalityinenglandandwales/2019to2020provisionaland2018to2019final#daily-deaths) from the ONS was combined with daily COVID-19 deaths and compared against the [surveillance data](https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports) from Public Health England (PHE). This simple comparison shows that the EWM figures for Jan to Jul 2020 are perfectly suitable for this activity.
 
 ![Comparison of ONS and PHE](daily-comparison.png)
 
@@ -90,78 +90,43 @@ The provisional data from the EWM [bulletin](https://www.ons.gov.uk/peoplepopula
 
 #### Latest Data
 
-**Weekly deaths - all causes**
+Weekly figures for August 2020 onwards are taken from the weekly [dataset](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) from the ONS.
 
-- "Weekly figures 2020" - weekly provisional figures on deaths by date of registration
-
-  - England + Wales
-  - Regions
-  - Wales
-
-- "Estimated total deaths 2020" - estimated total death occurrences per week based on a statistical model
-
-  - England + Wales - modelled by the ONS and not available for the regions
+Python scripts have been written to [download](https://github.com/Logiqx/covid-stats/blob/master/python/ons_download.ipynb) the latest data from the ONS website and [convert](https://github.com/Logiqx/covid-stats/blob/master/python/ons_convert.ipynb) it into CSV format.
 
 
 
-**Weekly deaths - COVID-19 mentioned on the death certificate**
+### Methodology
 
-- "Covid-19 - Weekly registrations"
+The process of converting weekly registrations to weekly occurrences is relatively straightforward.
 
-  - England + Wales
-  - Regions
-  - Wales
+1) Semi-align weekly registrations with weekly occurrences for each region of England and Wales.
 
-- "Covid-19 - Weekly occurrences"
+​	i. Remove COVID-19 deaths from the weekly registrations, determining non-COVID weekly registrations.
 
-  - England + Wales
-  - Regions
-  - Wales
+​	ii. Shift the non-COVID weekly registrations left by ~3.5 days, using ```(current week + next week) / 2```.
 
-  
+2) Estimate non-COVID weekly occurrences for each region of England and Wales.
 
-### Method
+​	```estimated occurrences = (shifted regional registrations / shifted national registrations) * national occurrences```
 
-1) Align "Weekly figures 2020" with "Estimated total deaths 2020" for each English region and Wales.
+3) Add the known COVID-19 occurrences to the results of step 2 for each region of England and Wales.
 
-​	i. Remove COVID-19 deaths from "Weekly figures 2020" using "Covid-19 - Weekly registrations".
-
-​	ii. Shift the results (non-COVID weekly registrations) left by ~3.5 days. result = (current week + next week) / 2
-
-2) Calculate weekly occurrences for all regions and Wales.
-
- - Use shifted weekly registrations from step 1 + "Estimated total deaths 2020".
- - Estimate weekly occurrences for each region using the following formula:
-   regional occurrences = (shifted region registrations / shifted E+W registrations) * "Estimated total deaths 2020"
- - Round to the nearest whole death.
-
-3) Add the COVID occurrences to the results of step 2 for England + Wales, each region and Wales.
-
-- The actual COVID-19 deaths can be found in "Covid-19 - Weekly occurrences".
+This approach is clearly very simple but it produces pretty decent results as mentioned earlier - MAE of ~2.3%. Whilst it could be refined by considering more complex registration delays and applying knowledge of bank holidays it is more than adequate for simple charts.
 
 
 
+### Results
 
+The results of this approach have been used to produce some regional charts. For example:
 
-
-
-### Previous Years
-
-This method also works well for for previous years by skipping the steps relating to COVID deaths.
-
-You just need to replace "Estimated total deaths 2020" with actual historical figures.
+![](C:\Projects\WCA\covid-stats\docs\weekly-deaths\yorkshire_humber.png)
 
 
 
 ## Choice of Source
 
 ### Weekly Occurrences from ONS Modelling
-
-ONS analysis - [Predicting total weekly death occurrences in England and Wales methodology](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/methodologies/predictingtotalweeklydeathoccurrencesinenglandandwalesmethodology)
-
-My analysis - [Analysis of Excess Deaths](https://logiqx.github.io/ons-stats/data_prep/)
-
-
 
 ![ONS estimates](ons-estimates.png)
 
