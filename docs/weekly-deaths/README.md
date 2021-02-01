@@ -8,9 +8,9 @@ Delays in the death registration / reporting processes and the effects of bank h
 
 ## Technical Explanation
 
-I am in the process of writing an explanation of how these charts were created.
+An explanation of deaths by date of occurrence for the 9 regions of England and Wales can be found in a seperate document.
 
-- [Modelling of Regional Deaths by Date of Occurrence](../modelling-regional-occurrences/README.md) - early WIP and due to be written shortly so please ignore it for now!
+- [Modelling of Regional Deaths by Date of Occurrence](../modelling-regional-occurrences/README.md)
 
 
 
