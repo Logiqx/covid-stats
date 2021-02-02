@@ -1,6 +1,6 @@
 # Weekly Deaths in England and Wales
 
-## Modelling of Regional Deaths by Date of Occurrence
+## Estimating Regional Deaths by Date of Occurrence
 
 Author: Michael George
 
