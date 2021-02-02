@@ -169,6 +169,20 @@ Observations over recent weeks have shown that the PHE data can be subject to mu
 
 
 
+### Project Code and Data
+
+All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats).
+
+These are the most significant Python scripts:
+
+- [ons_download.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_download.ipynb) checks the ONS website for new weekly data and downloads the Excel spreadsheets.
+- [ons_convert.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_convert.ipynb) combines the data from all of the spreadsheets with historical extracts and saves them as CSV files.
+- [ons_charts.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_charts.ipynb) loads the CSV files into memory then calculates averages/maximums/minimums before plotting the charts.
+
+A number of custom Python modules are also used which will become obvious when looking at the main scripts.
+
+
+
 ### Summary
 
 Data being used to determine weekly deaths by date of occurrence, across all 9 regions in England and Wales:

@@ -5,7 +5,7 @@
 
 Here's a list of some of my studies and articles relating COVID-19 in England and the UK:
 
-- [Modelling of Regional Deaths](modelling-regional-occurrences/README.md) - 1 February 2021
+- [Estimating Regional Deaths by Date of Occurrence](estimating-regional-occurrences/README.md) - 1 February 2021
 
 - [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 31 January 2021
 
