@@ -171,7 +171,7 @@ Observations over recent weeks have shown that the PHE data can be subject to mu
 
 ### Project Code and Data
 
-All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data..
+All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
 
 These are the most significant Python scripts:
 
