@@ -39,9 +39,7 @@ The charts for each nation / region can be viewed from this page by clicking on 
 
 - Regions
   - [London](london.png), [South East](south_east.png), [East of England](east_england.png)
-
   - [North West](north_west.png), [North East](north_east.png), [Yorkshire and The Humber](yorkshire_humber.png)
-
   - [West Midlands](west_midlands.png), [East Midlands](east_midlands.png), [South West](south_west.png)
 
   
