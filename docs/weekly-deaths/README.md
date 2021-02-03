@@ -35,11 +35,27 @@ These charts will be posted as a thread on Twitter with 3 regions per tweet - e.
 The charts for each nation / region can be viewed from this page by clicking on the following links.
 
 - Nations
+
   - [England and Wales](england_wales.png), [England](england.png), [Wales](wales.png)
 
 - Regions
   - [London](london.png), [South East](south_east.png), [East of England](east_england.png)
   - [North West](north_west.png), [North East](north_east.png), [Yorkshire and The Humber](yorkshire_humber.png)
   - [West Midlands](west_midlands.png), [East Midlands](east_midlands.png), [South West](south_west.png)
+
+  
+### Florence Nightingale Diagrams
+
+These plots shows the seasonality of weekly deaths.
+
+- Nations
+
+  - [England and Wales](england_wales_polar.png), [England](england_polar.png), [Wales](wales_polar.png)
+
+- Regions
+
+  - [London](london_polar.png), [South East](south_east_polar.png), [East of England](east_england_polar.png)
+  - [North West](north_west_polar.png), [North East](north_east_polar.png), [Yorkshire and The Humber](yorkshire_humber_polar.png)
+  - [West Midlands](west_midlands_polar.png), [East Midlands](east_midlands_polar.png), [South West](south_west_polar.png)
 
   
