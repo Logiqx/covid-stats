@@ -28,11 +28,13 @@ All of the code and data used for this project are available on GitHub, accessib
 
 ## Latest Charts
 
-There are 3 different charts for each nation / region but they are all stored within a single image.
+These charts will be posted as threads on Twitter with 3 images per tweet - e.g. London + South East + East of England.
 
-These charts will be posted as a thread on Twitter with 3 regions per tweet - e.g. London + South East + East of England.
 
-The charts for each nation / region can be viewed from this page by clicking on the following links.
+
+### Individual Nations / Regions
+
+There are multiple charts for each nation / region but they are all stored within a single image.
 
 - Nations
 
@@ -43,10 +45,24 @@ The charts for each nation / region can be viewed from this page by clicking on 
   - [North West](north_west.png), [North East](north_east.png), [Yorkshire and The Humber](yorkshire_humber.png)
   - [West Midlands](west_midlands.png), [East Midlands](east_midlands.png), [South West](south_west.png)
 
-  
+
+
+### Combined Nations / Regions
+
+These charts illustrate the close relationship between the rise in COVID-19 deaths and deaths from all causes.
+
+- Nations
+  - England + Wales + England and Wales - [5 year](5_years_4.png) /  [10 year](10_years_4.png) comparisons
+- Regions
+  - London + South East + East of England - [5 year](5_years_1.png) /  [10 year](10_years_1.png)  comparisons
+  - North West + North East + Yorkshire and The Humber - [5 year](5_years_2.png) /  [10 year](10_years_2.png)  comparisons
+  - West Midlands + East Midlands + South West - [5 year](5_years_3.png) /  [10 year](10_years_3.png)  comparisons
+
+
+
 ### Florence Nightingale Diagrams
 
-These plots shows the seasonality of weekly deaths.
+These radar / polar charts shows the seasonality of weekly deaths and the impact of COVID-19.
 
 - Nations
 
@@ -57,5 +73,3 @@ These plots shows the seasonality of weekly deaths.
   - [London](london_polar.png), [South East](south_east_polar.png), [East of England](east_england_polar.png)
   - [North West](north_west_polar.png), [North East](north_east_polar.png), [Yorkshire and The Humber](yorkshire_humber_polar.png)
   - [West Midlands](west_midlands_polar.png), [East Midlands](east_midlands_polar.png), [South West](south_west_polar.png)
-
-  
