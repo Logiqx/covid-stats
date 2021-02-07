@@ -395,8 +395,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-30,Northern Ireland,14,5.9000000000000003553,17
 2021-01-31,Northern Ireland,12,5.9000000000000003553,19
 2021-02-01,Northern Ireland,15,5.9000000000000003553,11
-2021-02-02,Northern Ireland,13,,17
+2021-02-02,Northern Ireland,13,5.9000000000000003553,17
 2021-02-03,Northern Ireland,5,,11
 2021-02-04,Northern Ireland,13,,10
-2021-02-05,Northern Ireland,6,,16
-2021-02-06,Northern Ireland,,,7
+2021-02-05,Northern Ireland,8,,16
+2021-02-06,Northern Ireland,10,,7
+2021-02-07,Northern Ireland,,,9
