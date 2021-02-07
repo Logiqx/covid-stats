@@ -11,15 +11,11 @@ DOCKER_BUILDKIT=1 docker build . --file Dockerfile-slim --build-arg LOGIQX_DEBUG
 # Copy the library scripts
 docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/common_core.py >$PROJ_DIR/python/common_core.py
 docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/phe_core.py >$PROJ_DIR/python/phe_core.py
+docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/phe_download.py >$PROJ_DIR/python/phe_download.py
 docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/ons_core.py >$PROJ_DIR/python/ons_core.py
 docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/ons_download.py >$PROJ_DIR/python/ons_download.py
 docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/nhs_core.py >$PROJ_DIR/python/nhs_core.py
 docker run --rm --entrypoint cat covid-stats:tmp $WORK_DIR/python/nhs_download.py >$PROJ_DIR/python/nhs_download.py
 
 # Clear pycache
-rm -f $PROJ_DIR/python/__pycache__/common_core.*.pyc
-rm -f $PROJ_DIR/python/__pycache__/phe_core.*.pyc
-rm -f $PROJ_DIR/python/__pycache__/ons_core.*.pyc
-rm -f $PROJ_DIR/python/__pycache__/ons_download.*.pyc
-rm -f $PROJ_DIR/python/__pycache__/nhs_core.*.pyc
-rm -f $PROJ_DIR/python/__pycache__/nhs_download.*.pyc
+rm -f $PROJ_DIR/python/__pycache__/*.*.pyc
