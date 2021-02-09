@@ -397,8 +397,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-02-01,Sandwell,10,20.100000000000001421,6
 2021-02-02,Sandwell,8,19.5,13
 2021-02-03,Sandwell,12,21.899999999999998579,14
-2021-02-04,Sandwell,4,,6
-2021-02-05,Sandwell,1,,9
-2021-02-06,Sandwell,5,,2
-2021-02-07,Sandwell,7,,8
-2021-02-08,Sandwell,,,8
+2021-02-04,Sandwell,4,20.100000000000001421,6
+2021-02-05,Sandwell,2,,9
+2021-02-06,Sandwell,4,,2
+2021-02-07,Sandwell,8,,8
+2021-02-08,Sandwell,4,,8
+2021-02-09,Sandwell,,,5
