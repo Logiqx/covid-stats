@@ -19,19 +19,6 @@ Here is a copy / paste from my original Twitter [thread](https://twitter.com/Mik
 
 
 
-## Code and Data
-
-All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
-
-These are the most significant Python scripts:
-
-- [nhs_download.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/nhs_download.ipynb) checks the NHS England website for new weekly data and downloads the Excel spreadsheets.
-- [nhs_sitreps.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/nhs_sitreps.ipynb) parses the Excel spreadsheets and produces the charts.
-
-A number of custom Python modules are also used which will become obvious when looking at the main scripts.
-
-
-
 ## Latest Charts
 
 There are 2 different charts for each NHS region and they are stored within a single image for the NHS region.
@@ -50,3 +37,16 @@ The charts for each NHS region can be viewed from this page by clicking on the f
   - [North West](north_west.png)
   - [North East and Yorkshire](north_east_yorkshire.png)
   - [South West](south_west.png)
+
+
+
+## Code and Data
+
+All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
+
+These are the most significant Python scripts:
+
+- [nhs_download.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/nhs_download.ipynb) checks the NHS England website for new weekly data and downloads the Excel spreadsheets.
+- [nhs_sitreps.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/nhs_sitreps.ipynb) parses the Excel spreadsheets and produces the charts.
+
+A number of custom Python modules are also used which will become obvious when looking at the main scripts.

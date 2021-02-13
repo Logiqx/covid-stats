@@ -16,6 +16,17 @@ Daily data from the NHS (via PHE) has much wider age bands but I am unaware of a
 
 
 
+## Latest Charts
+
+### England
+
+- 10-year age bands, linear scale - [Summary](nation/linear-6/england.png), [Cases](nation/linear-6/england_cases.png), [Admissions](nation/linear-6/england_admissions.png), [Deaths](nation/linear-6/england_deaths.png)
+- 10-year age bands, log scale - [Summary](nation/log-6/england.png), [Cases](nation/log-6/england_cases.png), [Admissions](nation/log-6/england_admissions.png), [Deaths](nation/log-6/england_deaths.png)
+- 5-year age bands, linear scale - [Summary](nation/linear-12/england.png), [Cases](nation/linear-12/england_cases.png), [Admissions](nation/linear-12/england_admissions.png), [Deaths](nation/linear-12/england_deaths.png)
+- 5-year age bands, log scale - [Summary](nation/log-12/england.png), [Cases](nation/log-12/england_cases.png), [Admissions](nation/log-12/england_admissions.png), [Deaths](nation/log-12/england_deaths.png)
+
+
+
 ## Code and Data
 
 All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
@@ -27,14 +38,3 @@ These are the most significant Python scripts:
 - [phe_charts.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_charts.ipynb) prepares the data and plots the charts.
 
 A number of custom Python modules are also used (e.g. UK demographics) which will become obvious when looking at the main scripts.
-
-
-
-## Latest Charts
-
-### England
-
-- 10-year age bands, linear scale - [Summary](nation/linear-6/england.png), [Cases](nation/linear-6/england_cases.png), [Admissions](nation/linear-6/england_admissions.png), [Deaths](nation/linear-6/england_deaths.png)
-- 10-year age bands, log scale - [Summary](nation/log-6/england.png), [Cases](nation/log-6/england_cases.png), [Admissions](nation/log-6/england_admissions.png), [Deaths](nation/log-6/england_deaths.png)
-- 5-year age bands, linear scale - [Summary](nation/linear-12/england.png), [Cases](nation/linear-12/england_cases.png), [Admissions](nation/linear-12/england_admissions.png), [Deaths](nation/linear-12/england_deaths.png)
-- 5-year age bands, log scale - [Summary](nation/log-12/england.png), [Cases](nation/log-12/england_cases.png), [Admissions](nation/log-12/england_admissions.png), [Deaths](nation/log-12/england_deaths.png)
