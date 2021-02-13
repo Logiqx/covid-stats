@@ -32,8 +32,9 @@ A number of custom Python modules are also used (e.g. UK demographics) which wil
 
 ## Latest Charts
 
-These charts will be posted on Twitter:
+### England
 
-- England - [Summary](nation/england.png), [Cases](nation/england_cases.png), [Admissions](nation/england_admissions.png), [Deaths](nation/england_deaths.png)
-
-Note: I plan to produce further charts over coming days / weeks - regional breakdowns, etc.
+- 10-year age bands, linear scale - [Summary](nation/linear-6/england.png), [Cases](nation/linear-6/england_cases.png), [Admissions](nation/linear-6/england_admissions.png), [Deaths](nation/linear-6/england_deaths.png)
+- 10-year age bands, log scale - [Summary](nation/log-6/england.png), [Cases](nation/log-6/england_cases.png), [Admissions](nation/log-6/england_admissions.png), [Deaths](nation/log-6/england_deaths.png)
+- 5-year age bands, linear scale - [Summary](nation/linear-12/england.png), [Cases](nation/linear-12/england_cases.png), [Admissions](nation/linear-12/england_admissions.png), [Deaths](nation/linear-12/england_deaths.png)
+- 5-year age bands, log scale - [Summary](nation/log-12/england.png), [Cases](nation/log-12/england_cases.png), [Admissions](nation/log-12/england_admissions.png), [Deaths](nation/log-12/england_deaths.png)
