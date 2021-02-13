@@ -1,4 +1,4 @@
-date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate0_to_5,cumAdmissions0_to_5,cumAdmissionsRollingRate6_to_17,cumAdmissions6_to_17,cumAdmissionsRollingRate18_to_64,cumAdmissions18_to_64,cumAdmissionsRollingRate65_to_84,cumAdmissions65_to_84,cumAdmissionsRollingRate85+,cumAdmissions85+
+date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate00_05,cumAdmissions00_05,cumAdmissionsRollingRate06_17,cumAdmissions06_17,cumAdmissionsRollingRate18_64,cumAdmissions18_64,cumAdmissionsRollingRate65_84,cumAdmissions65_84,cumAdmissionsRollingRate85+,cumAdmissions85+
 2020-03-19,North West,47,0,,,0.0,0,0.0,0,0.4,16,1.9,21,6.2,10
 2020-03-20,North West,56,0,130,,0.0,0,0.0,0,0.8,33,4.0,45,15.5,25
 2020-03-21,North West,71,0,162,,0.0,0,0.0,0,1.1,47,6.8,77,24.2,39

@@ -1,4 +1,4 @@
-date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate0_to_5,cumAdmissions0_to_5,cumAdmissionsRollingRate6_to_17,cumAdmissions6_to_17,cumAdmissionsRollingRate18_to_64,cumAdmissions18_to_64,cumAdmissionsRollingRate65_to_84,cumAdmissions65_to_84,cumAdmissionsRollingRate85+,cumAdmissions85+
+date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate00_05,cumAdmissions00_05,cumAdmissionsRollingRate06_17,cumAdmissions06_17,cumAdmissionsRollingRate18_64,cumAdmissions18_64,cumAdmissionsRollingRate65_84,cumAdmissions65_84,cumAdmissionsRollingRate85+,cumAdmissions85+
 2020-01-03,England,,0,,,,,,,,,,,,
 2020-01-04,England,,0,,,,,,,,,,,,
 2020-01-05,England,,0,,,,,,,,,,,,

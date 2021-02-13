@@ -1,4 +1,4 @@
-date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate0_to_5,cumAdmissions0_to_5,cumAdmissionsRollingRate6_to_17,cumAdmissions6_to_17,cumAdmissionsRollingRate18_to_64,cumAdmissions18_to_64,cumAdmissionsRollingRate65_to_84,cumAdmissions65_to_84,cumAdmissionsRollingRate85+,cumAdmissions85+
+date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate00_05,cumAdmissions00_05,cumAdmissionsRollingRate06_17,cumAdmissions06_17,cumAdmissionsRollingRate18_64,cumAdmissions18_64,cumAdmissionsRollingRate65_84,cumAdmissions65_84,cumAdmissionsRollingRate85+,cumAdmissions85+
 2020-03-19,London,240,0,,,0.30000000000000004,2,0.0,0,1.1,67,7.1,65,20.4,30
 2020-03-20,London,272,0,841,,0.30000000000000004,2,0.2,3,2.5,146,14.8,135,40.9,60
 2020-03-21,London,311,0,1081,,0.4,3,0.30000000000000004,4,4.1,236,21.7,198,65.4,96

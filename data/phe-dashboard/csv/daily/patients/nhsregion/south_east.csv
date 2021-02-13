@@ -1,4 +1,4 @@
-date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate0_to_5,cumAdmissions0_to_5,cumAdmissionsRollingRate6_to_17,cumAdmissions6_to_17,cumAdmissionsRollingRate18_to_64,cumAdmissions18_to_64,cumAdmissionsRollingRate65_to_84,cumAdmissions65_to_84,cumAdmissionsRollingRate85+,cumAdmissions85+
+date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsRollingRate00_05,cumAdmissions00_05,cumAdmissionsRollingRate06_17,cumAdmissions06_17,cumAdmissionsRollingRate18_64,cumAdmissions18_64,cumAdmissionsRollingRate65_84,cumAdmissions65_84,cumAdmissionsRollingRate85+,cumAdmissions85+
 2020-03-19,South East,103,0,,,0.2,1,0.1,1,0.5,25,2.4,35,12.9,32
 2020-03-20,South East,90,0,188,,0.2,1,0.1,1,1.0,55,4.5,66,19.3,48
 2020-03-21,South East,91,0,332,,0.2,1,0.1,1,1.7000000000000002,87,6.9,101,24.6,61
