@@ -16,6 +16,16 @@ Daily data from the NHS (via PHE) has much wider age bands but I am unaware of a
 
 
 
+## Latest Charts
+
+The latest charts are available on this page:
+
+- [England](nation/england/index.html)
+
+All charts are available with linear + logarithmic scales, 10 year and 5 year age bands.
+
+
+
 ## Linear vs Logarithmic Scales
 
 All of these charts are published published in two different forms using two different scales:
@@ -23,11 +33,11 @@ All of these charts are published published in two different forms using two dif
 - Linear scale is good when you just want to see an overview of daily cases, hospital admissions and deaths.
 - Logarithmic scale is ideal when you want to compare rates of change and look for possible "vaccine effect".
 
-When two (or more) plots are seen to be rising / falling together on charts using [logarithmic scale]((https://en.wikipedia.org/wiki/Logarithmic_scale)) for the y-axis (aka "semi-log plot") it indicates that the underlying rate of growth / decay is equal.
+When two (or more) plots are seen to be rising / falling together on charts using [logarithmic scale](https://en.wikipedia.org/wiki/Logarithmic_scale) for the y-axis (aka a "semi-log plot") it indicates that the underlying rate of growth / decay is equal.
 
-When the "vaccine effect" becomes evident in England we should expect to see the older age groups curve downwards more rapidly than the younger age groups on the log scale plots. When lines are seen to cross and the plots continue to diverge it may be an indicator of "vaccine effect".
+When the "vaccine effect" becomes evident in England we should expect to see the older age groups curve downwards more rapidly than the younger age groups on the log scale plots. When plots for the older ages groups cross the younger age groups and continue to diverge, it may well be an indicator of the "vaccine effect".
 
-This is simple method of analysis is only possible with a logarithmic scale and is not possible using the charts with a linear scale.
+This simple approach to analysis is only possible when using a logarithmic scale. The same approach to analysis cannot be applied to the charts using a linear scale.
 
 
 
@@ -44,16 +54,6 @@ All of the charts will combine the youngest age groups where it makes the data c
 
 
 
-## Latest Charts
-
-The latest charts are available on this page:
-
-- [England](nation/england/index.html)
-
-All charts are available with linear + logarithmic scales, 10 year and 5 year age bands.
-
-
-
 ## Code and Data
 
 All of the project code and associated data is available in a Python project on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
@@ -65,4 +65,3 @@ These are the most significant Python scripts:
 - [phe_charts.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_charts.ipynb) prepares the data and plots the charts.
 
 A number of custom Python modules are also used (e.g. UK demographics) which will become obvious when looking at the main scripts.
-
