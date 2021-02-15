@@ -1,4 +1,4 @@
-# COVID-19 - Daily Data for England
+# COVID-19 - Daily Trends for England
 
 Author: Michael George
 
