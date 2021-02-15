@@ -18,9 +18,9 @@ Daily data from the NHS (via PHE) has much wider age bands but I am unaware of a
 
 ## Latest Charts
 
-Charts showing recent trends are available with linear + logarithmic scales, 5 and 10 year age bands.
+Charts showing recent trends are available with linear + logarithmic scales for 5 and 10 year age bands.
 
-- [England](nation/england/index.html)
+- England - [10 year age bands](nation/england/index-6.html) + [5 year age bands](nation/england/index-12.html)
 
 
 
