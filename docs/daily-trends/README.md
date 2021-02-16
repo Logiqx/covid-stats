@@ -10,17 +10,19 @@ Created: 13 February 2021
 
 This project contains a standard collection of charts to show the daily COVID-19 trends in England for different age groups.
 
-Daily data from PHE allows cases and deaths to be analysed by 5 year age bands.
+Daily data from PHE allows cases and deaths to be analysed by 5 year age groups.
 
-Daily data from the NHS (via PHE) has much wider age bands but I am unaware of a daily source with higher granularity.
+Daily data from the NHS (via PHE) has much wider age groups but I am unaware of a daily source with higher granularity.
 
 
 
 ## Latest Charts
 
-Charts showing recent trends are available with linear + logarithmic scales for 5 and 10 year age bands.
+Charts showing recent trends are available with linear + logarithmic scales.
 
-- England - [8 age bands](nation/england/index-8.html) / [12 age bands](nation/england/index-12.html)
+### England
+
+[6 age groups](nation/england/index-6.html), [9 age groups](nation/england/index-9.html), [12 age groups](nation/england/index-12.html)
 
 
 
@@ -39,14 +41,15 @@ This simple approach to analysis is only possible when using a logarithmic scale
 
 
 
-## Age Bands
+## Age groups
 
-All charts are published using two different sets of age bands, both including 5 year age bands for age 60+
+All charts are published using three different sets of age groups:
 
-- Charts with 8 age bands are probably the easiest to view. The under 50s have been combined into a single age band.
-- Charts with 12 age bands are slightly harder to view. The under 25s have been combined into a single age band.
+- The 6 age groups are designed to align with NHS age groups and historical ONS age groups (e.g. 65-74, 75-84, 85+).
+- The 9 age groups include the first 8 vaccination, larger groups for the under 55s and 85+ (e.g. under 45, 45-54 ... 80-84, 85+).
+- The 12 age groups provide additional granularity with more groups for the under 55s (e.g. under 25, 25-44, 45-49, 50-54).
 
-Daily hospital admission data from the NHS has limited age bands; e.g. 18-64, 65-84 and 85+. A monthly publication from the NHS provides more precise age bands but the data that is available daily only has the wider age bands.
+Daily hospital admission data from the NHS has limited age groups; e.g. 18-64, 65-84 and 85+. A monthly publication from the NHS provides more precise age groups but the data that is available daily only has the wider age groups.
 
 All of the charts will combine the youngest age groups where it makes the data clearer to analyse or where the numbers are particularly low.
 
