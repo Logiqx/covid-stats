@@ -20,7 +20,7 @@ Daily data from the NHS (via PHE) has much wider age bands but I am unaware of a
 
 Charts showing recent trends are available with linear + logarithmic scales for 5 and 10 year age bands.
 
-- England - [10 year age bands](nation/england/index-6.html) + [5 year age bands](nation/england/index-12.html)
+- England - [8 age bands](nation/england/index-8.html) / [12 age bands](nation/england/index-12.html)
 
 
 
@@ -41,10 +41,10 @@ This simple approach to analysis is only possible when using a logarithmic scale
 
 ## Age Bands
 
-All charts are published using two different sets of age bands:
+All charts are published using two different sets of age bands, both including 5 year age bands for age 60+
 
-- Charts including 10 year age bands are probably the easiest to view. They contain 6 age groups such as 70-79, 80-89 and 90+.
-- Charts including 5 year age bands are more detailed but harder to view. They contain 12 age groups such as 80-84, 85-89 and 90+.
+- Charts with 8 age bands are probably the easiest to view. The under 50s have been combined into a single age band.
+- Charts with 12 age bands are slightly harder to view. The under 25s have been combined into a single age band.
 
 Daily hospital admission data from the NHS has limited age bands; e.g. 18-64, 65-84 and 85+. A monthly publication from the NHS provides more precise age bands but the data that is available daily only has the wider age bands.
 
