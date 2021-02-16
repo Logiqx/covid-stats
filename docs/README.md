@@ -5,7 +5,7 @@
 
 Here's a list of some of my studies and articles relating COVID-19 in England and the UK:
 
-- [Daily Data for England](daily-data/README.md) - 13 February 2021
+- [Daily Trends for England](daily-trends/README.md) - 13 February 2021
 
 - [Estimating Regional Deaths by Date of Occurrence](estimating-regional-occurrences/README.md) - 1 February 2021
 
