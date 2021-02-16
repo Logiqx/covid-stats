@@ -49,9 +49,9 @@ This simple approach to analysis is only possible when using a logarithmic scale
 
 All charts are published using three different sets of age groups:
 
-- The 6 age groups are designed to align with NHS age groups and historical ONS age groups (e.g. 65-74, 75-84, 85+).
-- The 9 age groups include the first 8 vaccination groups plus larger groups for the under 55s and 85+ (e.g. under 45, 45-54 ... 80-84, 85+).
-- The 12 age groups offer further granularity and provide more groups under the age of 55 (e.g. under 25, 25-44, 45-49, 50-54).
+- 6 age groups are designed to align with NHS age groups and historical ONS age groups (e.g. 65-74, 75-84, 85+).
+- 9 age groups include the first 8 vaccination groups plus larger groups for the under 55s and 85+ (e.g. under 45, 45-54 ... 80-84, 85+).
+- 12 age groups offer further granularity and provide more groups under the age of 55 (e.g. under 25, 25-44, 45-49, 50-54).
 
 Daily hospital admission data from the NHS has limited age groups; e.g. 18-64, 65-84 and 85+. A monthly publication from the NHS provides more precise age groups but the data that is available daily only has the wider age groups.
 
