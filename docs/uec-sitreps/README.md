@@ -23,20 +23,7 @@ Here is a copy / paste from my original Twitter [thread](https://twitter.com/Mik
 
 There are 2 different charts for each NHS region and they are stored within a single image for the NHS region.
 
-The charts for each NHS region can be viewed from this page by clicking on the following links.
-
-- Nations
-
-  - [England](england.png)
-
-- NHS Regions
-  - [London](london.png)
-  - [South East](south_east.png)
-  - [East of England](east_england.png)
-  - [Midlands](midlands.png)
-  - [North West](north_west.png)
-  - [North East and Yorkshire](north_east_yorkshire.png)
-  - [South West](south_west.png)
+The charts for each NHS region can be viewed in a simple [gallery](gallery.html).
 
 
 
