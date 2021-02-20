@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<!-- saved from url=(0044)http://tutsplus.github.io/photoswipe-jquery/ -->
+<!-- saved from url=(0037)https://logiqx.github.io/covid-stats/ -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	
-    <meta name="viewport" content="initial-scale=1">
+
+	<meta name="viewport" content="initial-scale=1">
 
 	<title>{TITLE_TEXT}</title>
-	
-    <link rel="stylesheet" href="css/site.css">
-	
-    <script data-pace-options='{ "restartOnPushState": false }' src="js/pace.min.js"></script>
 
-    <link rel="stylesheet" href="css/photoswipe.css">
-    <link rel="stylesheet" href="default-skin/default-skin.css">
-	
-	<script src="js/photoswipe.min.js"></script>
-	<script src="js/photoswipe-ui-default.min.js"></script>
+	<link rel="stylesheet" href="{DOCS_PATH}/css/site.css">
+	<link rel="stylesheet" href="{CUSTOM_CSS}">
+
+	<script data-pace-options='{ "restartOnPushState": false }' src="{DOCS_PATH}/js/pace.min.js"></script>
+
+	<link rel="stylesheet" href="{DOCS_PATH}/css/photoswipe.css">
+	<link rel="stylesheet" href="{DOCS_PATH}/default-skin/default-skin.css">
+
+	<script src="{DOCS_PATH}/js/photoswipe.min.js"></script>
+	<script src="{DOCS_PATH}/js/photoswipe-ui-default.min.js"></script>
 </head>
 
 <body>
 	<h1>{H1_TEXT}</h1>
 
 	<h2>{H2_TEXT}</h2>
-	
-   {GALLERY_TEMPLATES}
+
+{GALLERY_TEMPLATES}
+
+	<p>Further information can be found at on <a href="{FURTHER_HREF}">GitHub</a> pages.</p>
 
 	<!-- Root element of PhotoSwipe. Must have class pswp. -->
 	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -88,7 +91,7 @@
 		</div>
 	</div>
 
-    <script type="text/javascript">
+	<script type="text/javascript">
 		(function() {
 
 			var initPhotoSwipeFromDOM = function(gallerySelector) {
@@ -208,7 +211,7 @@
 						var pair = vars[i].split('=');  
 						if (pair.length < 2) {
 							continue;
-						}           
+						}
 						params[pair[0]] = pair[1];
 					}
 
@@ -296,7 +299,9 @@
 		})();
 	</script>
 
-<!--analytics - TODO -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86348435-4"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag() {dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-86348435-4');</script>
 
 </body></html>
