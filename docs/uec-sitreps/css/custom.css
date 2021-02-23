@@ -1,6 +1,6 @@
 .gallery img {
   border: 1px solid #cccccc;
-  max-width: 50%;
+  max-width: 48%;
   height: auto;
 }
 
@@ -10,7 +10,7 @@
   }
 
   .gallery img {
-    max-width: 45%;
+    max-width: 44%;
   }
 }
 
