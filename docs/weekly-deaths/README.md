@@ -38,9 +38,9 @@ These charts will be posted as threads on Twitter with 3 images per tweet - e.g.
 
 There are multiple charts for each nation / region but they are all stored within a single image.
 
-![England and Wales](england_wales.png)
-
 The charts for each nation / region can be viewed in a simple [gallery](regions.html).
+
+![England and Wales](england_wales.png)
 
 
 
@@ -48,9 +48,9 @@ The charts for each nation / region can be viewed in a simple [gallery](regions.
 
 These charts illustrate the close relationship between the rise in COVID-19 deaths and deaths from all causes. They compare against 5 year and 10 year baselines.
 
-![England and Wales](5_years_4.png)
-
 The charts for each nation / region can be viewed in a simple [gallery](regions_alt.html).
+
+![England and Wales](5_years_4.png)
 
 
 
@@ -59,7 +59,8 @@ The charts for each nation / region can be viewed in a simple [gallery](regions_
 
 These radar / polar charts are inspired by the diagrams of [Florence Nightgale](https://www.florence-nightingale.co.uk/coxcomb-diagram-1858/), showing the seasonality of weekly deaths and the impact of COVID-19.
 
+The charts for each nation / region can be viewed in a simple [gallery](regions_polar.html).
+
 ![England and Wales](england_wales_polar.png)
 
-The charts for each nation / region can be viewed in a simple [gallery](regions_polar.html).
 
