@@ -23,7 +23,9 @@ Here is a copy / paste from my original Twitter [thread](https://twitter.com/Mik
 
 There are 2 different charts for each NHS region and they are stored within a single image for the NHS region.
 
-The charts for each NHS region can be viewed in a simple [gallery](gallery.html).
+The charts for England and the 7 NHS England regions can be viewed in a simple [gallery](gallery.html).
+
+![England](england.png)
 
 
 
