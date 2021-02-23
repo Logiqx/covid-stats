@@ -25,7 +25,7 @@ There are 2 different charts for each NHS region and they are stored within a si
 
 The charts for England and the 7 NHS England regions can be viewed in a simple [gallery](gallery.html).
 
-[![England](england.png)](gallery.html#&gid=1&pid=1)
+[![England](england.png)](gallery.html)
 
 
 

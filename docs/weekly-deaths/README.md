@@ -40,7 +40,7 @@ There are multiple charts for each nation / region but they are all stored withi
 
 The charts for each nation / region can be viewed in a simple [gallery](regions.html).
 
-[![England and Wales](england_wales.png)](regions.html#&gid=1&pid=3)
+[![England and Wales](england_wales.png)](regions.html)
 
 
 
@@ -50,7 +50,7 @@ These charts illustrate the close relationship between the rise in COVID-19 deat
 
 The charts for each nation / region can be viewed in a simple [gallery](regions_alt.html).
 
-[![England and Wales](5_years_4.png)](regions_alt.html#&gid=1&pid=4)
+[![England and Wales](5_years_4.png)](regions_alt.html)
 
 
 
@@ -61,6 +61,6 @@ These radar / polar charts are inspired by the diagrams of [Florence Nightgale](
 
 The charts for each nation / region can be viewed in a simple [gallery](regions_polar.html).
 
-[![England and Wales](england_wales_polar.png)](regions_polar.html#&gid=1&pid=3)
+[![England and Wales](england_wales_polar.png)](regions_polar.html)
 
 
