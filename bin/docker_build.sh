@@ -8,11 +8,9 @@ IMAGE_TAG=$(git rev-parse --short=12 HEAD)
 # Docker Build
 DOCKER_BUILDKIT=1 docker build . --file Dockerfile-slim --build-arg LOGIQX_DEBUG -t $IMAGE_NAME:$IMAGE_TAG
 
-# Download PHE data
-#run_py_script phe_download.py
-
-# Download NHS data
-#run_py_script xlsx_download.py
+# Run unit tests
+run_py_script common_core.py
+run_py_script ons_population.py
 
 # Docker Tag
 docker tag $IMAGE_NAME:$IMAGE_TAG $IMAGE_NAME:latest
