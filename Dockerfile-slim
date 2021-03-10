@@ -18,7 +18,7 @@ RUN jupyter nbconvert --to python python/*.ipynb && \
 RUN chmod 755 python/*.py
 
 # Create final image from Python 3 (Debian Slim)
-FROM logiqx/python-bs4:${PYTHON_VERSION}-slim-${DEBIAN_VERSION}
+FROM logiqx/python-lxml:${PYTHON_VERSION}-slim-${DEBIAN_VERSION}
 
 # Note: Jovian is a fictional native inhabitant of the planet Jupiter
 ARG PY_USER=jovyan
@@ -37,7 +37,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends tini=0.18.* \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Python libraries
-RUN pip install --no-cache-dir xlrd==1.2.* requests==2.25.* numpy==1.19.* scipy==1.6.* matplotlib==3.3.*
+RUN pip install --no-cache-dir \
+    beautifulsoup4==4.9.* \
+    matplotlib==3.3.* \
+    numpy==1.20.* \
+    requests==2.25.* \
+    scipy==1.6.* \
+    xlrd==1.2.*
 
 # Copy project files from the builder
 USER ${PY_USER}
