@@ -427,8 +427,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-03,East Hertfordshire,0,0.70000000000000006661,1
 2021-03-04,East Hertfordshire,1,0.70000000000000006661,0
 2021-03-05,East Hertfordshire,0,0.70000000000000006661,1
-2021-03-06,East Hertfordshire,0,,0
+2021-03-06,East Hertfordshire,0,0.70000000000000006661,0
 2021-03-07,East Hertfordshire,0,,0
 2021-03-08,East Hertfordshire,0,,0
 2021-03-09,East Hertfordshire,0,,0
-2021-03-10,East Hertfordshire,,,0
+2021-03-10,East Hertfordshire,0,,0
+2021-03-11,East Hertfordshire,,,0

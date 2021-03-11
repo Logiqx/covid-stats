@@ -427,8 +427,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-03,Sheffield,0,1.5,1
 2021-03-04,Sheffield,1,1.5,0
 2021-03-05,Sheffield,5,2.1000000000000000888,1
-2021-03-06,Sheffield,1,,2
+2021-03-06,Sheffield,1,2.1000000000000000888,2
 2021-03-07,Sheffield,1,,4
 2021-03-08,Sheffield,2,,1
-2021-03-09,Sheffield,0,,2
-2021-03-10,Sheffield,,,1
+2021-03-09,Sheffield,2,,2
+2021-03-10,Sheffield,0,,1
+2021-03-11,Sheffield,,,2
