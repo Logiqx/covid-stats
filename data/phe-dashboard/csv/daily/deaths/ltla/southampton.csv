@@ -428,8 +428,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-04,Southampton,0,0.4000000000000000222,2
 2021-03-05,Southampton,0,0.4000000000000000222,0
 2021-03-06,Southampton,0,0,0
-2021-03-07,Southampton,0,,0
-2021-03-08,Southampton,0,,0
-2021-03-09,Southampton,0,,1
+2021-03-07,Southampton,0,0,0
+2021-03-08,Southampton,0,0,0
+2021-03-09,Southampton,0,0,1
 2021-03-10,Southampton,0,,0
-2021-03-11,Southampton,,,0
+2021-03-11,Southampton,0,,0
+2021-03-12,Southampton,1,,0
+2021-03-13,Southampton,0,,2
+2021-03-14,Southampton,,,0
