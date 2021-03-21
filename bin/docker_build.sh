@@ -10,6 +10,7 @@ DOCKER_BUILDKIT=1 docker build . --file Dockerfile-slim --build-arg LOGIQX_DEBUG
 
 # Run unit tests
 run_py_script common_core.py
+run_py_script ons_core.py
 run_py_script ons_population.py
 
 # Docker Tag
