@@ -30,6 +30,10 @@ Three different sets of age groups are available (plus linear + logarithmic scal
 - [9 age groups](nation/england/index-9.html)
 - [12 age groups](nation/england/index-12.html)
 
+To monitor daily cases there are also charts for all age groups:
+
+- [all age groups](nation/england/index-alt.html)
+
 
 
 ## Linear vs Log Scales
