@@ -6,6 +6,8 @@ Author: Michael George
 
 Created: 1 February 2021
 
+Updated: 31 March 2021
+
 
 
 ### Introduction
@@ -64,29 +66,39 @@ The mean absolute error (MAE) of the estimates is close to 2.3% for most regions
 
 ### Methodology
 
-What is important to note is that for any deaths where COVID-19 is mentioned on the death certificates, the process of determining the week of occurrence can be done perfectly. The weekly data from the ONS provides the details of COVID-19 related deaths by both date of registration and date of occurrence so it is possible to process these deaths without any need for estimation.
+Since creating my original charts, I have refined the estimation method such that data for 2020 and 2021 uses death registrations and occurrences by [local authority and health board](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard) from the ONS.
 
-The estimation process is only required for deaths where COVID-19 is not mentioned on the death certificate, since 1 Jan 2019. In this instance a relatively simple algorithm can apportion the national deaths by date of occurrences to the appropriate regions. The process of converting weekly registrations into weekly occurrences for each region is relatively straightforward.
 
-1) Closely align the non-COVID weekly registrations with the weekly occurrences for each region of England and Wales as follows:
 
-​	i. Remove COVID-19 deaths from the weekly registrations, essentially leaving the non-COVID weekly registrations.
+For the year 2019, I still use the following approach to estimate weekly occurrences for each region:
 
-​	ii. Shift the non-COVID weekly registrations left by ~3.5 days, using a simple moving average - ```(current week + next week) / 2```.
+1) Closely align the weekly registrations with the weekly occurrences for each region of England and Wales as follows:
 
-2) Estimate the non-COVID weekly occurrences for each region of England and Wales as follows:
+​	Shift the weekly registrations left by ~3.5 days, using a simple moving average so ```(current week + next week) / 2```.
+
+2) Estimate the weekly occurrences for each region of England and Wales as follows:
 
 ​	```estimated occurrences = (shifted regional registrations / shifted national registrations) * national occurrences```
 
-3) Add the known COVID-19 occurrences to the result of step 2 for each region of England and Wales, giving the total deaths (all causes).
+
+
+For the years 2020 onwards, I have used the following approach to estimate weekly occurrences for each region:
+
+1) Roll up the local authority data to regional level; deaths by date of occurrence.
+
+2) Calculate the weekly ratios for estimated occurrences (England + Wales) vs known registrations (England and Wales).
+
+2) Estimate the weekly occurrences for each region of England and Wales as follows:
+
+​	```estimated occurrences = known occurrences * weekly ratio```
 
 
 
 ### Results
 
-As was mentioned earlier any deaths where COVID-19 is mentioned on the death certificate bypass the estimation process and are 100% accurate. Historical data prior to 31 Dec 2018 can also bypass the estimation process because regional deaths by date of occurrence are readily available on the ONS website.
+Historical data prior to 31 Dec 2018 bypasses the estimation process because regional deaths by date of occurrence are readily available on the ONS website.
 
-It is only the non-COVID deaths after 1 Jan 2019 which require the estimation process and as detailed earlier the result has proven to be very accurate when tested using historical data; MAE of ~2.3%. Whilst this approach could be refined by considering the more complex aspects of registration delays and knowledge of bank holidays it is more than adequate for simple charts showing weekly deaths.
+It is only the deaths after 1 Jan 2019 which require the estimation process and as detailed earlier the result has proven to be very accurate when tested using historical data; MAE of ~2.3%. Whilst this approach could be refined by considering the more complex aspects of registration delays and knowledge of bank holidays it is more than adequate for simple charts showing weekly deaths.
 
 The results of estimating regional occurrences for 1 Jan 2019 onwards have been used to produce a variety of charts, which have been published on [Github Pages](https://logiqx.github.io/covid-stats/weekly-deaths/) and [Twitter](https://twitter.com/Mike_aka_Logiqx).
 
@@ -128,7 +140,9 @@ The provisional 2020 data for England in the EWM [bulletin](https://www.ons.gov.
 
 Weekly registrations for 2019 onwards are in the weekly [dataset](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) published by the ONS.
 
-Weekly occurrences for August 2020 onwards have also been taken from the weekly [dataset](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) from the ONS.
+Estimated weekly occurrences for August 2020 onwards have also been taken from the weekly [dataset](https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/deaths/datasets/weeklyprovisionalfiguresondeathsregisteredinenglandandwales) from the ONS.
+
+Known weekly occurrences for Jan 2020 onwards are taken from the weekly [dateset](https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/causesofdeath/datasets/deathregistrationsandoccurrencesbylocalauthorityandhealthboard) for local authorities from the ONS.
 
 Python scripts have been written to [download](https://github.com/Logiqx/covid-stats/blob/master/python/ons_download.ipynb) the latest data from the ONS website and [convert](https://github.com/Logiqx/covid-stats/blob/master/python/ons_convert.ipynb) it into CSV format.
 
@@ -188,10 +202,10 @@ A number of custom Python modules are also used which will become obvious when l
 Data being used to determine weekly deaths by date of occurrence, across all 9 regions in England and Wales:
 
 - All weekly figures up to 31 Dec 2018 are derived from daily occurrences, published by the ONS in the user data requests. This is already provided at a regional level so no estimation is required for these early years.
-- 1 Jan 2019 to 31 Jul 2020 uses the daily occurrence data from EWM bulletins and daily COVID-19 occurrence data from the weekly ONS publications. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the daily occurrence data for England and Wales as a baseline.
-- 1 Aug 2020 onwards uses the estimated weekly occurrences for England and Wales from the weekly ONS publication. The occurrences relating to COVID-19 are already known at a regional level so it is just the non-COVID deaths which have been estimated at a regional level, using the ONS estimate for England and Wales as a baseline.
+- 1 Jan 2019 to 31 Dec 2019 uses the daily occurrence data from EWM bulletins and daily COVID-19 occurrence data from the weekly ONS publications.
+- 1 Jan 2020 onwards uses the estimated weekly occurrences for England and Wales from the weekly ONS publication. Deaths have been estimated at a regional level, using the weekly local authority data to establish national proportions.
 
-I have submitted a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales.
+I did submit a request to the ONS for deaths by date of occurrence up to 31 Dec 2019, across all 9 regions of England and Wales but due to a charge for the data, I decided to continue using the estimation method described in this document.
 
 The results of estimating regional occurrences for 1 Jan 2019 onwards have been used to produce a variety of charts, which have been published on [Github Pages](https://logiqx.github.io/covid-stats/weekly-deaths/) and [Twitter](https://twitter.com/Mike_aka_Logiqx). The associated Python code and data can be found on [GitHub](https://github.com/Logiqx/covid-stats), amongst various other scripts and pieces of ad-hoc analysis relating to COVID-19 data.
 
