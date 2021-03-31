@@ -5,9 +5,9 @@
 
 Here's a list of some of my studies and articles relating COVID-19 in England and the UK:
 
-- [Daily Trends for England](daily-trends/README.md) - Daily
+- [Daily Trends for England](daily-trends/README.md) - Every few days
 
-- [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 23 March 2021
+- [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 31 March 2021
 
 - [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 25 March 2021
 
