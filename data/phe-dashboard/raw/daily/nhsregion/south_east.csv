@@ -1,6 +1,9 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-03-27,South East,,,369,34,
-2021-03-26,South East,,,404,33,
+2021-03-30,South East,,,321,34,
+2021-03-29,South East,,,364,37,
+2021-03-28,South East,30,2,364,36,"[{'age': '65_to_84', 'rate': 1434.6, 'value': 21146}, {'age': '18_to_64', 'rate': 342.7, 'value': 17968}, {'age': '85+', 'rate': 5046.4, 'value': 12530}, {'age': '0_to_5', 'rate': 52.1, 'value': 321}, {'age': '6_to_17', 'rate': 20.2, 'value': 257}]"
+2021-03-27,South East,18,2.1000000000000000888,369,34,"[{'age': '65_to_84', 'rate': 1434.0, 'value': 21137}, {'age': '18_to_64', 'rate': 342.4, 'value': 17957}, {'age': '85+', 'rate': 5042.8, 'value': 12521}, {'age': '0_to_5', 'rate': 51.9, 'value': 320}, {'age': '6_to_17', 'rate': 20.2, 'value': 257}]"
+2021-03-26,South East,24,2.2000000000000001776,404,33,"[{'age': '65_to_84', 'rate': 1433.5, 'value': 21130}, {'age': '18_to_64', 'rate': 342.3, 'value': 17949}, {'age': '85+', 'rate': 5041.6, 'value': 12518}, {'age': '0_to_5', 'rate': 51.9, 'value': 320}, {'age': '6_to_17', 'rate': 20.2, 'value': 257}]"
 2021-03-25,South East,21,2.3999999999999999112,377,24,"[{'age': '65_to_84', 'rate': 1432.7, 'value': 21118}, {'age': '18_to_64', 'rate': 342.2, 'value': 17943}, {'age': '85+', 'rate': 5040.0, 'value': 12514}, {'age': '0_to_5', 'rate': 51.9, 'value': 320}, {'age': '6_to_17', 'rate': 20.1, 'value': 255}]"
 2021-03-24,South East,24,2.7000000000000001776,461,37,"[{'age': '65_to_84', 'rate': 1432.1, 'value': 21109}, {'age': '18_to_64', 'rate': 342.1, 'value': 17938}, {'age': '85+', 'rate': 5037.2, 'value': 12507}, {'age': '0_to_5', 'rate': 51.9, 'value': 320}, {'age': '6_to_17', 'rate': 20.1, 'value': 255}]"
 2021-03-23,South East,26,2.8999999999999999112,506,41,"[{'age': '65_to_84', 'rate': 1431.8, 'value': 21104}, {'age': '18_to_64', 'rate': 341.8, 'value': 17922}, {'age': '85+', 'rate': 5035.9, 'value': 12504}, {'age': '0_to_5', 'rate': 51.9, 'value': 320}, {'age': '6_to_17', 'rate': 20.1, 'value': 255}]"

@@ -1,6 +1,9 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-03-27,North West,,,632,75,
-2021-03-26,North West,,,678,79,
+2021-03-30,North West,,,632,71,
+2021-03-29,North West,,,648,74,
+2021-03-28,North West,32,4.5999999999999996447,622,73,"[{'age': '85+', 'rate': 7383.5, 'value': 11922}, {'age': '18_to_64', 'rate': 487.1, 'value': 20575}, {'age': '6_to_17', 'rate': 34.0, 'value': 337}, {'age': '0_to_5', 'rate': 71.8, 'value': 365}, {'age': '65_to_84', 'rate': 2357.7, 'value': 26571}]"
+2021-03-27,North West,43,4.7999999999999998224,632,75,"[{'age': '85+', 'rate': 7380.4, 'value': 11917}, {'age': '18_to_64', 'rate': 486.8, 'value': 20559}, {'age': '6_to_17', 'rate': 33.9, 'value': 336}, {'age': '0_to_5', 'rate': 71.8, 'value': 365}, {'age': '65_to_84', 'rate': 2356.8, 'value': 26561}]"
+2021-03-26,North West,38,5.0999999999999996447,678,79,"[{'age': '85+', 'rate': 7374.8, 'value': 11908}, {'age': '18_to_64', 'rate': 486.4, 'value': 20543}, {'age': '6_to_17', 'rate': 33.6, 'value': 333}, {'age': '0_to_5', 'rate': 71.6, 'value': 364}, {'age': '65_to_84', 'rate': 2355.7, 'value': 26548}]"
 2021-03-25,North West,49,5.2000000000000001776,693,82,"[{'age': '85+', 'rate': 7369.2, 'value': 11899}, {'age': '18_to_64', 'rate': 486.0, 'value': 20528}, {'age': '6_to_17', 'rate': 33.4, 'value': 331}, {'age': '0_to_5', 'rate': 71.2, 'value': 362}, {'age': '65_to_84', 'rate': 2354.8, 'value': 26538}]"
 2021-03-24,North West,48,5.2000000000000001776,723,83,"[{'age': '85+', 'rate': 7366.1, 'value': 11894}, {'age': '18_to_64', 'rate': 485.5, 'value': 20505}, {'age': '6_to_17', 'rate': 33.2, 'value': 329}, {'age': '0_to_5', 'rate': 71.0, 'value': 361}, {'age': '65_to_84', 'rate': 2353.2, 'value': 26520}]"
 2021-03-23,North West,54,5.4000000000000003553,749,85,"[{'age': '85+', 'rate': 7361.8, 'value': 11887}, {'age': '18_to_64', 'rate': 485.0, 'value': 20485}, {'age': '6_to_17', 'rate': 33.2, 'value': 329}, {'age': '0_to_5', 'rate': 71.0, 'value': 361}, {'age': '65_to_84', 'rate': 2351.5, 'value': 26501}]"
