@@ -2,8 +2,15 @@
 
 ## Analysis and Reports
 
+You can find a selection of my COVID-19 insights shared on Twitter:
 
-Here's a list of some of my studies and articles relating COVID-19 in England and the UK:
+- [Popular Tweets](twitter.md) - links to my tweets relating to COVID-19
+
+You can find some of my video analysis on YouTube, mainly during the autumn of 2020:
+
+- [The Data Guy](https://www.youtube.com/channel/UC5ZYmsNjBqZSG9efLz_33eQ) - collection of videos showing real-time analysis, typically around 11 minutes long
+
+Here are some of my studies and articles relating COVID-19 in England and the UK:
 
 - [Daily Trends for England](daily-trends/README.md) - Every few days
 
@@ -22,8 +29,4 @@ Here's a list of some of my studies and articles relating COVID-19 in England an
 - [Analysis of Excess Deaths](https://logiqx.github.io/ons-stats/data_prep/) - 12 May 2020
 
 - [UK Trends and Observations](uk-trends-and-observations.md) - 21 April 2020
-
-You can find some of my video analysis on YouTube:
-
-- [The Data Guy](https://www.youtube.com/channel/UC5ZYmsNjBqZSG9efLz_33eQ) - collection of videos showing real-time analysis, typically around 11 minutes long
 
