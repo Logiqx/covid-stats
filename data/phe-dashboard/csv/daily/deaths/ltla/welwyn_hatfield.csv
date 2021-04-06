@@ -450,8 +450,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-26,Welwyn Hatfield,0,0,0
 2021-03-27,Welwyn Hatfield,0,0,0
 2021-03-28,Welwyn Hatfield,0,0,0
-2021-03-29,Welwyn Hatfield,0,,0
-2021-03-30,Welwyn Hatfield,0,,0
-2021-03-31,Welwyn Hatfield,0,,0
+2021-03-29,Welwyn Hatfield,0,0,0
+2021-03-30,Welwyn Hatfield,0,0,0
+2021-03-31,Welwyn Hatfield,0,0,0
 2021-04-01,Welwyn Hatfield,0,,0
-2021-04-02,Welwyn Hatfield,,,0
+2021-04-02,Welwyn Hatfield,0,,0
+2021-04-03,Welwyn Hatfield,0,,1
+2021-04-04,Welwyn Hatfield,0,,0
+2021-04-05,Welwyn Hatfield,,,0
