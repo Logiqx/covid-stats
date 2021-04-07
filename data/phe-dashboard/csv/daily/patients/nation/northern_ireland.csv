@@ -455,6 +455,8 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-03-31,Northern Ireland,5,2.5,115,9
 2021-04-01,Northern Ireland,3,2.5,112,9
 2021-04-02,Northern Ireland,,,,9
-2021-04-03,Northern Ireland,,,,
-2021-04-04,Northern Ireland,,,,
+2021-04-03,Northern Ireland,,,,9
+2021-04-04,Northern Ireland,,,,9
 2021-04-05,Northern Ireland,,,,
+2021-04-06,Northern Ireland,,,,
+2021-04-07,Northern Ireland,,,,

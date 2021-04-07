@@ -453,8 +453,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-29,East Hertfordshire,0,0,0
 2021-03-30,East Hertfordshire,0,0,0
 2021-03-31,East Hertfordshire,0,0,0
-2021-04-01,East Hertfordshire,0,,0
-2021-04-02,East Hertfordshire,0,,0
+2021-04-01,East Hertfordshire,0,0,0
+2021-04-02,East Hertfordshire,0,0,0
 2021-04-03,East Hertfordshire,0,,0
 2021-04-04,East Hertfordshire,0,,0
-2021-04-05,East Hertfordshire,,,0
+2021-04-05,East Hertfordshire,0,,0
+2021-04-06,East Hertfordshire,0,,0
+2021-04-07,East Hertfordshire,,,0
