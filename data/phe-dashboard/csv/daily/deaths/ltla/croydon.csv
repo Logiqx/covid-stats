@@ -455,8 +455,12 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-31,Croydon,0,0.30000000000000004441,0
 2021-04-01,Croydon,0,0.30000000000000004441,1
 2021-04-02,Croydon,0,0,0
-2021-04-03,Croydon,0,,0
-2021-04-04,Croydon,0,,0
-2021-04-05,Croydon,0,,0
-2021-04-06,Croydon,0,,1
-2021-04-07,Croydon,,,0
+2021-04-03,Croydon,0,0,0
+2021-04-04,Croydon,0,0,0
+2021-04-05,Croydon,0,0,0
+2021-04-06,Croydon,0,0,1
+2021-04-07,Croydon,0,,0
+2021-04-08,Croydon,0,,0
+2021-04-09,Croydon,0,,1
+2021-04-10,Croydon,0,,0
+2021-04-11,Croydon,,,0
