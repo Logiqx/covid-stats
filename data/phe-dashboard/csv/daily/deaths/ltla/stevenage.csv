@@ -461,8 +461,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-04-06,Stevenage,0,0,0
 2021-04-07,Stevenage,0,0,1
 2021-04-08,Stevenage,0,0,0
-2021-04-09,Stevenage,0,,1
+2021-04-09,Stevenage,0,0,1
 2021-04-10,Stevenage,0,,0
 2021-04-11,Stevenage,0,,1
 2021-04-12,Stevenage,0,,0
-2021-04-13,Stevenage,,,0
+2021-04-13,Stevenage,0,,0
+2021-04-14,Stevenage,,,0
