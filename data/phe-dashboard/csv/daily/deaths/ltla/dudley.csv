@@ -463,8 +463,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-04-08,Dudley,0,0.30000000000000004441,0
 2021-04-09,Dudley,0,0,0
 2021-04-10,Dudley,0,0,0
-2021-04-11,Dudley,0,,0
+2021-04-11,Dudley,0,0,0
 2021-04-12,Dudley,0,,0
 2021-04-13,Dudley,0,,0
 2021-04-14,Dudley,1,,0
-2021-04-15,Dudley,,,1
+2021-04-15,Dudley,0,,1
+2021-04-16,Dudley,,,0
