@@ -4,6 +4,10 @@
 
 Links to some popular COVID-19 tweets in reverse-chronological order:
 
+16 Apr 2021 - [Thoughts and observations on whether "lockdowns work" (or not)](https://twitter.com/Mike_aka_Logiqx/status/1382958431552876545?s=20)
+
+11 Apr 2021 - [Rates that COVID-19 deaths have been decreasing as we exit the second / third wave](https://twitter.com/Mike_aka_Logiqx/status/1381175166508621825?s=20)
+
 4 Apr 2021 - [Under-reporting of COVID-19 deaths in the most elderly during the first wave](https://twitter.com/Mike_aka_Logiqx/status/1378639743978762241?s=20)
 
 27 Mar 2021 - [Breakdown of daily cases by age bands - cases increasing in school children](https://twitter.com/Mike_aka_Logiqx/status/1375762237600727040?s=20)
