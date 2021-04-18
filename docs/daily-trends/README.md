@@ -24,19 +24,20 @@ All of the reports show when they were last refreshed and the data will be the l
 
 Since all of the charts show a [centred moving average](https://en.wikipedia.org/wiki/Moving_average#Simple_moving_average_(boxcar_filter)) (CMA) you may feel the delay is slightly longer (i.e. 3 days additional lag). The benefit of a CMA is that all of the data remains correctly aligned with the date labels on the x-axis. The use of a CMA doesn't actually introduce any extra lag over a regular MA, only alignment of the data with the x-axis. 
 
-The simplest charts are for the regions of England:
+The simplest charts are for the nations of the United Kingdom and regions of England:
 
-- [regions](regions/index.html)
+- [Nations of the United Kingdom](nations/index.html)
+- [Regions of England](regions/index.html)
 
-Three different sets of age groups are available (plus linear + logarithmic scales):
+Charts showing severak different age groups in England are available:
 
 - [6 age groups](nation/england/index-6.html)
 - [9 age groups](nation/england/index-9.html)
 - [12 age groups](nation/england/index-12.html)
 
-To monitor daily cases there are also charts for all age groups:
+To monitor daily cases in England there are also charts for all age groups:
 
-- [all age groups](nation/england/index-alt.html)
+- [All age groups](nation/england/index-alt.html)
 
 
 
