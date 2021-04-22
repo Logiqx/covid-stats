@@ -411,10 +411,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-04-12,Scotland,0,0.2,0
 2021-04-13,Scotland,0,0.2,3
 2021-04-14,Scotland,3,0.2,3
-2021-04-15,Scotland,1,0.2,1
-2021-04-16,Scotland,0,0.2,3
-2021-04-17,Scotland,0,,2
+2021-04-15,Scotland,2,0.2,1
+2021-04-16,Scotland,1,0.2,3
+2021-04-17,Scotland,0,0.1,2
 2021-04-18,Scotland,0,,0
-2021-04-19,Scotland,0,,0
+2021-04-19,Scotland,1,,0
 2021-04-20,Scotland,0,,2
-2021-04-21,Scotland,,,1
+2021-04-21,Scotland,0,,1
+2021-04-22,Scotland,,,3
