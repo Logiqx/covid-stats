@@ -1,6 +1,7 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-04-22,London,,,423,91,[]
 2021-04-21,London,,,453,96,[]
-2021-04-20,London,,,439,107,[]
+2021-04-20,London,15,1.2,439,107,"[{'age': '85+', 'rate': 7820.8, 'value': 11475}, {'age': '65_to_84', 'rate': 2841.1, 'value': 25925}, {'age': '18_to_64', 'rate': 541.6, 'value': 31556}, {'age': '0_to_5', 'rate': 110.0, 'value': 814}, {'age': '6_to_17', 'rate': 59.8, 'value': 766}]"
 2021-04-19,London,18,1.3,460,106,"[{'age': '85+', 'rate': 7820.8, 'value': 11475}, {'age': '65_to_84', 'rate': 2840.4, 'value': 25918}, {'age': '18_to_64', 'rate': 541.4, 'value': 31549}, {'age': '0_to_5', 'rate': 110.0, 'value': 814}, {'age': '6_to_17', 'rate': 59.7, 'value': 765}]"
 2021-04-18,London,17,1.4,467,104,"[{'age': '85+', 'rate': 7820.1, 'value': 11474}, {'age': '65_to_84', 'rate': 2839.4, 'value': 25909}, {'age': '18_to_64', 'rate': 541.3, 'value': 31541}, {'age': '0_to_5', 'rate': 110.0, 'value': 814}, {'age': '6_to_17', 'rate': 59.7, 'value': 765}]"
 2021-04-17,London,9,1.5,476,103,"[{'age': '85+', 'rate': 7818.1, 'value': 11471}, {'age': '65_to_84', 'rate': 2838.4, 'value': 25900}, {'age': '18_to_64', 'rate': 541.2, 'value': 31536}, {'age': '0_to_5', 'rate': 110.0, 'value': 814}, {'age': '6_to_17', 'rate': 59.7, 'value': 765}]"
