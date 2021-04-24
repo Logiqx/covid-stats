@@ -396,13 +396,13 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-03-30,Northern Ireland,3,2.9,135,12
 2021-03-31,Northern Ireland,6,2.7,129,9
 2021-04-01,Northern Ireland,11,3.1,131,9
-2021-04-02,Northern Ireland,10,3.0,126,9
-2021-04-03,Northern Ireland,5,2.9,121,10
+2021-04-02,Northern Ireland,9,2.9,126,9
+2021-04-03,Northern Ireland,5,2.8,121,10
 2021-04-04,Northern Ireland,5,2.7,120,9
 2021-04-05,Northern Ireland,2,2.2,114,10
 2021-04-06,Northern Ireland,5,2.3,114,10
 2021-04-07,Northern Ireland,6,2.3,114,10
-2021-04-08,Northern Ireland,4,2.0,107,9
+2021-04-08,Northern Ireland,4,1.9,107,9
 2021-04-09,Northern Ireland,2,1.5,94,9
 2021-04-10,Northern Ireland,8,1.7,96,7
 2021-04-11,Northern Ireland,2,1.5,94,5
@@ -415,6 +415,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-04-18,Northern Ireland,1,1.3,73,5
 2021-04-19,Northern Ireland,4,1.3,68,5
 2021-04-20,Northern Ireland,3,1.2,63,6
-2021-04-21,Northern Ireland,2,1.2,62,6
-2021-04-22,Northern Ireland,,,,5
-2021-04-23,Northern Ireland,,,,
+2021-04-21,Northern Ireland,9,1.5,68,6
+2021-04-22,Northern Ireland,1,1.4,64,5
+2021-04-23,Northern Ireland,,,,3
+2021-04-24,Northern Ireland,,,,
