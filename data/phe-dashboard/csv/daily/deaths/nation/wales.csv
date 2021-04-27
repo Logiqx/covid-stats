@@ -400,7 +400,7 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-31,Wales,0,0.2,1
 2021-04-01,Wales,2,0.2,2
 2021-04-02,Wales,5,0.3,0
-2021-04-03,Wales,0,0.3,2
+2021-04-03,Wales,1,0.3,2
 2021-04-04,Wales,0,0.3,0
 2021-04-05,Wales,1,0.3,8
 2021-04-06,Wales,2,0.3,2
@@ -417,8 +417,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-04-17,Wales,2,0.3,0
 2021-04-18,Wales,2,0.3,3
 2021-04-19,Wales,0,0.3,2
-2021-04-20,Wales,0,,2
-2021-04-21,Wales,0,,0
-2021-04-22,Wales,0,,1
-2021-04-23,Wales,,,0
-2021-04-24,Wales,,,0
+2021-04-20,Wales,1,0.3,2
+2021-04-21,Wales,1,0.2,0
+2021-04-22,Wales,0,0.2,1
+2021-04-23,Wales,2,,0
+2021-04-24,Wales,0,,0
+2021-04-25,Wales,0,,3
+2021-04-26,Wales,0,,2
+2021-04-27,Wales,,,0
