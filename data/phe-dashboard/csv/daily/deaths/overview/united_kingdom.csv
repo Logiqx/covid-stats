@@ -327,8 +327,8 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2020-12-20,United Kingdom,506,5.1,326
 2020-12-21,United Kingdom,575,5.3,215
 2020-12-22,United Kingdom,562,5.4,691
-2020-12-23,United Kingdom,564,5.6,744
-2020-12-24,United Kingdom,582,5.7,585
+2020-12-23,United Kingdom,565,5.6,744
+2020-12-24,United Kingdom,581,5.7,585
 2020-12-25,United Kingdom,612,5.8,613
 2020-12-26,United Kingdom,653,6.1,230
 2020-12-27,United Kingdom,651,6.3,317
@@ -355,7 +355,7 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-17,United Kingdom,1265,12.8,671
 2021-01-18,United Kingdom,1295,13.1,599
 2021-01-19,United Kingdom,1358,13.3,1610
-2021-01-20,United Kingdom,1296,13.4,1820
+2021-01-20,United Kingdom,1297,13.4,1820
 2021-01-21,United Kingdom,1235,13.4,1290
 2021-01-22,United Kingdom,1241,13.5,1401
 2021-01-23,United Kingdom,1163,13.3,1348
@@ -416,7 +416,7 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-03-19,United Kingdom,70,0.9,101
 2021-03-20,United Kingdom,64,0.8,96
 2021-03-21,United Kingdom,80,0.8,33
-2021-03-22,United Kingdom,63,0.7,17
+2021-03-22,United Kingdom,64,0.7,17
 2021-03-23,United Kingdom,49,0.7,112
 2021-03-24,United Kingdom,39,0.6,98
 2021-03-25,United Kingdom,45,0.6,63
@@ -464,10 +464,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-05-06,United Kingdom,11,0.1,13
 2021-05-07,United Kingdom,7,0.1,15
 2021-05-08,United Kingdom,6,0.1,5
-2021-05-09,United Kingdom,7,0.1,2
+2021-05-09,United Kingdom,8,0.1,2
 2021-05-10,United Kingdom,6,0.1,4
-2021-05-11,United Kingdom,14,,20
+2021-05-11,United Kingdom,14,0.1,20
 2021-05-12,United Kingdom,9,,11
 2021-05-13,United Kingdom,6,,11
-2021-05-14,United Kingdom,,,17
+2021-05-14,United Kingdom,1,,17
 2021-05-15,United Kingdom,,,7
+2021-05-16,United Kingdom,,,4
