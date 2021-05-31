@@ -1,6 +1,8 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-05-26,East of England,,,38,5,[]
-2021-05-25,East of England,,,39,5,[]
+2021-05-28,East of England,,,37,7,[]
+2021-05-27,East of England,,,32,5,[]
+2021-05-26,East of England,5,0.5,38,5,"[{'age': '18_to_64', 'rate': 325.9, 'value': 12457}, {'age': '0_to_5', 'rate': 50.7, 'value': 241}, {'age': '65_to_84', 'rate': 1540.0, 'value': 16732}, {'age': '6_to_17', 'rate': 24.8, 'value': 232}, {'age': '85+', 'rate': 5716.0, 'value': 9974}]"
+2021-05-25,East of England,9,0.6,39,5,"[{'age': '18_to_64', 'rate': 325.7, 'value': 12453}, {'age': '0_to_5', 'rate': 50.7, 'value': 241}, {'age': '65_to_84', 'rate': 1539.9, 'value': 16731}, {'age': '6_to_17', 'rate': 24.8, 'value': 232}, {'age': '85+', 'rate': 5716.0, 'value': 9974}]"
 2021-05-24,East of England,7,0.6,43,5,"[{'age': '18_to_64', 'rate': 325.6, 'value': 12449}, {'age': '0_to_5', 'rate': 50.7, 'value': 241}, {'age': '65_to_84', 'rate': 1539.6, 'value': 16728}, {'age': '6_to_17', 'rate': 24.8, 'value': 232}, {'age': '85+', 'rate': 5714.8, 'value': 9972}]"
 2021-05-23,East of England,2,0.5,40,5,"[{'age': '18_to_64', 'rate': 325.5, 'value': 12445}, {'age': '0_to_5', 'rate': 50.5, 'value': 240}, {'age': '65_to_84', 'rate': 1539.5, 'value': 16726}, {'age': '6_to_17', 'rate': 24.8, 'value': 232}, {'age': '85+', 'rate': 5714.8, 'value': 9972}]"
 2021-05-22,East of England,4,0.5,39,4,"[{'age': '18_to_64', 'rate': 325.5, 'value': 12445}, {'age': '0_to_5', 'rate': 50.5, 'value': 240}, {'age': '65_to_84', 'rate': 1539.3, 'value': 16724}, {'age': '6_to_17', 'rate': 24.8, 'value': 232}, {'age': '85+', 'rate': 5714.8, 'value': 9972}]"
