@@ -1,8 +1,14 @@
 ## @Mike_aka_Logiqx
 
-### Popular Tweets
+### Favourite Tweets
 
 Links to some popular COVID-19 tweets in reverse-chronological order:
+
+29 May 2021 - [Simple charts overlaying weekly age-standardised mortality rates with annual excess (%)](https://twitter.com/Mike_aka_Logiqx/status/1398606598579408898?s=20)
+
+26 May 2021 - [Here is a quick analysis of deaths within 28d of +ve COVID test by vaccination group](https://twitter.com/Mike_aka_Logiqx/status/1397516512005591042?s=20)
+
+23 Apr 2021 - [A short thread further illustrating vaccines having a positive effect](https://twitter.com/Mike_aka_Logiqx/status/1385676988992610309?s=20)
 
 16 Apr 2021 - [Thoughts and observations on whether "lockdowns work" (or not)](https://twitter.com/Mike_aka_Logiqx/status/1382958431552876545?s=20)
 

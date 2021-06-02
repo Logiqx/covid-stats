@@ -4,7 +4,7 @@
 
 You can find a selection of my COVID-19 insights shared on Twitter:
 
-- [Popular Tweets](twitter.md) - links to my tweets relating to COVID-19
+- [Favourite Tweets](twitter.md) - links to my tweets relating to COVID-19
 
 You can find some of my video analysis on YouTube, mainly during the autumn of 2020:
 
