@@ -459,8 +459,9 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-05-30,Scotland,492,67.0,526
 2021-05-31,Scotland,624,69.3,490
 2021-06-01,Scotland,793,74.7,478
-2021-06-02,Scotland,971,,677
-2021-06-03,Scotland,944,,835
-2021-06-04,Scotland,785,,992
-2021-06-05,Scotland,223,,860
-2021-06-06,Scotland,,,775
+2021-06-02,Scotland,971,81.0,677
+2021-06-03,Scotland,946,,835
+2021-06-04,Scotland,821,,992
+2021-06-05,Scotland,573,,860
+2021-06-06,Scotland,257,,775
+2021-06-07,Scotland,,,641

@@ -459,8 +459,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-05-30,Scotland,1,0.1,0
 2021-05-31,Scotland,0,0.1,1
 2021-06-01,Scotland,0,0.1,0
-2021-06-02,Scotland,1,,1
+2021-06-02,Scotland,1,0.1,1
 2021-06-03,Scotland,1,,4
 2021-06-04,Scotland,1,,2
 2021-06-05,Scotland,0,,1
-2021-06-06,Scotland,,,0
+2021-06-06,Scotland,0,,0
+2021-06-07,Scotland,,,0

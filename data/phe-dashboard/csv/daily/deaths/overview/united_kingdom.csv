@@ -77,7 +77,7 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2020-04-14,United Kingdom,858,10.0,1076
 2020-04-15,United Kingdom,878,9.7,880
 2020-04-16,United Kingdom,844,9.5,1036
-2020-04-17,United Kingdom,818,9.3,913
+2020-04-17,United Kingdom,819,9.3,913
 2020-04-18,United Kingdom,800,9.1,1105
 2020-04-19,United Kingdom,768,8.8,432
 2020-04-20,United Kingdom,783,8.6,570
@@ -488,8 +488,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-05-30,United Kingdom,7,0.1,6
 2021-05-31,United Kingdom,7,0.1,1
 2021-06-01,United Kingdom,4,0.1,0
-2021-06-02,United Kingdom,6,,12
+2021-06-02,United Kingdom,6,0.1,12
 2021-06-03,United Kingdom,11,,18
 2021-06-04,United Kingdom,2,,11
-2021-06-05,United Kingdom,,,13
+2021-06-05,United Kingdom,0,,13
 2021-06-06,United Kingdom,,,4
+2021-06-07,United Kingdom,,,1
