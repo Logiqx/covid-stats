@@ -455,8 +455,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-05-28,Northern Ireland,1,0.1,0
 2021-05-29,Northern Ireland,0,0.1,1
 2021-05-30,Northern Ireland,0,0.1,0
-2021-05-31,Northern Ireland,0,,0
-2021-06-01,Northern Ireland,1,,0
+2021-05-31,Northern Ireland,0,0.1,0
+2021-06-01,Northern Ireland,1,0.1,0
 2021-06-02,Northern Ireland,0,,0
 2021-06-03,Northern Ireland,0,,1
-2021-06-04,Northern Ireland,,,0
+2021-06-04,Northern Ireland,0,,0
+2021-06-05,Northern Ireland,0,,0
+2021-06-06,Northern Ireland,,,0

@@ -189,7 +189,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2020-08-04,United Kingdom,128,1.3,1215,76
 2020-08-05,United Kingdom,140,1.3,1199,73
 2020-08-06,United Kingdom,101,1.2,1154,69
-2020-08-07,United Kingdom,117,1.2,1093,67
+2020-08-07,United Kingdom,116,1.2,1093,67
 2020-08-08,United Kingdom,141,1.2,1026,62
 2020-08-09,United Kingdom,106,1.3,982,65
 2020-08-10,United Kingdom,86,1.2,1086,70
@@ -243,7 +243,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2020-09-27,United Kingdom,340,3.9,2188,276
 2020-09-28,United Kingdom,443,4.1,2399,297
 2020-09-29,United Kingdom,440,4.2,2420,314
-2020-09-30,United Kingdom,453,4.2,2530,333
+2020-09-30,United Kingdom,452,4.2,2530,333
 2020-10-01,United Kingdom,525,4.4,2592,341
 2020-10-02,United Kingdom,528,4.6,2723,369
 2020-10-03,United Kingdom,531,4.9,2867,369
@@ -322,7 +322,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2020-12-15,United Kingdom,1957,18.9,18215,1326
 2020-12-16,United Kingdom,2079,19.4,18670,1340
 2020-12-17,United Kingdom,2144,20.0,18968,1366
-2020-12-18,United Kingdom,1918,20.4,19115,1364
+2020-12-18,United Kingdom,1917,20.4,19115,1364
 2020-12-19,United Kingdom,2044,20.7,19461,1412
 2020-12-20,United Kingdom,2168,21.4,20002,1442
 2020-12-21,United Kingdom,2368,22.0,21131,1512
@@ -350,8 +350,8 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-01-12,United Kingdom,4578,44.4,36977,3496
 2021-01-13,United Kingdom,4222,44.1,37483,3626
 2021-01-14,United Kingdom,4100,43.8,37686,3672
-2021-01-15,United Kingdom,3675,43.3,38125,3789
-2021-01-16,United Kingdom,3939,43.0,37708,3854
+2021-01-15,United Kingdom,3676,43.3,38126,3789
+2021-01-16,United Kingdom,3939,43.1,37709,3854
 2021-01-17,United Kingdom,3748,42.8,38163,3871
 2021-01-18,United Kingdom,4062,42.4,39249,3916
 2021-01-19,United Kingdom,4160,41.8,38841,3947
@@ -486,8 +486,10 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-05-28,United Kingdom,131,1.3,878,124
 2021-05-29,United Kingdom,100,1.3,878,119
 2021-05-30,United Kingdom,110,1.3,898,124
-2021-05-31,United Kingdom,123,1.3,921,122
-2021-06-01,United Kingdom,,,921,136
+2021-05-31,United Kingdom,124,1.3,921,122
+2021-06-01,United Kingdom,154,1.3,922,136
 2021-06-02,United Kingdom,,,954,129
-2021-06-03,United Kingdom,,,,134
+2021-06-03,United Kingdom,,,932,134
 2021-06-04,United Kingdom,,,,
+2021-06-05,United Kingdom,,,,
+2021-06-06,United Kingdom,,,,

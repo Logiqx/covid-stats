@@ -455,8 +455,10 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-05-28,Northern Ireland,77,27.0,75
 2021-05-29,Northern Ireland,65,26.8,68
 2021-05-30,Northern Ireland,38,25.9,63
-2021-05-31,Northern Ireland,61,,39
-2021-06-01,Northern Ireland,72,,54
+2021-05-31,Northern Ireland,61,24.7,39
+2021-06-01,Northern Ireland,72,25.2,54
 2021-06-02,Northern Ireland,93,,84
 2021-06-03,Northern Ireland,69,,80
 2021-06-04,Northern Ireland,,,73
+2021-06-05,Northern Ireland,,,95
+2021-06-06,Northern Ireland,,,69
