@@ -83,7 +83,8 @@ These are the most significant Python scripts:
 
 - [phe_download.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_download.ipynb) downloads the latest data (cases, admissions and deaths) from the PHE website using the [API](https://coronavirus.data.gov.uk/details/developers-guide).
 - [phe_convert.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_convert.ipynb) converts the downloaded data into regular CSV files, splitting the age demographics into individual fields.
-- [phe_charts.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_charts.ipynb) prepares the data and plots the charts.
+- [phe_charts.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_charts.ipynb) prepares the age band data and plots the charts.
+- [phe_charts_regions.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/phe_charts_regions.ipynb) prepares the country / region data and plots the charts.
 
 A number of custom Python modules are also used (e.g. UK demographics) which will become obvious when looking at the main scripts.
 
