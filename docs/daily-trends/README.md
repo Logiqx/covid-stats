@@ -4,7 +4,7 @@ Author: Michael George
 
 Created: 13 February 2021
 
-Updated: Every few days
+Updated: Daily - usually some time between 4pm and 9pm
 
 
 
