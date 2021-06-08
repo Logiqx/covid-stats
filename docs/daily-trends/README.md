@@ -26,10 +26,15 @@ Since all of the charts show a [centred moving average](https://en.wikipedia.org
 
 The simplest charts are for the nations of the United Kingdom and regions of England:
 
-- [Nations of the United Kingdom](nations/index.html)
-- [Regions of England](regions/index.html)
+- [Nations of the United Kingdom](nations/index.html) - cases, admissions, deaths
+- [Regions of England](regions/index.html) - cases, admissions, deaths
 
-Charts showing severak different age groups in England are available:
+Charts showing hospital data for the nations of the United Kingdom and regions of England:
+
+- [Nations of the United Kingdom](nations/nhs.html) - admissions, patients, MV patients
+- [Regions of England](regions/nhs.html) - admissions, patients, MV patients
+
+Charts showing several different age groups in England are available:
 
 - [6 age groups](nation/england/index-6.html)
 - [9 age groups](nation/england/index-9.html)
