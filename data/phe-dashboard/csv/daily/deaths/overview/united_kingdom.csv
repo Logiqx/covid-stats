@@ -353,8 +353,8 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-01-15,United Kingdom,1225,12.2,1280
 2021-01-16,United Kingdom,1305,12.6,1295
 2021-01-17,United Kingdom,1265,12.8,671
-2021-01-18,United Kingdom,1295,13.1,599
-2021-01-19,United Kingdom,1360,13.3,1610
+2021-01-18,United Kingdom,1296,13.1,599
+2021-01-19,United Kingdom,1359,13.3,1610
 2021-01-20,United Kingdom,1296,13.4,1820
 2021-01-21,United Kingdom,1235,13.4,1290
 2021-01-22,United Kingdom,1242,13.5,1401
@@ -489,9 +489,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-05-31,United Kingdom,7,0.1,1
 2021-06-01,United Kingdom,4,0.1,0
 2021-06-02,United Kingdom,8,0.1,12
-2021-06-03,United Kingdom,11,0.1,18
-2021-06-04,United Kingdom,4,,11
+2021-06-03,United Kingdom,13,0.1,18
+2021-06-04,United Kingdom,6,0.1,11
 2021-06-05,United Kingdom,2,,13
-2021-06-06,United Kingdom,3,,4
+2021-06-06,United Kingdom,4,,4
 2021-06-07,United Kingdom,2,,1
 2021-06-08,United Kingdom,,,13
+2021-06-09,United Kingdom,,,6
