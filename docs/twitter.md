@@ -4,7 +4,7 @@
 
 Links to some popular COVID-19 tweets in reverse-chronological order:
 
-8 June 2021 - [Quick look at the English regions and age groups. Log scale cases show a rapid growth in most regions] (https://twitter.com/Mike_aka_Logiqx/status/1402162700151631872?s=20)
+8 June 2021 - [Quick look at the English regions and age groups. Log scale cases show a rapid growth in most regions](https://twitter.com/Mike_aka_Logiqx/status/1402162700151631872?s=20)
 
 29 May 2021 - [Simple charts overlaying weekly age-standardised mortality rates with annual excess (%)](https://twitter.com/Mike_aka_Logiqx/status/1398606598579408898?s=20)
 
