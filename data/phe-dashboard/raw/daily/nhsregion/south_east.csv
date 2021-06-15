@@ -1,6 +1,7 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-06-15,South East,,,56,10,[]
 2021-06-14,South East,,,44,5,[]
-2021-06-13,South East,,,49,5,[]
+2021-06-13,South East,12,0.7,49,5,"[{'age': '65_to_84', 'rate': 1448.4, 'value': 21349}, {'age': '18_to_64', 'rate': 350.2, 'value': 18362}, {'age': '6_to_17', 'rate': 21.7, 'value': 276}, {'age': '85+', 'rate': 5097.2, 'value': 12656}, {'age': '0_to_5', 'rate': 53.1, 'value': 327}]"
 2021-06-12,South East,5,0.6,48,5,"[{'age': '65_to_84', 'rate': 1448.4, 'value': 21349}, {'age': '18_to_64', 'rate': 350.0, 'value': 18351}, {'age': '6_to_17', 'rate': 21.7, 'value': 276}, {'age': '85+', 'rate': 5096.8, 'value': 12655}, {'age': '0_to_5', 'rate': 53.1, 'value': 327}]"
 2021-06-11,South East,7,0.7,46,6,"[{'age': '65_to_84', 'rate': 1448.3, 'value': 21348}, {'age': '18_to_64', 'rate': 349.9, 'value': 18348}, {'age': '6_to_17', 'rate': 21.7, 'value': 276}, {'age': '85+', 'rate': 5096.4, 'value': 12654}, {'age': '0_to_5', 'rate': 53.1, 'value': 327}]"
 2021-06-10,South East,8,0.7,61,7,"[{'age': '65_to_84', 'rate': 1448.2, 'value': 21347}, {'age': '18_to_64', 'rate': 349.8, 'value': 18344}, {'age': '6_to_17', 'rate': 21.7, 'value': 276}, {'age': '85+', 'rate': 5095.6, 'value': 12652}, {'age': '0_to_5', 'rate': 53.1, 'value': 327}]"
