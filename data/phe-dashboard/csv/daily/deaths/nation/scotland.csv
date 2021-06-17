@@ -468,8 +468,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-06-08,Scotland,0,0.1,0
 2021-06-09,Scotland,1,0.1,1
 2021-06-10,Scotland,2,0.1,1
-2021-06-11,Scotland,0,,0
-2021-06-12,Scotland,0,,2
-2021-06-13,Scotland,0,,0
-2021-06-14,Scotland,0,,0
-2021-06-15,Scotland,,,2
+2021-06-11,Scotland,0,0.1,0
+2021-06-12,Scotland,0,0.1,2
+2021-06-13,Scotland,3,,0
+2021-06-14,Scotland,1,,0
+2021-06-15,Scotland,1,,2
+2021-06-16,Scotland,0,,1
+2021-06-17,Scotland,,,4

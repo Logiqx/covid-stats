@@ -469,8 +469,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-06-08,Wales,0,0.0,0
 2021-06-09,Wales,1,0.1,0
 2021-06-10,Wales,0,0.1,1
-2021-06-11,Wales,0,,0
-2021-06-12,Wales,0,,0
+2021-06-11,Wales,0,0.1,0
+2021-06-12,Wales,0,0.0,0
 2021-06-13,Wales,0,,1
 2021-06-14,Wales,0,,0
-2021-06-15,Wales,,,0
+2021-06-15,Wales,0,,0
+2021-06-16,Wales,0,,0
+2021-06-17,Wales,,,0

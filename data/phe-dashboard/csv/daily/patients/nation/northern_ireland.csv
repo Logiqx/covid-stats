@@ -465,9 +465,11 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-06-07,Northern Ireland,3,0.5,21,0
 2021-06-08,Northern Ireland,3,0.5,22,0
 2021-06-09,Northern Ireland,0,0.5,20,0
-2021-06-10,Northern Ireland,1,0.4,20,0
-2021-06-11,Northern Ireland,0,0.4,19,0
+2021-06-10,Northern Ireland,1,0.4,19,0
+2021-06-11,Northern Ireland,1,0.4,19,0
 2021-06-12,Northern Ireland,0,0.4,17,0
-2021-06-13,Northern Ireland,0,0.4,15,0
-2021-06-14,Northern Ireland,,,,0
-2021-06-15,Northern Ireland,,,,
+2021-06-13,Northern Ireland,2,0.5,15,0
+2021-06-14,Northern Ireland,0,0.4,14,0
+2021-06-15,Northern Ireland,2,0.3,16,0
+2021-06-16,Northern Ireland,,,,0
+2021-06-17,Northern Ireland,,,,
