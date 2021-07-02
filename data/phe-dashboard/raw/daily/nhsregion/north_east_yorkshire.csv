@@ -1,6 +1,9 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-06-29,North East and Yorkshire,,,215,30,[]
-2021-06-28,North East and Yorkshire,,,217,29,[]
+2021-07-02,North East and Yorkshire,,,252,39,[]
+2021-07-01,North East and Yorkshire,,,254,34,[]
+2021-06-30,North East and Yorkshire,64,4.1,222,29,"[{'age': '0_to_5', 'rate': 81.3, 'value': 482}, {'age': '65_to_84', 'rate': 2013.0, 'value': 28807}, {'age': '6_to_17', 'rate': 43.6, 'value': 516}, {'age': '85+', 'rate': 6751.7, 'value': 13889}, {'age': '18_to_64', 'rate': 435.3, 'value': 22431}]"
+2021-06-29,North East and Yorkshire,70,3.9,215,30,"[{'age': '0_to_5', 'rate': 80.1, 'value': 475}, {'age': '65_to_84', 'rate': 2011.8, 'value': 28790}, {'age': '6_to_17', 'rate': 43.6, 'value': 516}, {'age': '85+', 'rate': 6749.8, 'value': 13885}, {'age': '18_to_64', 'rate': 434.6, 'value': 22395}]"
+2021-06-28,North East and Yorkshire,40,3.5,217,29,"[{'age': '0_to_5', 'rate': 79.5, 'value': 471}, {'age': '65_to_84', 'rate': 2010.8, 'value': 28776}, {'age': '6_to_17', 'rate': 43.4, 'value': 514}, {'age': '85+', 'rate': 6745.4, 'value': 13876}, {'age': '18_to_64', 'rate': 433.8, 'value': 22354}]"
 2021-06-27,North East and Yorkshire,48,3.5,196,24,"[{'age': '0_to_5', 'rate': 79.5, 'value': 471}, {'age': '65_to_84', 'rate': 2010.2, 'value': 28767}, {'age': '6_to_17', 'rate': 43.3, 'value': 513}, {'age': '85+', 'rate': 6743.0, 'value': 13871}, {'age': '18_to_64', 'rate': 433.3, 'value': 22329}]"
 2021-06-26,North East and Yorkshire,56,3.3,185,25,"[{'age': '0_to_5', 'rate': 79.1, 'value': 469}, {'age': '65_to_84', 'rate': 2009.6, 'value': 28758}, {'age': '6_to_17', 'rate': 43.1, 'value': 511}, {'age': '85+', 'rate': 6741.0, 'value': 13867}, {'age': '18_to_64', 'rate': 432.7, 'value': 22298}]"
 2021-06-25,North East and Yorkshire,36,3.0,183,26,"[{'age': '0_to_5', 'rate': 79.0, 'value': 468}, {'age': '65_to_84', 'rate': 2008.4, 'value': 28742}, {'age': '6_to_17', 'rate': 43.0, 'value': 509}, {'age': '85+', 'rate': 6738.1, 'value': 13861}, {'age': '18_to_64', 'rate': 432.1, 'value': 22267}]"
