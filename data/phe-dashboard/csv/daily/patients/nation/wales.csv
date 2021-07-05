@@ -490,4 +490,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-06-29,Wales,6,1.1,41,2
 2021-06-30,Wales,7,1.2,39,2
 2021-07-01,Wales,8,1.2,44,3
-2021-07-02,Wales,,,,
+2021-07-02,Wales,5,1.2,50,4
+2021-07-03,Wales,,,,
+2021-07-04,Wales,,,,
+2021-07-05,Wales,,,,
