@@ -460,7 +460,7 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-05-31,Scotland,624,69.4,490
 2021-06-01,Scotland,794,74.7,478
 2021-06-02,Scotland,972,81.0,677
-2021-06-03,Scotland,958,88.4,835
+2021-06-03,Scotland,959,88.4,835
 2021-06-04,Scotland,829,93.5,992
 2021-06-05,Scotland,610,96.6,860
 2021-06-06,Scotland,682,100.1,775
@@ -487,9 +487,10 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-06-27,Scotland,2529,359.1,2639
 2021-06-28,Scotland,3930,375.5,3285
 2021-06-29,Scotland,3890,387.1,3118
-2021-06-30,Scotland,3926,405.9,3887
-2021-07-01,Scotland,3440,,4234
-2021-07-02,Scotland,3068,,3823
-2021-07-03,Scotland,2362,,3108
-2021-07-04,Scotland,380,,2726
-2021-07-05,Scotland,,,2372
+2021-06-30,Scotland,3928,405.9,3887
+2021-07-01,Scotland,3444,414.9,4234
+2021-07-02,Scotland,3084,,3823
+2021-07-03,Scotland,2417,,3108
+2021-07-04,Scotland,2258,,2726
+2021-07-05,Scotland,407,,2372
+2021-07-06,Scotland,,,2363
