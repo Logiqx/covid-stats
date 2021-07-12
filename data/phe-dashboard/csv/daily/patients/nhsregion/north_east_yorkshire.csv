@@ -475,5 +475,8 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissions
 2021-07-05,North East and Yorkshire,95,6.1,322,49,83.2,493,44.2,524,439.8,22662,2020.0,28908,6769.2,13925
 2021-07-06,North East and Yorkshire,107,6.5,376,55,83.4,494,44.4,526,441.2,22733,2021.9,28934,6772.6,13932
 2021-07-07,North East and Yorkshire,111,7.1,420,66,83.5,495,44.6,528,442.5,22801,2023.6,28959,6779.9,13947
-2021-07-08,North East and Yorkshire,,,442,64,,,,,,,,,,
-2021-07-09,North East and Yorkshire,,,473,65,,,,,,,,,,
+2021-07-08,North East and Yorkshire,121,7.9,442,64,83.7,496,44.7,530,444.0,22881,2025.6,28988,6784.3,13956
+2021-07-09,North East and Yorkshire,113,8.5,473,65,84.0,498,45.2,535,445.3,22946,2027.8,29019,6789.2,13966
+2021-07-10,North East and Yorkshire,103,8.8,511,72,84.2,499,45.4,538,446.6,23012,2029.4,29042,6794.0,13976
+2021-07-11,North East and Yorkshire,,,543,75,,,,,,,,,,
+2021-07-12,North East and Yorkshire,,,592,74,,,,,,,,,,
