@@ -493,10 +493,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-07-03,Scotland,3,0.3,3
 2021-07-04,Scotland,5,0.3,0
 2021-07-05,Scotland,5,0.4,0
-2021-07-06,Scotland,6,0.4,6
+2021-07-06,Scotland,7,0.4,6
 2021-07-07,Scotland,1,0.4,5
-2021-07-08,Scotland,2,,4
-2021-07-09,Scotland,0,,6
+2021-07-08,Scotland,3,0.5,4
+2021-07-09,Scotland,1,,6
 2021-07-10,Scotland,0,,7
-2021-07-11,Scotland,0,,0
-2021-07-12,Scotland,,,0
+2021-07-11,Scotland,1,,0
+2021-07-12,Scotland,0,,0
+2021-07-13,Scotland,,,4
