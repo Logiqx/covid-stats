@@ -403,7 +403,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-04-04,Scotland,15,2.6,193,19
 2021-04-05,Scotland,30,2.7,202,18
 2021-04-06,Scotland,18,2.7,196,21
-2021-04-07,Scotland,21,2.7,192,21
+2021-04-07,Scotland,20,2.7,192,21
 2021-04-08,Scotland,20,2.7,174,21
 2021-04-09,Scotland,20,2.6,167,19
 2021-04-10,Scotland,14,2.5,160,20
@@ -521,7 +521,8 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-07-31,Scotland,32,6.0,444,64
 2021-08-01,Scotland,34,5.8,422,62
 2021-08-02,Scotland,45,5.7,407,60
-2021-08-03,Scotland,,,406,61
+2021-08-03,Scotland,40,5.5,406,61
 2021-08-04,Scotland,,,383,58
 2021-08-05,Scotland,,,381,55
 2021-08-06,Scotland,,,367,54
+2021-08-07,Scotland,,,,

@@ -1,9 +1,10 @@
 date,areaName,cases,casesRollingRate,casesAgeDemographics,casesReported,deaths,deathsRollingRate,deathsAgeDemographics,deathsReported,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-08-07,Wales,,,,0,,,,0,,,,,
 2021-08-06,Wales,,,,803,,,,0,,,,,
 2021-08-05,Wales,2,,,681,0,,,3,7,2.7,130,19,
 2021-08-04,Wales,410,,,608,0,,,4,12,2.9,133,22,
 2021-08-03,Wales,691,,,581,2,,,0,9,3.3,148,20,
-2021-08-02,Wales,753,,,1106,2,,,1,13,3.4,159,21,
+2021-08-02,Wales,753,141.4,,1106,2,0.4,,1,13,3.4,159,21,
 2021-08-01,Wales,520,141.5,,719,2,0.4,,5,21,3.3,147,22,
 2021-07-31,Wales,480,141.8,,0,1,0.4,,0,14,3.1,144,19,
 2021-07-30,Wales,585,145.0,,824,0,0.5,,4,10,3.4,140,19,

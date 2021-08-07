@@ -432,7 +432,7 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-04-04,United Kingdom,197,2.5,3229,469
 2021-04-05,United Kingdom,237,2.5,3255,461
 2021-04-06,United Kingdom,223,2.4,3143,453
-2021-04-07,United Kingdom,234,2.4,3019,440
+2021-04-07,United Kingdom,233,2.4,3019,440
 2021-04-08,United Kingdom,207,2.3,2872,421
 2021-04-09,United Kingdom,205,2.3,2793,405
 2021-04-10,United Kingdom,186,2.2,2650,385
@@ -550,7 +550,8 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-07-31,United Kingdom,671,8.7,5896,893
 2021-08-01,United Kingdom,729,8.4,5912,877
 2021-08-02,United Kingdom,778,8.2,6139,895
-2021-08-03,United Kingdom,,,5918,887
+2021-08-03,United Kingdom,742,7.9,5918,887
 2021-08-04,United Kingdom,,,5694,881
 2021-08-05,United Kingdom,,,5631,871
 2021-08-06,United Kingdom,,,,
+2021-08-07,United Kingdom,,,,

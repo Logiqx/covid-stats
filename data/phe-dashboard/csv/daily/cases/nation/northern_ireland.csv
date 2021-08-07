@@ -518,8 +518,9 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-07-30,Northern Ireland,1092,463.1,1101
 2021-07-31,Northern Ireland,923,453.6,1177
 2021-08-01,Northern Ireland,918,445.3,1072
-2021-08-02,Northern Ireland,1251,,872
+2021-08-02,Northern Ireland,1251,440.0,872
 2021-08-03,Northern Ireland,1354,,1082
 2021-08-04,Northern Ireland,1439,,1040
 2021-08-05,Northern Ireland,1322,,1641
 2021-08-06,Northern Ireland,,,1434
+2021-08-07,Northern Ireland,,,1349
