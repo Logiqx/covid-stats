@@ -1,6 +1,10 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-08-06,North West,,,818,124,[]
-2021-08-05,North West,,,826,119,[]
+2021-08-10,North West,,,864,118,[]
+2021-08-09,North West,,,863,117,[]
+2021-08-08,North West,105,10.6,827,117,"[{'age': '85+', 'rate': 7590.6, 'value': 12536}, {'age': '0_to_5', 'rate': 117.8, 'value': 593}, {'age': '65_to_84', 'rate': 2484.0, 'value': 28382}, {'age': '18_to_64', 'rate': 586.3, 'value': 24873}, {'age': '6_to_17', 'rate': 53.4, 'value': 538}]"
+2021-08-07,North West,110,10.7,816,116,"[{'age': '85+', 'rate': 7585.1, 'value': 12527}, {'age': '0_to_5', 'rate': 116.6, 'value': 587}, {'age': '65_to_84', 'rate': 2481.2, 'value': 28350}, {'age': '18_to_64', 'rate': 585.0, 'value': 24820}, {'age': '6_to_17', 'rate': 52.9, 'value': 533}]"
+2021-08-06,North West,104,10.4,818,124,"[{'age': '85+', 'rate': 7577.3, 'value': 12514}, {'age': '0_to_5', 'rate': 116.2, 'value': 585}, {'age': '65_to_84', 'rate': 2477.9, 'value': 28312}, {'age': '18_to_64', 'rate': 583.8, 'value': 24766}, {'age': '6_to_17', 'rate': 52.6, 'value': 530}]"
+2021-08-05,North West,109,10.6,826,119,"[{'age': '85+', 'rate': 7573.6, 'value': 12508}, {'age': '0_to_5', 'rate': 115.2, 'value': 580}, {'age': '65_to_84', 'rate': 2475.3, 'value': 28282}, {'age': '18_to_64', 'rate': 582.3, 'value': 24704}, {'age': '6_to_17', 'rate': 52.5, 'value': 529}]"
 2021-08-04,North West,116,11.0,840,128,"[{'age': '85+', 'rate': 7568.8, 'value': 12500}, {'age': '0_to_5', 'rate': 114.3, 'value': 575}, {'age': '65_to_84', 'rate': 2472.7, 'value': 28253}, {'age': '18_to_64', 'rate': 580.9, 'value': 24643}, {'age': '6_to_17', 'rate': 51.9, 'value': 523}]"
 2021-08-03,North West,92,11.3,863,128,"[{'age': '85+', 'rate': 7560.3, 'value': 12486}, {'age': '0_to_5', 'rate': 113.7, 'value': 572}, {'age': '65_to_84', 'rate': 2469.9, 'value': 28221}, {'age': '18_to_64', 'rate': 579.3, 'value': 24579}, {'age': '6_to_17', 'rate': 51.7, 'value': 521}]"
 2021-08-02,North West,116,11.6,888,135,"[{'age': '85+', 'rate': 7557.3, 'value': 12481}, {'age': '0_to_5', 'rate': 113.1, 'value': 569}, {'age': '65_to_84', 'rate': 2467.2, 'value': 28190}, {'age': '18_to_64', 'rate': 578.2, 'value': 24529}, {'age': '6_to_17', 'rate': 51.4, 'value': 518}]"
