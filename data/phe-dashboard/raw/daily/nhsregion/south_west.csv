@@ -1,6 +1,8 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-08-11,South West,,,368,50,[]
-2021-08-10,South West,,,349,51,[]
+2021-08-13,South West,,,369,57,[]
+2021-08-12,South West,,,356,50,[]
+2021-08-11,South West,58,7.2,368,50,"[{'age': '6_to_17', 'rate': 30.5, 'value': 230}, {'age': '65_to_84', 'rate': 991.5, 'value': 10699}, {'age': '0_to_5', 'rate': 63.5, 'value': 225}, {'age': '18_to_64', 'rate': 319.4, 'value': 10436}, {'age': '85+', 'rate': 3458.9, 'value': 6056}]"
+2021-08-10,South West,65,7.6,349,51,"[{'age': '6_to_17', 'rate': 30.5, 'value': 230}, {'age': '65_to_84', 'rate': 989.4, 'value': 10677}, {'age': '0_to_5', 'rate': 63.2, 'value': 224}, {'age': '18_to_64', 'rate': 318.4, 'value': 10405}, {'age': '85+', 'rate': 3456.6, 'value': 6052}]"
 2021-08-09,South West,59,7.2,345,48,"[{'age': '6_to_17', 'rate': 30.5, 'value': 230}, {'age': '65_to_84', 'rate': 988.3, 'value': 10665}, {'age': '0_to_5', 'rate': 62.6, 'value': 222}, {'age': '18_to_64', 'rate': 317.0, 'value': 10359}, {'age': '85+', 'rate': 3453.7, 'value': 6047}]"
 2021-08-08,South West,46,7.4,345,56,"[{'age': '6_to_17', 'rate': 29.9, 'value': 226}, {'age': '65_to_84', 'rate': 986.9, 'value': 10650}, {'age': '0_to_5', 'rate': 61.5, 'value': 218}, {'age': '18_to_64', 'rate': 316.0, 'value': 10328}, {'age': '85+', 'rate': 3450.9, 'value': 6042}]"
 2021-08-07,South West,52,7.7,324,50,"[{'age': '6_to_17', 'rate': 29.2, 'value': 220}, {'age': '65_to_84', 'rate': 986.1, 'value': 10641}, {'age': '0_to_5', 'rate': 61.2, 'value': 217}, {'age': '18_to_64', 'rate': 315.4, 'value': 10306}, {'age': '85+', 'rate': 3446.3, 'value': 6034}]"
