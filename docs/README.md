@@ -12,7 +12,7 @@ You can find some of my video analysis on YouTube, mainly during the autumn of 2
 
 Here are some of my studies and articles relating COVID-19 in England and the UK:
 
-- [Daily Trends for England](daily-trends/README.md) - Every few days
+- [Daily Trends for England](daily-trends/README.md) - Every few days (typically Tue, Thu, Sat)
 
 - [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 17 August 2021
 
