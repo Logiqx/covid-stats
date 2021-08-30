@@ -4,6 +4,12 @@
 
 Links to some popular COVID-19 tweets in reverse-chronological order:
 
+30 Aug 2021 - [A short thread about the "average age of death". TLDR - we could see >2 million excess deaths](https://twitter.com/Mike_aka_Logiqx/status/1432398355423010819?s=20)
+
+6 Aug 2021 - [A week after "freedom day" the previous fall in cases plateaued in some regions and started to rise slightly in others.](https://twitter.com/Mike_aka_Logiqx/status/1423568424937172992?s=20)
+
+5 Aug 2021 - [NHS England released their detailed admissions data today](https://twitter.com/Mike_aka_Logiqx/status/1423407555146092547?s=20)
+
 13 Jul 2021 - [A short thread about the average age of COVID-19 deaths](https://twitter.com/Mike_aka_Logiqx/status/1414899423704985603?s=20)
 
 8 Jun 2021 - [Quick look at the English regions and age groups. Log scale cases show a rapid growth in most regions](https://twitter.com/Mike_aka_Logiqx/status/1402162700151631872?s=20)
