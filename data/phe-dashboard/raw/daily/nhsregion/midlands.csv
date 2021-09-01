@@ -1,6 +1,11 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-08-27,Midlands,,,1204,185,[]
-2021-08-26,Midlands,,,1180,178,[]
+2021-09-01,Midlands,,,1265,181,[]
+2021-08-31,Midlands,,,1280,182,[]
+2021-08-30,Midlands,156,10.2,1210,182,"[{'age': '6_to_17', 'rate': 53.6, 'value': 816}, {'age': '85+', 'rate': 7046.2, 'value': 18455}, {'age': '65_to_84', 'rate': 2089.9, 'value': 36588}, {'age': '18_to_64', 'rate': 516.0, 'value': 32615}, {'age': '0_to_5', 'rate': 103.4, 'value': 771}]"
+2021-08-29,Midlands,145,10.3,1202,178,"[{'age': '6_to_17', 'rate': 53.5, 'value': 815}, {'age': '85+', 'rate': 7038.9, 'value': 18436}, {'age': '65_to_84', 'rate': 2086.9, 'value': 36536}, {'age': '18_to_64', 'rate': 514.7, 'value': 32536}, {'age': '0_to_5', 'rate': 102.7, 'value': 766}]"
+2021-08-28,Midlands,133,10.2,1172,178,"[{'age': '6_to_17', 'rate': 53.5, 'value': 814}, {'age': '85+', 'rate': 7030.5, 'value': 18414}, {'age': '65_to_84', 'rate': 2084.7, 'value': 36497}, {'age': '18_to_64', 'rate': 513.5, 'value': 32460}, {'age': '0_to_5', 'rate': 101.8, 'value': 759}]"
+2021-08-27,Midlands,156,10.1,1204,185,"[{'age': '6_to_17', 'rate': 53.3, 'value': 812}, {'age': '85+', 'rate': 7023.3, 'value': 18395}, {'age': '65_to_84', 'rate': 2082.5, 'value': 36459}, {'age': '18_to_64', 'rate': 512.5, 'value': 32391}, {'age': '0_to_5', 'rate': 101.1, 'value': 754}]"
+2021-08-26,Midlands,148,10.0,1180,178,"[{'age': '6_to_17', 'rate': 53.0, 'value': 807}, {'age': '85+', 'rate': 7016.4, 'value': 18377}, {'age': '65_to_84', 'rate': 2079.4, 'value': 36404}, {'age': '18_to_64', 'rate': 511.2, 'value': 32314}, {'age': '0_to_5', 'rate': 101.0, 'value': 753}]"
 2021-08-25,Midlands,189,10.1,1217,183,"[{'age': '6_to_17', 'rate': 52.9, 'value': 805}, {'age': '85+', 'rate': 7007.6, 'value': 18354}, {'age': '65_to_84', 'rate': 2076.5, 'value': 36353}, {'age': '18_to_64', 'rate': 510.1, 'value': 32244}, {'age': '0_to_5', 'rate': 100.7, 'value': 751}]"
 2021-08-24,Midlands,157,9.9,1199,180,"[{'age': '6_to_17', 'rate': 52.5, 'value': 799}, {'age': '85+', 'rate': 6996.9, 'value': 18326}, {'age': '65_to_84', 'rate': 2072.8, 'value': 36289}, {'age': '18_to_64', 'rate': 508.7, 'value': 32156}, {'age': '0_to_5', 'rate': 100.3, 'value': 748}]"
 2021-08-23,Midlands,161,10.0,1209,175,"[{'age': '6_to_17', 'rate': 52.2, 'value': 795}, {'age': '85+', 'rate': 6988.9, 'value': 18305}, {'age': '65_to_84', 'rate': 2069.9, 'value': 36239}, {'age': '18_to_64', 'rate': 507.5, 'value': 32076}, {'age': '0_to_5', 'rate': 100.0, 'value': 746}]"
