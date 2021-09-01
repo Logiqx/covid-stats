@@ -190,6 +190,7 @@ All of the project code and associated data is available in a Python project on 
 These are the most significant Python scripts:
 
 - [ons_download.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_download.ipynb) checks the ONS website for new weekly data and downloads the Excel spreadsheets.
+- [ons_lahb_deaths.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_lahb_deaths.ipynb) combines the data from all of the local authority spreadsheets and saves them as CSV files.
 - [ons_convert.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_convert.ipynb) combines the data from all of the spreadsheets with historical extracts and saves them as CSV files.
 - [ons_charts.ipynb](https://github.com/Logiqx/covid-stats/blob/master/python/ons_charts.ipynb) loads the CSV files into memory then calculates averages/maximums/minimums before plotting the charts.
 
