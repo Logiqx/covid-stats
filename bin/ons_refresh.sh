@@ -1,13 +1,10 @@
 # Project Env
 . $(dirname $0)/env.sh
 
-# Download ONS data
-run_py_script ons_download.py
-
-# Convert ONS Data
+# Convert Weekly LAHB Deaths Data
 run_py_script ons_lahb_deaths.py
 
-# Convert ONS Data
+# Convert Weekly Deaths Data
 run_py_script ons_convert.py
 
 # Refresh ONS Charts
