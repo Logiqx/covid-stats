@@ -3,12 +3,25 @@
 
 # Convert Weekly LAHB Deaths Data
 run_py_script ons_lahb_deaths.py
+ERRVAL=$?
 
 # Convert Weekly Deaths Data
-run_py_script ons_convert.py
+if [[ $ERRVAL == 0 ]]
+then
+	run_py_script ons_convert.py
+	ERRVAL=$?
+fi
 
 # Refresh ONS Charts
-run_py_script ons_charts.py
+if [[ $ERRVAL == 0 ]]
+then
+	run_py_script ons_charts.py
+	ERRVAL=$?
+fi
 
 # Compress Images
-optipng -o2 docs/weekly-deaths/*png
+if [[ $ERRVAL == 0 ]]
+then
+	optipng -o2 docs/weekly-deaths/*png
+	ERRVAL=$?
+fi

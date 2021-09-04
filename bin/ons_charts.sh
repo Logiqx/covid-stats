@@ -3,6 +3,11 @@
 
 # Refresh ONS Charts
 run_py_script ons_charts.py
+ERRVAL=$?
 
 # Compress Images
-optipng -o2 docs/weekly-deaths/*png
+if [[ $ERRVAL == 0 ]]
+then
+	optipng -o2 docs/weekly-deaths/*png
+	ERRVAL=$?
+fi
