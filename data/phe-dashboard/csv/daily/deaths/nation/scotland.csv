@@ -549,8 +549,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-08-28,Scotland,8,0.8,8
 2021-08-29,Scotland,8,0.8,0
 2021-08-30,Scotland,3,0.8,0
-2021-08-31,Scotland,5,,7
-2021-09-01,Scotland,5,,9
-2021-09-02,Scotland,4,,17
-2021-09-03,Scotland,0,,10
-2021-09-04,Scotland,,,11
+2021-08-31,Scotland,8,0.8,7
+2021-09-01,Scotland,7,0.9,9
+2021-09-02,Scotland,6,0.9,17
+2021-09-03,Scotland,3,,10
+2021-09-04,Scotland,1,,11
+2021-09-05,Scotland,5,,0
+2021-09-06,Scotland,0,,0
+2021-09-07,Scotland,,,16
