@@ -2,7 +2,9 @@
 
 ### Favourite Tweets
 
-Links to some popular COVID-19 tweets in reverse-chronological order:
+Links to some of my popular COVID-19 tweets in reverse-chronological order:
+
+13 Sep 2021 - [The significance of population estimates and how they can skew figures](https://twitter.com/Mike_aka_Logiqx/status/1436982536039772161?s=20)
 
 3 Sep 2021 - [A quick analogy for those looking at hospitalisation rates of vaccinated vs unvaccinated individuals](https://twitter.com/Mike_aka_Logiqx/status/1433361132023132160)
 
