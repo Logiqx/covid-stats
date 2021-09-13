@@ -8,7 +8,7 @@ Links to some of my popular COVID-19 tweets in reverse-chronological order:
 
 3 Sep 2021 - [A quick analogy for those looking at hospitalisation rates of vaccinated vs unvaccinated individuals](https://twitter.com/Mike_aka_Logiqx/status/1433361132023132160)
 
-30 Aug 2021 - [A short thread about the "average age of death". TLDR - we could see >2 million excess deaths](https://twitter.com/Mike_aka_Logiqx/status/1432398355423010819?s=20)
+30 Aug 2021 - [A short thread about the "average age of death"](https://twitter.com/Mike_aka_Logiqx/status/1432398355423010819?s=20)
 
 6 Aug 2021 - [A week after "freedom day" the previous fall in cases plateaued in some regions and started to rise slightly in others.](https://twitter.com/Mike_aka_Logiqx/status/1423568424937172992?s=20)
 
