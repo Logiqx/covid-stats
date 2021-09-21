@@ -1,4 +1,11 @@
 date,areaName,deathsRegistered
+2021-09-10,Scotland,76
+2021-09-09,Scotland,
+2021-09-08,Scotland,
+2021-09-07,Scotland,
+2021-09-06,Scotland,
+2021-09-05,Scotland,
+2021-09-04,Scotland,
 2021-09-03,Scotland,58
 2021-09-02,Scotland,
 2021-09-01,Scotland,
@@ -167,7 +174,7 @@ date,areaName,deathsRegistered
 2021-03-22,Scotland,
 2021-03-21,Scotland,
 2021-03-20,Scotland,
-2021-03-19,Scotland,67
+2021-03-19,Scotland,68
 2021-03-18,Scotland,
 2021-03-17,Scotland,
 2021-03-16,Scotland,
