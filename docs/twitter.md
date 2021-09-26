@@ -4,6 +4,8 @@
 
 Links to some of my popular COVID-19 tweets in reverse-chronological order:
 
+26 Sep 2021 - [The claim that you're more likely to die of any cause after vaccinated is flawed](https://twitter.com/Mike_aka_Logiqx/status/1442090955885137920?s=20)
+
 13 Sep 2021 - [The significance of population estimates and how they can skew figures](https://twitter.com/Mike_aka_Logiqx/status/1436982536039772161?s=20)
 
 3 Sep 2021 - [A quick analogy for those looking at hospitalisation rates of vaccinated vs unvaccinated individuals](https://twitter.com/Mike_aka_Logiqx/status/1433361132023132160)
