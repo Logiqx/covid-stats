@@ -568,8 +568,11 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-09-18,Northern Ireland,4,2.7,6
 2021-09-19,Northern Ireland,5,2.6,5
 2021-09-20,Northern Ireland,4,2.3,5
-2021-09-21,Northern Ireland,3,,4
-2021-09-22,Northern Ireland,9,,4
-2021-09-23,Northern Ireland,7,,8
-2021-09-24,Northern Ireland,2,,0
-2021-09-25,Northern Ireland,,,
+2021-09-21,Northern Ireland,4,2.0,4
+2021-09-22,Northern Ireland,9,2.3,4
+2021-09-23,Northern Ireland,7,2.3,8
+2021-09-24,Northern Ireland,6,,8
+2021-09-25,Northern Ireland,5,,5
+2021-09-26,Northern Ireland,4,,6
+2021-09-27,Northern Ireland,4,,4
+2021-09-28,Northern Ireland,,,4
