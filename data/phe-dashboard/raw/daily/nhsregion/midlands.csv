@@ -1,6 +1,8 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-10-19,Midlands,,,1219,139,[]
-2021-10-18,Midlands,,,1198,139,[]
+2021-10-21,Midlands,,,1253,148,[]
+2021-10-20,Midlands,,,1263,140,[]
+2021-10-19,Midlands,188,10.1,1219,139,"[{'age': '6_to_17', 'rate': 64.5, 'value': 997}, {'age': '85+', 'rate': 7384.7, 'value': 19406}, {'age': '0_to_5', 'rate': 126.4, 'value': 927}, {'age': '18_to_64', 'rate': 559.3, 'value': 35507}, {'age': '65_to_84', 'rate': 2207.2, 'value': 39014}]"
+2021-10-18,Midlands,148,9.7,1198,139,"[{'age': '6_to_17', 'rate': 64.1, 'value': 992}, {'age': '85+', 'rate': 7375.6, 'value': 19382}, {'age': '0_to_5', 'rate': 125.6, 'value': 921}, {'age': '18_to_64', 'rate': 558.1, 'value': 35427}, {'age': '65_to_84', 'rate': 2203.1, 'value': 38941}]"
 2021-10-17,Midlands,137,9.8,1161,143,"[{'age': '6_to_17', 'rate': 63.8, 'value': 987}, {'age': '85+', 'rate': 7366.5, 'value': 19358}, {'age': '0_to_5', 'rate': 125.3, 'value': 919}, {'age': '18_to_64', 'rate': 557.0, 'value': 35363}, {'age': '65_to_84', 'rate': 2200.1, 'value': 38888}]"
 2021-10-16,Midlands,159,9.6,1119,136,"[{'age': '6_to_17', 'rate': 63.8, 'value': 986}, {'age': '85+', 'rate': 7357.7, 'value': 19335}, {'age': '0_to_5', 'rate': 124.8, 'value': 915}, {'age': '18_to_64', 'rate': 556.2, 'value': 35310}, {'age': '65_to_84', 'rate': 2196.9, 'value': 38832}]"
 2021-10-15,Midlands,163,9.3,1099,129,"[{'age': '6_to_17', 'rate': 63.5, 'value': 982}, {'age': '85+', 'rate': 7348.6, 'value': 19311}, {'age': '0_to_5', 'rate': 123.8, 'value': 908}, {'age': '18_to_64', 'rate': 555.2, 'value': 35247}, {'age': '65_to_84', 'rate': 2193.4, 'value': 38771}]"
