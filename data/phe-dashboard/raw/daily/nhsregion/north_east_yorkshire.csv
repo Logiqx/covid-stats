@@ -1,6 +1,8 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-10-26,North East and Yorkshire,,,1381,150,[]
-2021-10-25,North East and Yorkshire,,,1340,145,[]
+2021-10-28,North East and Yorkshire,,,1439,148,[]
+2021-10-27,North East and Yorkshire,,,1399,154,[]
+2021-10-26,North East and Yorkshire,197,13.9,1381,150,"[{'age': '85+', 'rate': 7545.4, 'value': 16057}, {'age': '6_to_17', 'rate': 86.0, 'value': 1048}, {'age': '18_to_64', 'rate': 591.6, 'value': 30569}, {'age': '0_to_5', 'rate': 159.8, 'value': 914}, {'age': '65_to_84', 'rate': 2394.5, 'value': 35159}]"
+2021-10-25,North East and Yorkshire,164,13.5,1340,145,"[{'age': '85+', 'rate': 7529.9, 'value': 16024}, {'age': '6_to_17', 'rate': 85.5, 'value': 1042}, {'age': '18_to_64', 'rate': 590.3, 'value': 30503}, {'age': '0_to_5', 'rate': 159.4, 'value': 912}, {'age': '65_to_84', 'rate': 2388.3, 'value': 35069}]"
 2021-10-24,North East and Yorkshire,173,14.2,1293,140,"[{'age': '85+', 'rate': 7517.2, 'value': 15997}, {'age': '6_to_17', 'rate': 85.2, 'value': 1038}, {'age': '18_to_64', 'rate': 589.1, 'value': 30437}, {'age': '0_to_5', 'rate': 158.9, 'value': 909}, {'age': '65_to_84', 'rate': 2384.0, 'value': 35005}]"
 2021-10-23,North East and Yorkshire,154,14.1,1313,138,"[{'age': '85+', 'rate': 7502.6, 'value': 15966}, {'age': '6_to_17', 'rate': 84.7, 'value': 1032}, {'age': '18_to_64', 'rate': 588.0, 'value': 30382}, {'age': '0_to_5', 'rate': 158.2, 'value': 905}, {'age': '65_to_84', 'rate': 2378.7, 'value': 34928}]"
 2021-10-22,North East and Yorkshire,137,14.0,1318,129,"[{'age': '85+', 'rate': 7489.9, 'value': 15939}, {'age': '6_to_17', 'rate': 84.5, 'value': 1030}, {'age': '18_to_64', 'rate': 587.0, 'value': 30329}, {'age': '0_to_5', 'rate': 157.7, 'value': 902}, {'age': '65_to_84', 'rate': 2374.0, 'value': 34859}]"
