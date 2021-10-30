@@ -1,6 +1,7 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-10-29,North West,,,1086,105,[]
 2021-10-28,North West,,,1097,104,[]
-2021-10-27,North West,,,1082,99,[]
+2021-10-27,North West,131,12.6,1082,99,"[{'age': '85+', 'rate': 8280.1, 'value': 13690}, {'age': '0_to_5', 'rate': 167.9, 'value': 832}, {'age': '65_to_84', 'rate': 2749.4, 'value': 31643}, {'age': '18_to_64', 'rate': 673.2, 'value': 28626}, {'age': '6_to_17', 'rate': 75.8, 'value': 776}]"
 2021-10-26,North West,134,13.0,1048,110,"[{'age': '85+', 'rate': 8266.8, 'value': 13668}, {'age': '0_to_5', 'rate': 166.7, 'value': 826}, {'age': '65_to_84', 'rate': 2744.8, 'value': 31590}, {'age': '18_to_64', 'rate': 672.1, 'value': 28579}, {'age': '6_to_17', 'rate': 75.5, 'value': 773}]"
 2021-10-25,North West,139,12.8,1044,99,"[{'age': '85+', 'rate': 8252.8, 'value': 13645}, {'age': '0_to_5', 'rate': 165.9, 'value': 822}, {'age': '65_to_84', 'rate': 2739.7, 'value': 31532}, {'age': '18_to_64', 'rate': 671.1, 'value': 28536}, {'age': '6_to_17', 'rate': 74.9, 'value': 767}]"
 2021-10-24,North West,119,12.7,1012,90,"[{'age': '85+', 'rate': 8237.1, 'value': 13619}, {'age': '0_to_5', 'rate': 165.3, 'value': 819}, {'age': '65_to_84', 'rate': 2734.7, 'value': 31474}, {'age': '18_to_64', 'rate': 670.0, 'value': 28488}, {'age': '6_to_17', 'rate': 74.5, 'value': 763}]"
