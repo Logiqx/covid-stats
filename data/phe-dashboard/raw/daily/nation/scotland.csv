@@ -1,9 +1,10 @@
 date,areaName,cases,casesRollingRate,casesAgeDemographics,casesReported,deaths,deathsRollingRate,deathsAgeDemographics,deathsReported,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-10-31,Scotland,,,,2513,,,,0,,,,,
 2021-10-30,Scotland,,,,3867,,,,20,,,,,
 2021-10-29,Scotland,,,,2732,,,,24,,,926,60,
 2021-10-28,Scotland,58,,,2153,0,,,20,,,932,58,
 2021-10-27,Scotland,1288,,,2566,1,,,27,,,925,57,
-2021-10-26,Scotland,2690,,,2262,11,,,20,,,917,59,
+2021-10-26,Scotland,2690,329.2,,2262,11,1.7,,20,,,917,59,
 2021-10-25,Scotland,3222,330.1,,2239,4,1.6,,0,106,12.2,902,57,
 2021-10-24,Scotland,2279,324.8,,2528,10,1.8,,21,69,12.2,899,58,
 2021-10-23,Scotland,2095,325.1,,2403,20,1.9,,0,75,12.1,896,61,

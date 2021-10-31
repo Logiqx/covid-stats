@@ -1,9 +1,10 @@
 date,areaName,cases,casesRollingRate,casesAgeDemographics,casesReported,deaths,deathsRollingRate,deathsAgeDemographics,deathsReported,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-10-30,Northern Ireland,,,,1207,,,,8,,,,,
+2021-10-31,Northern Ireland,,,,1001,,,,6,,,,,
+2021-10-30,Northern Ireland,,,,1207,0,,,8,,,,,
 2021-10-29,Northern Ireland,,,,1321,4,,,7,,,,,
 2021-10-28,Northern Ireland,1048,,,1122,6,,,9,25,9.3,351,24,
 2021-10-27,Northern Ireland,1292,,,1291,7,,,6,30,9.6,361,26,
-2021-10-26,Northern Ireland,1350,,,1124,4,,,4,28,9.9,371,26,
+2021-10-26,Northern Ireland,1350,450.8,,1124,4,2.0,,4,28,9.9,371,26,
 2021-10-25,Northern Ireland,1295,457.8,,1019,4,2.1,,4,32,10.7,390,24,
 2021-10-24,Northern Ireland,1071,467.2,,1061,3,2.3,,5,26,11.2,391,22,
 2021-10-23,Northern Ireland,1063,466.2,,1323,6,2.3,,10,18,11.9,376,23,
