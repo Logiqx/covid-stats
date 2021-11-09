@@ -1,6 +1,10 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
-2021-11-05,East of England,,,747,93,[]
-2021-11-04,East of England,,,764,88,[]
+2021-11-09,East of England,,,782,99,[]
+2021-11-08,East of England,,,783,105,[]
+2021-11-07,East of England,90,8.9,747,98,"[{'age': '18_to_64', 'rate': 425.7, 'value': 16329}, {'age': '0_to_5', 'rate': 98.8, 'value': 458}, {'age': '65_to_84', 'rate': 1721.3, 'value': 19198}, {'age': '6_to_17', 'rate': 48.4, 'value': 468}, {'age': '85+', 'rate': 6129.2, 'value': 11074}]"
+2021-11-06,East of England,69,8.9,739,94,"[{'age': '18_to_64', 'rate': 424.5, 'value': 16285}, {'age': '0_to_5', 'rate': 98.2, 'value': 455}, {'age': '65_to_84', 'rate': 1718.3, 'value': 19164}, {'age': '6_to_17', 'rate': 48.3, 'value': 467}, {'age': '85+', 'rate': 6124.7, 'value': 11066}]"
+2021-11-05,East of England,67,9.1,747,93,"[{'age': '18_to_64', 'rate': 423.8, 'value': 16256}, {'age': '0_to_5', 'rate': 98.0, 'value': 454}, {'age': '65_to_84', 'rate': 1716.4, 'value': 19143}, {'age': '6_to_17', 'rate': 47.8, 'value': 462}, {'age': '85+', 'rate': 6117.5, 'value': 11053}]"
+2021-11-04,East of England,82,9.6,764,88,"[{'age': '18_to_64', 'rate': 422.9, 'value': 16224}, {'age': '0_to_5', 'rate': 97.1, 'value': 450}, {'age': '65_to_84', 'rate': 1714.3, 'value': 19120}, {'age': '6_to_17', 'rate': 47.8, 'value': 462}, {'age': '85+', 'rate': 6113.1, 'value': 11045}]"
 2021-11-03,East of England,83,10.1,762,86,"[{'age': '18_to_64', 'rate': 422.0, 'value': 16190}, {'age': '0_to_5', 'rate': 96.7, 'value': 448}, {'age': '65_to_84', 'rate': 1711.2, 'value': 19085}, {'age': '6_to_17', 'rate': 47.4, 'value': 459}, {'age': '85+', 'rate': 6108.7, 'value': 11037}]"
 2021-11-02,East of England,100,10.4,798,89,"[{'age': '18_to_64', 'rate': 421.4, 'value': 16164}, {'age': '0_to_5', 'rate': 96.4, 'value': 447}, {'age': '65_to_84', 'rate': 1708.1, 'value': 19051}, {'age': '6_to_17', 'rate': 47.2, 'value': 457}, {'age': '85+', 'rate': 6097.6, 'value': 11017}]"
 2021-11-01,East of England,95,10.3,804,84,"[{'age': '18_to_64', 'rate': 420.2, 'value': 16119}, {'age': '0_to_5', 'rate': 96.4, 'value': 447}, {'age': '65_to_84', 'rate': 1704.8, 'value': 19014}, {'age': '6_to_17', 'rate': 47.1, 'value': 456}, {'age': '85+', 'rate': 6088.2, 'value': 11000}]"
