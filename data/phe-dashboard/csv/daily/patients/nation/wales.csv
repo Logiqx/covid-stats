@@ -630,5 +630,8 @@ date,areaName,admissions,admissionsRollingRate,patients,patientsMv
 2021-11-16,Wales,50,8.5,594,59
 2021-11-17,Wales,22,7.8,569,60
 2021-11-18,Wales,32,7.6,547,59
-2021-11-19,Wales,,,,
-2021-11-20,Wales,,,,
+2021-11-19,Wales,38,7.5,536,57
+2021-11-20,Wales,38,7.6,526,60
+2021-11-21,Wales,35,7.7,520,54
+2021-11-22,Wales,21,7.4,524,58
+2021-11-23,Wales,,,,
