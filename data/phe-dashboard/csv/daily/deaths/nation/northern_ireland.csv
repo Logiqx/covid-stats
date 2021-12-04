@@ -634,8 +634,12 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-11-23,Northern Ireland,7,2.0,4
 2021-11-24,Northern Ireland,4,2.0,4
 2021-11-25,Northern Ireland,9,2.0,5
-2021-11-26,Northern Ireland,3,,9
-2021-11-27,Northern Ireland,3,,2
-2021-11-28,Northern Ireland,3,,2
-2021-11-29,Northern Ireland,2,,4
-2021-11-30,Northern Ireland,,,2
+2021-11-26,Northern Ireland,3,2.0,9
+2021-11-27,Northern Ireland,3,1.7,2
+2021-11-28,Northern Ireland,5,1.8,2
+2021-11-29,Northern Ireland,2,1.7,4
+2021-11-30,Northern Ireland,2,,2
+2021-12-01,Northern Ireland,2,,4
+2021-12-02,Northern Ireland,2,,2
+2021-12-03,Northern Ireland,2,,4
+2021-12-04,Northern Ireland,,,9
