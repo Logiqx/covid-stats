@@ -646,8 +646,9 @@ date,areaName,cases,casesRollingRate,casesReported
 2021-12-03,Scotland,2633,358.8,2432
 2021-12-04,Scotland,2111,363.0,1257
 2021-12-05,Scotland,2472,365.6,2607
-2021-12-06,Scotland,3697,,3894
+2021-12-06,Scotland,3697,370.0,3894
 2021-12-07,Scotland,3473,,3060
 2021-12-08,Scotland,3225,,3077
 2021-12-09,Scotland,55,,3196
 2021-12-10,Scotland,,,5018
+2021-12-11,Scotland,,,4087
