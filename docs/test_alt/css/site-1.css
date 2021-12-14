@@ -1,0 +1,139 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.my-gallery figcaption {
+    display: none;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+.pace-running .demo-content {
+  opacity: 0.5;
+}
+
+.pace-running figure {
+  pointer-events: none;
+}
+
+.picture {
+  padding: 36px 0;
+  border-bottom: 1px solid #dae1ec;
+}
+
+.picture:first-child {
+  padding-top: 0;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f7fa;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #196e76;
+  text-align: center;
+}
+
+header h1,
+header a {
+  padding: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+header a {
+  font-weight: 300;
+  display: block;
+  text-decoration: none;
+  background-color: #10474c;
+  font-size: 14px;
+}
+
+figure {
+  margin: 0;
+  padding: 10px;
+}
+
+figure a {
+  /*display: block;*/
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.demo-content {
+  max-width: 840px;
+  width: 100%;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.demo-content img {
+  border: 5px solid #fff;
+}
+
+@media screen and (min-width: 630px) {
+  header {
+    text-align: none;
+  }
+  
+  header h1,
+  header a {
+    font-size: 12px;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  header a {
+    float: right;
+  }
+  
+  .demo-content {
+    padding: 10px;
+  }
+  
+  .picture {
+    padding: 0;
+    border-bottom: 0;
+  }
+  
+  .three figure {
+    float: left;
+    width: 33.33333333%;
+  }
+  
+  .two figure {
+    float: left;
+    width: 50%;
+  }
+}
