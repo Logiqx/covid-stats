@@ -653,8 +653,10 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-12-09,Wales,9,1.4,15
 2021-12-10,Wales,3,1.4,9
 2021-12-11,Wales,6,1.3,0
-2021-12-12,Wales,4,,5
-2021-12-13,Wales,0,,8
-2021-12-14,Wales,0,,2
+2021-12-12,Wales,4,1.1,5
+2021-12-13,Wales,1,0.9,8
+2021-12-14,Wales,2,,2
 2021-12-15,Wales,0,,10
-2021-12-16,Wales,,,0
+2021-12-16,Wales,0,,0
+2021-12-17,Wales,,,3
+2021-12-18,Wales,,,0
