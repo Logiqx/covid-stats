@@ -1,7 +1,7 @@
 # Base image versions
 ARG NOTEBOOK_VERSION=notebook-6.4.6
 ARG PYTHON_VERSION=3.10
-ARG ALPINE_VERSION=3.15
+ARG DEBIAN_VERSION=bullseye
 
 # Jupyter notebook image is used as the builder
 FROM jupyter/base-notebook:${NOTEBOOK_VERSION} AS builder
@@ -17,8 +17,8 @@ RUN jupyter nbconvert --to python python/*.ipynb && \
 # Ensure project file permissions are correct
 RUN chmod 755 python/*.py
 
-# Create final image from Python 3 + lxml (Alpine Linux)
-FROM logiqx/python-lxml:${PYTHON_VERSION}-alpine${ALPINE_VERSION}
+# Create final image from Python 3 (Debian Slim)
+FROM python:${PYTHON_VERSION}-slim-${DEBIAN_VERSION}
 
 # Note: Jovian is a fictional native inhabitant of the planet Jupiter
 ARG PY_USER=jovyan
@@ -27,17 +27,19 @@ ARG PY_UID=1000
 ARG PY_GID=1000
 
 # Create the Python user and work directory
-RUN addgroup -g ${PY_GID} ${PY_GROUP} && \
-    adduser -u ${PY_UID} --disabled-password ${PY_USER} -G ${PY_GROUP} && \
+RUN groupadd -g ${PY_GID} ${PY_GROUP} && \
+    useradd -u ${PY_UID} ${PY_USER} -g ${PY_GROUP} && \
     mkdir -p /home/${PY_USER}/work && \
     chown -R ${PY_USER} /home/${PY_USER}
 
 # Install Tini
-RUN apk add --no-cache tini=~0.19
+RUN apt-get update && apt-get install -y --no-install-recommends tini=0.19.* \
+    && rm -rf /var/lib/apt/lists/*
 
 # Install Python libraries
 RUN pip install --no-cache-dir \
     beautifulsoup4==4.10.* \
+    lxml==4.7.* \
     matplotlib==3.5.* \
     numpy==1.21.* \
     requests==2.26.* \
@@ -51,5 +53,5 @@ COPY --from=builder --chown=jovyan:jovyan /home/jovyan/work/covid-stats/ ./
 RUN mkdir data docs
 
 # Wait for CMD to exit, reap zombies and perform signal forwarding
-ENTRYPOINT ["/sbin/tini", "--"]
+ENTRYPOINT ["/usr/bin/tini", "--"]
 CMD ["python"]
