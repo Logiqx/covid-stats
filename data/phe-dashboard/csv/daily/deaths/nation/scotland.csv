@@ -663,8 +663,9 @@ date,areaName,deaths,deathsRollingRate,deathsReported
 2021-12-20,Scotland,5,0.7,0
 2021-12-21,Scotland,5,0.6,9
 2021-12-22,Scotland,1,0.6,11
-2021-12-23,Scotland,0,,11
+2021-12-23,Scotland,0,0.5,11
 2021-12-24,Scotland,,,10
 2021-12-25,Scotland,,,0
 2021-12-26,Scotland,,,0
 2021-12-27,Scotland,,,0
+2021-12-28,Scotland,,,0

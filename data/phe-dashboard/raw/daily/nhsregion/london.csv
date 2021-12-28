@@ -1,6 +1,7 @@
 date,areaName,admissions,admissionsRollingRate,patients,patientsMv,cumAdmissionsByAge
+2021-12-28,London,,,3024,216,[]
 2021-12-27,London,,,2640,232,[]
-2021-12-26,London,,,2425,224,[]
+2021-12-26,London,374,26.7,2425,224,"[{'age': '85+', 'rate': 8996.6, 'value': 13718}, {'age': '65_to_84', 'rate': 3342.7, 'value': 31621}, {'age': '18_to_64', 'rate': 756.6, 'value': 44309}, {'age': '0_to_5', 'rate': 210.5, 'value': 1509}, {'age': '6_to_17', 'rate': 106.3, 'value': 1414}]"
 2021-12-25,London,364,25.2,2295,213,"[{'age': '85+', 'rate': 8959.2, 'value': 13661}, {'age': '65_to_84', 'rate': 3331.8, 'value': 31518}, {'age': '18_to_64', 'rate': 753.4, 'value': 44121}, {'age': '0_to_5', 'rate': 207.7, 'value': 1489}, {'age': '6_to_17', 'rate': 105.8, 'value': 1408}]"
 2021-12-24,London,278,23.5,2260,207,"[{'age': '85+', 'rate': 8925.1, 'value': 13609}, {'age': '65_to_84', 'rate': 3317.4, 'value': 31382}, {'age': '18_to_64', 'rate': 750.7, 'value': 43962}, {'age': '0_to_5', 'rate': 205.9, 'value': 1476}, {'age': '6_to_17', 'rate': 105.5, 'value': 1404}]"
 2021-12-23,London,390,22.9,2097,196,"[{'age': '85+', 'rate': 8902.2, 'value': 13574}, {'age': '65_to_84', 'rate': 3309.8, 'value': 31310}, {'age': '18_to_64', 'rate': 747.9, 'value': 43803}, {'age': '0_to_5', 'rate': 204.5, 'value': 1466}, {'age': '6_to_17', 'rate': 105.3, 'value': 1402}]"
