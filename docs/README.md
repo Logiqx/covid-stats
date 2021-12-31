@@ -16,7 +16,7 @@ Here are some of my studies and articles relating COVID-19 in England and the UK
 
 - [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 30 December 2021
 
-- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 26 December 2021
+- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 31 December 2021
 
 - [Estimating Regional Deaths by Date of Occurrence](estimating-regional-occurrences/README.md) - 1 February 2021
 
