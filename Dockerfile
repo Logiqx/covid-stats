@@ -36,15 +36,21 @@ RUN groupadd -g ${PY_GID} ${PY_GROUP} && \
 RUN apt-get update && apt-get install -y --no-install-recommends tini=0.19.* \
     && rm -rf /var/lib/apt/lists/*
 
-# Install Python libraries
+# Install scientific libraries
+RUN pip install --no-cache-dir \
+    matplotlib==3.5.* \
+    numpy==1.21.* \
+    scipy==1.7.*
+
+# Install file reader libraries
 RUN pip install --no-cache-dir \
     beautifulsoup4==4.10.* \
     lxml==4.7.* \
-    matplotlib==3.5.* \
-    numpy==1.21.* \
-    requests==2.26.* \
-    scipy==1.7.* \
     xlrd==1.2.*
+
+# Install project specific libraries
+RUN pip install --no-cache-dir \
+    requests==2.26.*
 
 # Copy project files from the builder
 USER ${PY_USER}
