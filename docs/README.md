@@ -14,9 +14,9 @@ Here are some of my studies and articles relating COVID-19 in England and the UK
 
 - [Daily Trends for England](daily-trends/README.md) - Every few days (typically Tue, Thu, Sat)
 
-- [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 9 January 2021
+- [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 9 January 2022
 
-- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 14 January 2021
+- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 14 January 2022
 
 - [Estimating Regional Deaths by Date of Occurrence](estimating-regional-occurrences/README.md) - 1 February 2021
 
