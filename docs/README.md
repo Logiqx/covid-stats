@@ -12,14 +12,12 @@ You can find some of my video analysis on YouTube, mainly during the autumn of 2
 
 Here are some of my studies and articles relating COVID-19 in England and the UK:
 
-- [Daily Trends for England](daily-trends/README.md) - Every few days (typically Tue, Thu, Sat)
+- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 4 February 2023
 
 - [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 9 January 2022
-
-- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 14 January 2022
+- [Daily Trends for England](daily-trends/README.md) - Every few days (typically Tue, Thu, Sat)
 
 - [Estimating Regional Deaths by Date of Occurrence](estimating-regional-occurrences/README.md) - 1 February 2021
-
 - [Facts for England - November 2020](facts-england.md) - 18 December 2020
 
 - [Hospital Mortality in England](hospital-mortality-rates.md) - 23 November 2020
