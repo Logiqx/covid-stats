@@ -167,13 +167,13 @@ Calculation of age-standardised mortality rates (ASMRs) uses the vaccinated / un
 
 Any under-representation of the unvaccinated does not automatically inflate the unvaccinated ASMRs because this dataset is calculating the ASMR within the unvaccinated population sample. Under-representation of the unvaccinated also doesn't affect the denominator of the vaccinated sample so it does not directly impact the ASMR of the vaccinated.
 
-It is misleading to say that an under-representation of the unvaccinated in the census reduces the ASMRs of vaccinated group because they are calculated completely independently. The proportions of the vaccinated and unvaccinated groups are (in principle) somewhat irrelevant. What really matters is whether the samples are representative of that population and whether the "unidentified" persons are inherently more (or less) healthy than the persons in the vaccinated or unvaccinated population samples.
+It is misleading to say that an under-representation of the unvaccinated in the census reduces the ASMRs of the vaccinated group because they are calculated completely independently. The proportions of the vaccinated and unvaccinated groups are (in principle) somewhat irrelevant. What really matters is whether the samples are representative of that population and whether the "unidentified" persons are inherently more (or less) healthy than the persons in the vaccinated or unvaccinated population samples.
 
 One final point is that it's worth mentioning smaller groupings can make the 95% confidence intervals wider:
 
 > ASMR confidence is influenced by death occurrences and person-years in each vaccination status category. In December 2022, 66% of person-years were attributed to those who had a third dose over 21 days ago, and 15% were attributed to unvaccinated people. The remaining categories have much less confidence, which can be seen as wider, and often overlapping, confidence intervals. This is also especially true for the age breakdowns because there are even fewer deaths per status.
 
-I suspect that noisy data (especially for deaths in small groups and / or young persons) could lead to much wider confidence levels and may be why the ONS has chosen to use 10 year age bands such as 30-39, instead of 5 year age bands such as 30-34.
+I suspect that noisy data (especially for deaths in small groups and / or young persons) could lead to much wider confidence intervals and may be why the ONS has chosen to use 10 year age bands such as 30-39, instead of 5 year age bands such as 30-34.
 
 
 
@@ -220,23 +220,23 @@ It seems likely that there is however some copy / paste going on right at the en
 
 ### Population Size(s)
 
-The topic of ONS estimates vs NIMS estimates has repeatedly been cropping up for the past couple of years, The population according to NIMS is massively over-stated and I will do a second article on that specific topic. The neat thing about this particular dataset is that the ONS have avoided the issues presented by unknown denominators of the full populations by using representative samples; 91.6% of the census population.
+The topic of ONS vs NIMS population estimates has repeatedly been cropping up for the past couple of years, The population according to NIMS is massively over-stated and I will do a second article on that specific topic. The neat thing about this particular dataset is that the ONS have avoided the issues presented by unknown denominators of the full populations by using representative samples; 91.6% of the census population.
 
 It is true that any under-representation in the "unvaccinated" sample will mean that they will be over-represented in the "unidentified" group and this could influence the mortality rates reported for the "unvaccinated". Depending on the general health of unvaccinated persons in the "unidentified" group they may have better (or worse) mortality rates than the population identified as "unvaccinated".
 
-If you believe the unvaccinated sample from the census is half the true size of the unvaccinated population, there is clearly going to be concern over whether that sample if representative. This belief comes solely from the NIMS data though and I'll try to find time to write about that later.
+If you believe the unvaccinated sample from the census is half the true size of the unvaccinated population, there is clearly going to be concern over whether that sample if representative. This belief comes solely from the NIMS data though and I'll try to find time to write about that later, perhaps next week.
 
-For now, I'll just say that it's a very bold statement to claim the ONS census data with its 97% response rate, imputed persons for non-responses and deemed accurate to within 0.5% (95% confidence interval) is actually undercounting the population by around 12%.
+For now, I'll just say that it's a very bold statement to claim the ONS census data with its 97% response rate, imputed persons for non-responses and accuracy claimed to be within 0.5% (95% confidence interval) is actually undercounting the population by around 12%.
 
 Anyways, whatever the extent of any under-representation in the unvaccinated sample, it will not impact the mortality rates calculated for the large vaccinated sample of the population. The mortality rates of the vaccinated have their own numerators and denominators for ASMR calculations.
 
-Essentially, the debate is not one about a simple denominator issue. It is more to do with potential sample biases and of an understanding as to why people end up in the "unidentified" group. This article lists the reasons for persons ending up in that group and in terms of their general health (better or worse), who knows!
+Essentially, the debate is not one about a simple denominator issue. It is more to do with potential sample biases for the vaccinated and unvaccinated, specifically relating to why people end up in the "unidentified" group. This article lists the reasons for persons ending up in that group and in terms of whether their general health is better or worse, who knows!
 
-Interestingly, the latest dataset (91.6% of the census population) now shows higher age-standardised mortality rates in the unvaccinated group. This difference can be seen between the solid red and dotted red lines.
+Interestingly, the latest dataset (91.6% of the census population) now shows higher age-standardised mortality rates in the unvaccinated group. This difference can easily be seen between the solid red and dotted red lines. Conversely the blue line has hardly changed with an increase in May 22 (certainly due to registration delays) and an increase in Jul 21 which I have yet to investigate.
 
 ![asmr](img/asmr.jpg)
 
-Logically speaking this must be due to a fair number of persons gaining an NHS number and moving from the "unknown" group to the "vaccinated" group in the latest dataset. This could easily be due to more up-to-date names and address information from the 2021 census, rather than using out of date names and addresses from the 2011 census. 
+Logically speaking the increase in unvaccinated ASMR must be due to a fair number of persons gaining an NHS number and moving from the "unknown" group to the "vaccinated" group in the latest dataset. This could easily be due to more up-to-date names and address information from the 2021 census, rather than using out of date names and addresses from the 2011 census. 
 
 
 
@@ -244,13 +244,17 @@ Logically speaking this must be due to a fair number of persons gaining an NHS n
 
 Hopefully this article gives a little insight into how this dataset is being created by the ONS.
 
-It should be clear why Jan-Mar 2021 has now disappeared (due to the methodology) which is the one downside of the 2021 census data. Using names and addresses from the 2021 census is clearly preferable to the 2011 census data though, and it has more than halved the number of excluded persons.
+It should be clear why Jan-Mar 2021 has now disappeared (due to the methodology) which is the one downside of the 2021 census data. Using names and addresses from the 2021 census is clearly preferable to the 2011 census data though, and it has more than halved the number of excluded persons. It's certainly a shame that the first few months of 2021 are unavailable but processing of real-world data often involves compromises.
 
-By using census data the methodology neatly sidesteps the fundamental problems presented by unknown denominators, especially for the unvaccinated population. I'm also firmly of the opinion that ONS population estimates from 2021 are way more accurate than counting NHS numbers known to NIMS. I'll try to write up something about NIMS vs ONS population in the near future.
+By using census data the methodology neatly sidesteps the fundamental problems presented by unknown denominators, especially for the unvaccinated population. There is a fair bit of talk about the unvaccinated population size being under-represented but that is based solely on the belief that NIMS is providing an accurate populate estimate.
 
-I don't know why children have been removed from this release (i.e. under 18). It could be related to using the the personal demographics service whereas previously editions used the Public Health Data Asset (PHDA, specific to the 2011 census).
+I'm firmly of the opinion that ONS population estimates from 2021 are way more accurate than simply counting NHS numbers known to NIMS. I'll try to write up something about NIMS vs ONS for population estimates in the near future. If you believe the census figure, unvaccinated persons aren't really under-represented in the population samples from the 2021 census.
 
-It would be nice to see 5 year age-bands, if possible. The 10 year age-bands may however be better suited due to the resultant tighter confidence intervals. It would be nice if both of these points (children and 5 year age bands) could be clarified by someone at the ONS.
+There are plenty of dodgy graphs using this dataset; either showing simple counts of deaths, crude mortality rates (not age adjusted) or charts for individual age groups, manipulated by alternative denominators. It's quite amazing how many people still fall for such misleading charts.
+
+I don't know why children have been removed from this release (i.e. under 18). It could be related to the Personal Demographics Service for the 2021 census data, whereas previously editions used the Public Health Data Asset (PHDA), specific to the 2011 census.
+
+It would also be nice to see 5 year age bands, if possible. The 10 year age bands may however be better suited due to the resultant tighter confidence  intervals. Perhaps both of these points (children and 5 year age bands) will be clarified by someone at the ONS.
 
 Anyways, that's all folks. I hope this article was interesting and / or useful.
 
