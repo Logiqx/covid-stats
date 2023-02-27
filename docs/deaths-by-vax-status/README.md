@@ -236,7 +236,7 @@ Interestingly, the latest dataset (91.6% of the census population) now shows hig
 
 ![asmr](img/asmr.jpg)
 
-Logically speaking the increase in unvaccinated ASMR must be due to a fair number of persons gaining an NHS number and moving from the "unknown" group to the "vaccinated" group in the latest dataset. This could easily be due to more up-to-date names and address information from the 2021 census, rather than using out of date names and addresses from the 2011 census. 
+Thinking logically the increase in unvaccinated ASMR will likely be due to a fair number of persons gaining an NHS number and moving from the "unknown" group to the "vaccinated" group in the latest dataset. This could easily be due to more up-to-date name and address information from the 2021 census, rather than using out of date names and addresses from the 2011 census. 
 
 
 
@@ -251,8 +251,6 @@ By using census data the methodology neatly sidesteps the fundamental problems p
 I'm firmly of the opinion that ONS population estimates from 2021 are way more accurate than simply counting NHS numbers known to NIMS. I'll try to write up something about NIMS vs ONS for population estimates in the near future. If you believe the census figure, unvaccinated persons aren't really under-represented in the population samples from the 2021 census.
 
 There are plenty of dodgy graphs using this dataset; either showing simple counts of deaths, crude mortality rates (not age adjusted) or charts for individual age groups, manipulated by alternative denominators. It's quite amazing how many people still fall for such misleading charts.
-
-I don't know why children have been removed from this release (i.e. under 18). It could be related to the Personal Demographics Service for the 2021 census data, whereas previously editions used the Public Health Data Asset (PHDA), specific to the 2011 census.
 
 It would also be nice to see 5 year age bands, if possible. The 10 year age bands may however be better suited due to the resultant tighter confidence  intervals. Perhaps both of these points (children and 5 year age bands) will be clarified by someone at the ONS.
 
