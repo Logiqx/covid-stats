@@ -204,9 +204,11 @@ The UKHSA have specifically mentioned that one of the basic problems with NIMS i
 
 It may be worth clarifying what the vaccination data available from the [UKHSA website](https://coronavirus.data.gov.uk/details/vaccinations?areaType=nation&areaName=England) actually represents.
 
-This screen grab is saying that 13.9% of today's 80-84 year-olds had received their first dose by 1 Jan 2021. It does NOT say that 13.9% of 80-84 years on 1 Jan 2021 had received their first dose. This data (even via the API) cannot be used to determine how many doses were administered to specific age groups for dates in the past, nor how many people were in the NIMS "national citizen list" for a specific age-group for dates in the past.
+The screen grab blow is showing that 13.9% of today's 80-84 year-olds received their first dose by 1 Jan 2021. It does NOT say that 13.9% of 80-84 years on 1 Jan 2021 had received their first dose. This data (even via the API) cannot be used directly to determine how many doses were administered to specific age groups for dates in the past, nor how many people were in the NIMS "national citizen list" for a specific age-group for dates in the past. *
 
-Any analysis attempting to match historical vaccination rates with death registrations from an ONS dataset (e.g. deaths by vaccination status) will almost certainly be matching vaccination rates based on the people alive today to the deaths of others occurring in the past. The results will likely be confusing and undoubtedly misleading.
+Any analysis attempting to match historical vaccination rates with death registrations from an ONS dataset (e.g. deaths by vaccination status) could eaily be matching vaccination rates based on the people alive today to the deaths of others occurring in the past. Data from such analysis will likely be confusing and undoubtedly misleading.
+
+\* It is possible to retrieve some historical / archive data using the [API](https://coronavirus.data.gov.uk/details/download) but caution is required prior to 22 April 2022. This is because of the way that ages were split into cohorts using fixed dates prior to that date, described below.
 
 ![img](img/vaccine_demographics.png)
 
@@ -216,11 +218,13 @@ Documentation of the vaccination metrics is available on the UKHSA dashboard. Fo
 
 - Cumulative people vaccinated 1st dose by vaccination date - [documentation](https://coronavirus.data.gov.uk/metrics/doc/cumPeopleVaccinatedFirstDoseByVaccinationDate).
 
-It is also worth noting that the way that ages are calculated has changed over time:
+It is important to note the way that ages have been calculated and how the definition has changed over time:
 
 - Since 12 April 2022, vaccination statistics have been based on the current age - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/fbe151fe-6a28-4f86-940c-1369c2f4b4b1) documentation.
   - This affects many metrics, such as the current size of the eligible population (according to NIMS), vaccination counts and rates.
-- Prior to 12 April 2022, ages were based on fixed dates - e.g. 31 Mar 2021 or 31 Aug 2021. 
+- Prior to 12 April 2022, ages were based on fixed dates - e.g. 31 Aug 2021 or 31 Mar 2021. 
+  - This nuance can have a significant impact, especially when analysing the data for highly the vaccinated age groups.
+
 
 
 
@@ -231,6 +235,8 @@ The NHS [vaccine reports](https://www.england.nhs.uk/statistics/statistical-work
 - Prior to Oct 2021, ages of individuals were based on age as at 31 Mar 2021.
 - Until Apr 2022, ages of individuals were based on age as at 31 Aug 2021.
 - Since Apr 2022, ages of individuals have been based on age as of the date of the data extract.
+
+This nuance can have a significant impact, especially when analysing the data for highly the vaccinated age groups.
 
 
 
@@ -260,7 +266,7 @@ The cover sheets in a number of NHS spreadsheets said the following:
 
 ### Summary
 
-Ok, that was a lot of stuff just about where the population data for NIMS originates and what it represents in the NHS reports and on the UKHSA dashboard.
+Ok, that was a lot of stuff just about where the population data for NIMS originates and what it represents in the NHS reports and on the UKHSA dashboard. It is also important to take note of the age-related data nuances prior to mid-April 2022.
 
 TLDR - The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS) which is a list of all patients potentially eligible for vaccination. In the context of NIMS the PDS is a list of all patients ever registered with a GP practice in England, or ever treated by a health or care organisation who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated.
 
