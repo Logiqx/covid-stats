@@ -47,9 +47,11 @@ NIMS initially received a bulk extract of patient details and demographical data
 
 #### Summary
 
-Spine and the Personal Demographics Service (PDS) went live in June 2004.
+Spine and the Personal Demographics Service (PDS) went live in June 2004. Details of the National Programme for IT in the NHS can be found on the parliament.uk website:
 
-Documentation from 2006/2007 provides some useful insights into the Personal Demographics Service (PDS):
+![img](img/national-programme-for-it.png)
+
+The documentation from 2006/2007 provides some useful insights into the Personal Demographics Service (PDS):
 
 > The Personal Demographic Service contains a record for every person who has registered for primary care services (registered with a GP) since 1991 in England, Wales and the Isle of Man. The PDS also includes a record for every baby born since 2002. This represents the majority of the total patient population.
 > 
@@ -64,9 +66,13 @@ Documentation from 2006/2007 provides some useful insights into the Personal Dem
 > - Deceased patient records.
 > - Patients who have emigrated since 1991.
 
-Note how it explicitly states "the Personal Demographic Service is not a population database" and lists several reasons, including duplicate records, deceased patients and patients who have emigrated since 1991.
+For completeness here is a screenshot where the two pages have been combined:
 
-Basic information about the PDS and its role in the spine can be found in a document produced for the parliamentary select committee:
+![img](img/pds-population.png)
+
+Note how this answer explicitly states "the Personal Demographic Service is not a population database" and lists several reasons why it contains 23 million people more than the population of England; including duplicate records, deceased patients and patients who have emigrated since 1991.
+
+Basic information about the PDS and its role in the spine can be found in the document produced for the parliamentary select committee:
 
 - [Select Committee on Public Accounts - Minutes of Evidence](https://publications.parliament.uk/pa/cm200607/cmselect/cmpubacc/390/6062629.htm)
   - [Department of Health: The National Programme for IT in the NHS - Twentieth Report of Session 2006–07](https://publications.parliament.uk/pa/cm200607/cmselect/cmpubacc/390/390.pdf)
@@ -88,7 +94,11 @@ To quote the current NHS Digital [website](https://digital.nhs.uk/developer/api-
 > 
 >All patients in PDS have an NHS number which is unique. The 10-digit NHS number is used in England, Wales, the Isle of Man, Scotland and Northern Ireland, but not the Channel Islands. Scotland and Northern Ireland have their own distinct number ranges.
 
-This makes it clear that the PDS includes all patients who have ever been registered with a GP practice, or treated by a health or care organisation, regardless of nationality, or where they live now. It also begs the question, how do the the National Back Office (NBO) ensure that it reflects the true population and captures all emigration?
+Just for completeness, here is a screenshot of the webpage:
+
+![img](img/patients-in-dps.png)
+
+This statement makes it very clear that the PDS includes all patients who have ever been registered with a GP practice, or treated by a health or care organisation, regardless of nationality, or where they live now. It also begs the question, how do the the National Back Office (NBO) ensure that it reflects the true population and how do they handle emigration?
 
 
 
