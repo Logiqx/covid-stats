@@ -220,10 +220,12 @@ Documentation of the vaccination metrics is available on the UKHSA dashboard. Fo
 
 It is important to note the way that ages have been calculated and how the definition has changed over time:
 
-- Since 12 April 2022, vaccination statistics have been based on the current age - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/fbe151fe-6a28-4f86-940c-1369c2f4b4b1) documentation.
-  - This affects many metrics, such as the current size of the eligible population (according to NIMS), vaccination counts and rates.
-- Prior to 12 April 2022, ages were based on fixed dates - e.g. 31 Aug 2021 or 31 Mar 2021. 
+- Prior to 28 Oct 2021, ages were based on a fixed date - 31 Mar 2021 - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/6dc2944a-b95f-4452-8f77-fdf14ae6bdde) documentation.
   - This nuance can have a significant impact, especially when analysing the data for highly the vaccinated age groups.
+- Prior to 12 April 2022, ages were based on a fixed date - 31 Aug 2021 - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/fbe151fe-6a28-4f86-940c-1369c2f4b4b1) documentation.
+  - This nuance can have a significant impact, especially when analysing the data for highly the vaccinated age groups.
+- Since 12 April 2022, vaccination statistics have been based on the current age - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/fbe151fe-6a28-4f86-940c-1369c2f4b4b1) documentation.
+  - This affects many metrics, including the size of the eligible population (according to NIMS), vaccination counts and rates.
 
 
 
@@ -232,11 +234,11 @@ It is important to note the way that ages have been calculated and how the defin
 
 The NHS [vaccine reports](https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-vaccinations/) (weekly and monthly) have also changed the way they have calculated ages, just like the UKHSA:
 
-- Prior to Oct 2021, ages of individuals were based on age as at 31 Mar 2021.
-- Until Apr 2022, ages of individuals were based on age as at 31 Aug 2021.
-- Since Apr 2022, ages of individuals have been based on age as of the date of the data extract.
+- Prior to late-Oct 2021, ages of individuals were based on age as-of 31 Mar 2021.
+- Prior to mid-Apr 2022, ages of individuals were based on age as-of 31 Aug 2021.
+- Since Apr 2022, ages of individuals have been based on age as-of the date of the data extract.
 
-This nuance can have a significant impact, especially when analysing the data for highly the vaccinated age groups.
+These nuances can have a significant impact, especially when analysing the data for highly the vaccinated age groups.
 
 
 
@@ -266,7 +268,7 @@ The cover sheets in a number of NHS spreadsheets said the following:
 
 ### Summary
 
-Ok, that was a lot of stuff just about where the population data for NIMS originates and what it represents in the NHS reports and on the UKHSA dashboard. It is also important to take note of the age-related data nuances prior to mid-April 2022.
+Ok, that was a lot of stuff just about where the population data for NIMS originates and what it represents in the NHS reports and on the UKHSA dashboard. It is also important to take note of the age-related nuances in the vaccination data prior to mid-April 2022.
 
 TLDR - The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS) which is a list of all patients potentially eligible for vaccination. In the context of NIMS the PDS is a list of all patients ever registered with a GP practice in England, or ever treated by a health or care organisation who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated.
 
