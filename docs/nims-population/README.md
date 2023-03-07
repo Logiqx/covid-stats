@@ -155,7 +155,7 @@ The following links may prove useful to anyone reading the DPIA and encountering
 
 #### Additional NIMS Insights
 
-There is quite a lot to be gleaned about the data and and out of NIMS in the [Data Protection Impact Assessment](https://www.england.nhs.uk/publication/data-protection-impact-assessment-national-flu-and-covid-19-vaccination-programme-including-the-national-immunisation-management-service-nims/).
+There is quite a lot to be gleaned about the data in and out of NIMS in the [Data Protection Impact Assessment](https://www.england.nhs.uk/publication/data-protection-impact-assessment-national-flu-and-covid-19-vaccination-programme-including-the-national-immunisation-management-service-nims/).
 
 - Searching for "sdrs" and pds" shows the section(s) related to PDS data loaded into NIMS.
   - 24/08/2020 – initial SDRS feed (demographic data feed)
@@ -220,7 +220,7 @@ It is also worth noting that the way that ages are calculated has changed over t
 
 - Since 12 April 2022, vaccination statistics have been based on the current age - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/fbe151fe-6a28-4f86-940c-1369c2f4b4b1) documentation.
   - This affects many metrics, such as the current size of the eligible population (according to NIMS), vaccination counts and rates.
-- Prior to 12 April 2022, aged were based on fixed dates - e.g. 31 Mar 2021 or 31 Aug 2021. 
+- Prior to 12 April 2022, ages were based on fixed dates - e.g. 31 Mar 2021 or 31 Aug 2021. 
 
 
 
@@ -260,7 +260,7 @@ The cover sheets in a number of NHS spreadsheets said the following:
 
 ### Summary
 
-Ok, that was a lot of stuff just about where the population data for NIMS comes originates and what it represents in the NHS reports and on the UKHSA dashboard.
+Ok, that was a lot of stuff just about where the population data for NIMS originates and what it represents in the NHS reports and on the UKHSA dashboard.
 
 TLDR - The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS) which is a list of all patients potentially eligible for vaccination. In the context of NIMS the PDS is a list of all patients ever registered with a GP practice in England, or ever treated by a health or care organisation who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated.
 
