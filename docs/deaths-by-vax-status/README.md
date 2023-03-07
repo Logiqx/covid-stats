@@ -236,7 +236,11 @@ Interestingly, the latest dataset (91.6% of the census population) now shows hig
 
 ![asmr](img/asmr.jpg)
 
-Thinking logically the increase in unvaccinated ASMR will likely be due to a fair number of persons gaining an NHS number and moving from the "unknown" group to the "vaccinated" group in the latest dataset. This could easily be due to more up-to-date name and address information from the 2021 census, rather than using out of date names and addresses from the 2011 census. 
+Thinking logically the increase in unvaccinated ASMR will likely be due to a fair number of persons gaining an NHS number and moving from the "unknown" group to the "vaccinated" group in the latest dataset. This could easily be due to more up-to-date name and address information from the 2021 census, rather than using out of date names and addresses from the 2011 census.
+
+It is much the same story for the equivalent graph for COVID-19 related deaths:
+
+![asmr](img/asmr_covid.jpg)
 
 
 
