@@ -1,4 +1,4 @@
-## NIMS and the PDS
+## National Immunisation Management System (NIMS) and the PDS
 
 ### Background
 
@@ -6,7 +6,7 @@ This article is a collation of the various resources that I read to gain an unde
 
 The NHS consists of over 27,000 individual organisations (e.g., primary and secondary care sites, pharmacies, opticians, dentists), so a standardised system for transferring information is seen as essential. The NHS spine is the name given by the NHS to a collection of local and national databases and systems containing both patient's clinical and demographic information. The spine was developed and is maintained by NHS Digital.
 
-The spine connects a wide range of systems, including the Personal Demographics Service (PDS) – a database storing NHS Number and patient demographic information. Regardless of nationality, or where they live now, PDS includes all patients who have ever been registered with a GP practice, or treated by an NHS health or care organisation (even as a visitor or migrant). The PDS database contains patient details going back to 1991.
+The spine connects a wide range of systems, including the Personal Demographics Service (PDS) – a database storing NHS Number and patient demographic information. Regardless of nationality, or where they live now, the PDS includes all patients who have ever been registered with a GP practice, or treated by an NHS health or care organisation (even as a visitor or migrant). The PDS database contains patient details going back to 1991.
 
 The PDS provides a list of all patients eligible for vaccination to NIMS. NIMS contains all of the patients from the PDS; i.e. all patients ever registered with a GP practice, or ever treated by a health or care organisation. Data quality issues in the PDS will propagate directly into NIMS, so it will also include a significant number of duplicate records, deceased patient records, and patients who have emigrated since 1991.
 
@@ -38,7 +38,7 @@ The PDS and the National Back Office (NBO) share responsibility for managing the
 
 NHS England commissioned the NHS South, Central and West CSU (which is part of NHS England) to implement a National Immunisation Management Service (NIMS). The implementation of NIMS delivers a centralised service for the management of seasonal flu immunisation and clinical cohorts as part of the call / recall service for COVID vaccinations
 
-NIMS initially received a bulk extract of patient details and demographical data from the PDS. Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people currently living in England and where PDS does not have them flagged as deceased.
+NIMS initially received a bulk extract of patient details and demographical data from the PDS. Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where PDS does not have them flagged as deceased.
 
 
 
@@ -70,9 +70,9 @@ For completeness here is a screenshot where the two pages have been combined:
 
 ![img](img/pds-population.png)
 
-Note how this answer explicitly states "the Personal Demographic Service is not a population database" and lists several reasons why it contains 23 million people more than the population of England; including duplicate records, deceased patients and patients who have emigrated since 1991.
+Note how the PDS contains a record for every person who has ever registered for primary care services (i.e. registered with a GP) since 1991. The statement also says "the Personal Demographic Service is not a population database" and lists several reasons why it contains 23 million people more than the 50 million population of England; including duplicate records, deceased patients and patients who have emigrated.
 
-Basic information about the PDS and its role in the spine can be found in the document produced for the parliamentary select committee:
+Basic information about the PDS and its role in the spine can be found in the full document produced for the parliamentary select committee:
 
 - [Select Committee on Public Accounts - Minutes of Evidence](https://publications.parliament.uk/pa/cm200607/cmselect/cmpubacc/390/6062629.htm)
   - [Department of Health: The National Programme for IT in the NHS - Twentieth Report of Session 2006–07](https://publications.parliament.uk/pa/cm200607/cmselect/cmpubacc/390/390.pdf)
@@ -94,11 +94,11 @@ To quote the current NHS Digital [website](https://digital.nhs.uk/developer/api-
 > 
 >All patients in PDS have an NHS number which is unique. The 10-digit NHS number is used in England, Wales, the Isle of Man, Scotland and Northern Ireland, but not the Channel Islands. Scotland and Northern Ireland have their own distinct number ranges.
 
-Just for completeness, here is a screenshot of the webpage:
+Just for completeness, here is a screenshot of the webpage as well:
 
 ![img](img/patients-in-dps.png)
 
-This statement makes it very clear that the PDS includes all patients who have ever been registered with a GP practice, or treated by a health or care organisation, regardless of nationality, or where they live now. It also begs the question, how do the the National Back Office (NBO) ensure that it reflects the true population and how do they handle emigration?
+This statement makes it very clear that the PDS includes all patients who have ever been registered with a GP practice, or been treated by a health or care organisation, regardless of nationality, or where they live now. It also begs the question, how do the the National Back Office (NBO) ensure that it reflects the true population and how do they handle emigration?
 
 
 
@@ -114,24 +114,24 @@ Various links which provide some further background relating to the PDS and data
 The following document is also useful for understanding the history of NHS systems and what is stored in the PDS:
 
 - [NHS Numbers and their management systems](https://www.closer.ac.uk/wp-content/uploads/CLOSER-resource-NHS-Numbers-and-their-management-systems.pdf) by Andy Boyd, Richard Thomas, John Macleod
-  - This mentions main, temporary and correspondence addresses being stored in the PDS
+  - This also shows that main, temporary and correspondence addresses are being stored in the PDS
 
 People who wish to see details of the API and how it can be searched:
 
 - Look at the developer [documentation](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir#api-Default-search-patient).
-  - e.g. It is possible to search using given name, family name, postcode and date of birth.
+  - e.g. It is possible to search for a patient using their given name, family name, postcode and date of birth.
 
 
 
 ### NIMS
 
-Now that the PDS has been described at some length, it can be considered within the context of NIMS.
+Now that the PDS has been described at length, it can be considered within the context of NIMS.
 
 A good overview of NIMS can be found in the [Data Protection Impact Assessment](https://www.england.nhs.uk/publication/data-protection-impact-assessment-national-flu-and-covid-19-vaccination-programme-including-the-national-immunisation-management-service-nims/). It includes a logical system architecture of all of the data flows (shown below) and data feeds from the PDS are highlighted in red.
 
 There was initially a bulk transfer from the PDS (D1b), followed by daily updates ever since (D1). A real-time feed / interface is also mentioned in the DPIA (D2) but it's not clear whether that has ever been implemented.![img](img/nims_overview_highlighted.png)
 
-A few quotes from the DPIA confirm that the PDS is the source of the "national citizen list" in NIMS:
+A few quotes from the DPIA confirm that the PDS is the source of the so-called "national citizen list" in NIMS:
 
 > NIMS will be supported by an Immunisation Management System (IMS). This platform will integrate new instances of CarePlus and CareCentric. It will be populated initially with demographic data representing the population of England from the Personal Demographics Service which is processed by NHS Digital under Direction of the Department of Health and Social Care and NHS England. It will subsequently receive regular updates to ensure that the two systems remain synchronised.
 >
@@ -139,11 +139,11 @@ A few quotes from the DPIA confirm that the PDS is the source of the "national c
 >
 > To this end the Immunisation Management System (IMS), the central database that supports the NIMS will be populated with demographic information from the Personal Demographics Service for everyone resident and registered with a GP in England.
 
-So, to summarise NIMS contains demographic information from the Personal Demographics Service (PDS) for everyone known to the NHS, thought to be resident in England. NIMS receives daily updates from the PDS and will be subject to the same data quality issues as the PDS itself; e.g. duplicate NHS Numbers, confused records, incorrect demographic data, incorrectly set death status and people who have emigrated but their departure is unknown to the NHS.
+To summarise, NIMS contains demographic information from the Personal Demographics Service (PDS) for everyone known to the NHS, thought to be resident in England. NIMS receives daily updates from the PDS and will be subject to the same data quality issues as the PDS itself; e.g. duplicate NHS Numbers, confused records, incorrect demographic data, incorrectly set death status and people who have emigrated but their departure is unknown to the NHS.
 
 
 
-The following links may prove useful to anyone reading the DPIA and encountering unfamiliar acronyms:
+The following links may prove useful to anyone reading the DPIA and encountering unfamiliar acronyms representing NHS systems:
 
 - [Improving our Data Processing Services (DPS)](https://digital.nhs.uk/data-and-information/data-insights-and-statistics/improving-our-data-processing-services)
 - [Spine Mini Service Provider for Personal Demographics Service (SMSP)](https://digital.nhs.uk/services/spine/spine-mini-service-provider-for-personal-demographics-service)
@@ -155,10 +155,10 @@ The following links may prove useful to anyone reading the DPIA and encountering
 
 #### Additional NIMS Insights
 
-There is quite a lot to be gleaned from the NIMS [Data Protection Impact Assessment](https://www.england.nhs.uk/publication/data-protection-impact-assessment-national-flu-and-covid-19-vaccination-programme-including-the-national-immunisation-management-service-nims/).
+There is quite a lot to be gleaned about the data and and out of NIMS in the [Data Protection Impact Assessment](https://www.england.nhs.uk/publication/data-protection-impact-assessment-national-flu-and-covid-19-vaccination-programme-including-the-national-immunisation-management-service-nims/).
 
 - Searching for "sdrs" and pds" shows the section(s) related to PDS data loaded into NIMS.
-  - e.g. 24/08/2020 – initial SDRS feed (demographic data feed)
+  - 24/08/2020 – initial SDRS feed (demographic data feed)
 - Searching for "death" and " ons " shows the section(s) related to the ONS extract for the deaths by vaccination status.
   - TRE1: Trusted Research Environments (TREs). To make de-identified NIMS COVID-19 vaccination data available for scientific research and statistical analysis purposes through the ONS Secure Research Service (SRS) to Accredited Researchers including those working for the Accredited Projects of SPI-M members, AND To link the vaccination data to other data held by ONS.
 - Searching for "phe" shows the section(s) related to the PHE extract for vaccine surveillance and dashboard reports.
@@ -178,11 +178,11 @@ Examples of data quality incidents are described on the NBO [website](https://di
 
 #### Migration
 
-Failure to remove emigrants from the Personal Demographics Service (PDS) is another way that "ghost" records can accumulate over time. Immediately after it's creation the PDS did not have duplicates and ghosts removed because CHRIS was still the master database. Nowadays the PDS is the master database and needs to be maintained by the NBO.
+Failure to remove emigrants from the Personal Demographics Service (PDS) is another way that "ghost" records can accumulate over time. Immediately after it's creation the PDS did not have duplicates and ghosts removed because CHRIS was still the master database. Nowadays the PDS is the master database and it is maintained by the NBO. The challenges faced by the NBO, relating to the data quality should not be underestimated.
 
 Practice relating to permanent emigration has changed over time. Historically, permanent embarkation (emigration) was recorded as a result of patients handing in their ‘medical card’ at the point of emigration. The move away from using ‘medical cards’ has meant this practice no longer occurs and may as a result lead to some under-reporting of emigration.
 
-In Northern Ireland only an estimated three out of five patients leaving Northern Ireland to go abroad notify their family GP.
+In Northern Ireland, only an estimated three out of five patients leaving country to live abroad notify their family GP.
 
 Note about medical cards from [NHS England](https://www.england.nhs.uk/contact-us/how-can-we-help/#how-do-i-get-a-medical-card):
 
@@ -202,34 +202,34 @@ The UKHSA have specifically mentioned that one of the basic problems with NIMS i
 
 #### UKHSA Dashboard
 
-It is worth noting what the vaccination data available from the UKHSA website actually represents.
+It may be worth clarifying what the vaccination data available from the [UKHSA website](https://coronavirus.data.gov.uk/details/vaccinations?areaType=nation&areaName=England) actually represents.
 
-This screen grab is saying that 13.9% of today's 80-84 year-olds had received their first dose by 1 Jan 2021. It does NOT say that 13.9% of 80-84 years on 1 Jan 2021 had received their first dose. This data (even via the API) cannot be used to determine the number of doses were administered to specific age groups for dates in the past, or how many people were in the NIMS "national citizen list" for a specific age-group for dates in the past.
+This screen grab is saying that 13.9% of today's 80-84 year-olds had received their first dose by 1 Jan 2021. It does NOT say that 13.9% of 80-84 years on 1 Jan 2021 had received their first dose. This data (even via the API) cannot be used to determine how many doses were administered to specific age groups for dates in the past, nor how many people were in the NIMS "national citizen list" for a specific age-group for dates in the past.
 
-Any analysis claiming to match historical vaccination rates to death registrations from an ONS dataset (e.g. deaths by vaccination status) will almost certainly be matching vaccination rates based on people alive today and deaths occurring in the past. The results will likely be confusing and misleading.
+Any analysis attempting to match historical vaccination rates with death registrations from an ONS dataset (e.g. deaths by vaccination status) will almost certainly be matching vaccination rates based on the people alive today to the deaths of others occurring in the past. The results will likely be confusing and undoubtedly misleading.
 
 ![img](img/vaccine_demographics.png)
 
 
 
-Documentation of the metrics is available on the dashboard itself. For example:
+Documentation of the vaccination metrics is available on the UKHSA dashboard. For example:
 
 - Cumulative people vaccinated 1st dose by vaccination date - [documentation](https://coronavirus.data.gov.uk/metrics/doc/cumPeopleVaccinatedFirstDoseByVaccinationDate).
 
 It is also worth noting that the way that ages are calculated has changed over time:
 
 - Since 12 April 2022, vaccination statistics have been based on the current age - see [change](https://coronavirus.data.gov.uk/details/whats-new/record/fbe151fe-6a28-4f86-940c-1369c2f4b4b1) documentation.
-  - This affects metrics such as the current size of the eligible population (according to NIMS), vaccination counts and rates.
+  - This affects many metrics, such as the current size of the eligible population (according to NIMS), vaccination counts and rates.
 - Prior to 12 April 2022, aged were based on fixed dates - e.g. 31 Mar 2021 or 31 Aug 2021. 
 
 
 
 #### NHS Extracts
 
-The NHS vaccine report (weekly and monthly) have also changed the way they have calculated ages:
+The NHS [vaccine reports](https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-vaccinations/) (weekly and monthly) have also changed the way they have calculated ages, just like the UKHSA:
 
 - Prior to Oct 2021, ages of individuals were based on age as at 31 Mar 2021.
-- Up until Apr 2022, ages of individuals were based on age as at 31 Aug 2021.
+- Until Apr 2022, ages of individuals were based on age as at 31 Aug 2021.
 - Since Apr 2022, ages of individuals have been based on age as of the date of the data extract.
 
 
@@ -260,6 +260,8 @@ The cover sheets in a number of NHS spreadsheets said the following:
 
 ### Summary
 
-Ok, that was a lot of stuff just about where the population data for NIMS comes originates.
+Ok, that was a lot of stuff just about where the population data for NIMS comes originates and what it represents in the NHS reports and on the UKHSA dashboard.
 
-TLDR - The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS) which is a list of all patients potentially eligible for vaccination. The PDS is a list of all patients ever registered with a GP practice, or ever treated by a health or care organisation who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated.
+TLDR - The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS) which is a list of all patients potentially eligible for vaccination. In the context of NIMS the PDS is a list of all patients ever registered with a GP practice in England, or ever treated by a health or care organisation who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated.
+
+NIMS is not the suitable for population estimates, but showing that with actual data is an entirely different article!
