@@ -1,5 +1,9 @@
 ## Population Size - NIMS or ONS?
 
+Author: Michael George
+
+Created: 8 March 2023
+
 ![img](img/nims_vs_ons.jpg)
 
 

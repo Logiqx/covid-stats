@@ -1,5 +1,11 @@
 ## National Immunisation Management System (NIMS) and the PDS
 
+Author: Michael George
+
+Created: 8 March 2023
+
+
+
 ### Background
 
 This article is a collation of the various resources that I read to gain an understanding of where NIMS gets its population data and what the data represents. The article links to more content than I really wanted to know about the NHS systems, but the sources did prove invaluable in understanding how NIMS has acquired its population data. All of the content is publicly available and was easy to find via Google.
