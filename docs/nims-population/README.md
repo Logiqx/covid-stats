@@ -115,7 +115,7 @@ Note that these figures show the total population, including persons under the a
 
 NHS England commissioned the NHS South, Central and West CSU (which is part of NHS England) to implement a National Immunisation Management Service (NIMS). The implementation of NIMS delivers a centralised service for the management of seasonal flu immunisation and clinical cohorts as part of the call / recall service for COVID vaccinations
 
-NIMS initially received a bulk extract of basic contact details (not medical history) and demographical data from the PDS. Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where the PDS does not have them flagged as deceased.
+NIMS initially received a bulk extract of basic patient details (not medical history) and demographical data from the PDS. Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where the PDS does not have them flagged as deceased.
 
 I have written a detailed [article](provenance.md) looking at the provenance of population data in NIMS. Feel free to read it if you wish but it can be summarised as follows:
 
@@ -125,13 +125,13 @@ The PDS explicitly states that it is not a population database:
 
 ![img](img/pds-population.png)
 
-Note how the initial load consisted of 73 million records for the 50 million people living in England, approximately 3 million in Wales and then a mix of people from other countries, duplicates, deceased and persons who had emigrated.
+Note how the PDS contained of 73 million records at that time. for the 50 million people living in England, approximately 3 million in Wales, people from other countries, duplicates, deceased and persons who had emigrated.
 
 Additional information on the NHS Digital [website](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir#api-description__overview) is also pertinent:
 
 ![img](img/patients-in-dps.png)
 
-The patient lists from the PDS flow straight into NIMS so any data quality issues in the PDS will also be present in the NIMS database. The National Back Office (NBO) are responsible for the data in the PDS and the challenges they face should not be underestimated. Ghost records can and do occur in the system and I have discussed them in more detail in a separate [article](provenance.md) that I wrote regarding the data provenance..
+The patient lists from the PDS flow straight into NIMS so any data quality issues in the PDS will also be present in the NIMS database. The National Back Office (NBO) are responsible for the data in the PDS and the challenges they face should not be underestimated. Ghost records can and do occur in the system and I have discussed them in more detail in a separate [article](provenance.md) that I wrote regarding the data provenance.
 
 
 
@@ -140,18 +140,12 @@ The patient lists from the PDS flow straight into NIMS so any data quality issue
 I have yet to see a genuine explanation as to why some people believe NIMS is appropriate for population estimates. Points to consider:
 
 - 97% of all households and individuals completed the census.
-
-- The other 3% of households are easily identifiable via sources such as Post Office Address File (PAF).
-
-- The census estimated the adult population in England at 44.7 million +/- 0.2%, so between 44.6 and 44.8 million, included imputed persons.
-
-- NIMS receives a list of persons from PDS. The PDS list includes everyone ever registered with the NHS in England, if thought to be living.
-
+- The other 3% of households would have been easily identifiable via sources such as the Post Office Address File (PAF).
+- The census imputed persons for the 3% of households that did not complete a census return and they are all included in the population estimates.
+- The census estimated the adult population in England at 44.7 million +/- 0.2%, so between 44.6 and 44.8 million, included the imputed persons.
+- NIMS receives a list of persons from PDS. The PDS database includes everyone ever registered with the NHS in England, if thought to be living.
 - NIMS had an adult population of 49.4 million around the time of the census. This is 10% higher than the adult population determined by the census.
-
-- How could the ONS have "missed" slightly over 10% of all adults living in England, given such a high response rate and +/- 0.2% accuracy?
-
-- The census imputed persons for the 3% of households that did not complete a census return and they are included in the population estimates.
+- How could the ONS have "missed" slightly over 10% (4.6 million) of all adults living in England, given such a high response rate and +/- 0.2% accuracy?
 
 So, now let's look at a bit more real data relating to the census and NIMS.
 
@@ -161,11 +155,11 @@ So, now let's look at a bit more real data relating to the census and NIMS.
 
 The ONS neatly sidestep the issues caused by unknown denominators, using a very large sample from the 2021 census. This allows people to be linked to their NHS records and then compared to each other based on demographics, vaccination status, etc.
 
-I wrote another [article](../deaths-by-vax-status/README.md) about how that linking process works, slightly over a week ago. Feel free to check it out.
+I wrote another article about how that [linking process](../deaths-by-vax-status/README.md) works, slightly over a week ago. Feel free to check it out.
 
 #### Representative Samples?
 
-In relation to the sampling, I have considered a number of ways to assess how representative the samples are of the overall population in the census One quick way is to look at what percentage of the population have been vaccinated (or unvaccinated) using the ONS population estimate, NIMS population estimate and in the actual samples.
+In relation to the sampling, I have considered a number of ways to assess how representative the samples are of the overall population in the census. One quick check is to look at what percentage of the population have been vaccinated (or unvaccinated) using the ONS population estimate, NIMS population estimate and the linked dataset (i.e. census sample).
 
 The following chart shows this information for the vaccinated population, shortly after the 2021 census:
 
@@ -182,15 +176,15 @@ It should be noted that there a few small nuances to this dataset:
 - The NIMS figures are based on ages as of 31 March 2021
 - The ONS census data is based on ages as of 21 March 2021
 
-Putting these nuances aside it it quite noticeable that the vaccinated and unvaccinated proportions are strikingly in the sample and the full census population. This is suggestive that the sample is representative of the whole population, although obviously not firm proof.
+Putting these nuances aside it it quite noticeable that the vaccinated and unvaccinated proportions are strikingly in the sample and the full census population. This is suggestive that the sample is representative of the whole population, although obviously not firm proof. There is potentially a small bias towards vaccinated persons but that is not entirely surprising.
 
-The NIMS proportions are quite different though, showing a significantly higher percentage of unvaccinated persons. This tells us that there is a significant difference between the NIMS population and persons in the census who can be linked to their NHS number.
+The NIMS proportions are quite different though, showing a significantly higher percentage of unvaccinated persons. This tells us that there is a significant difference between the NIMS population (including "ghosts") and persons in the census who can be linked to their NHS number.
 
 
 
 #### Additional Comparisons
 
-Ideally, I'd have done similar comparisons for additional months and additional age groups, but this is not possible due to nuances in the NIMS data.
+Ideally, I'd have done similar comparisons for additional months and other age groups, but this is not possible due to nuances in the NIMS data.
 
 - Calculation of ages:
   - Prior to 28 Oct 2021, ages were based on a fixed date - 31 Mar 2021
@@ -198,7 +192,7 @@ Ideally, I'd have done similar comparisons for additional months and additional 
   - Since 12 April 2022, vaccination statistics have been based on the current age
 - Limited dates for ONS population estimates. Two datasets from 2021 are available but nothing for 2022, yet:
   - Census on 21 March 2021
-  - Mid-year estimate on 30 June 2021
+  - Mid-year estimate ofor30 June 2021
 
 I'd considered attempting to process the following dates but they all have their own issues:
 
@@ -213,7 +207,7 @@ I'd considered attempting to process the following dates but they all have their
   - This involves "ageing" the census by 2 years. Applying deaths and ageing the survivors is easy but handling net migration is not straightforward.
 
 
-The next real opportunity to perform this analysis will be when the mid-year estimate for 2022 is released by the ONS, some time in the summer of 2023.
+The next real opportunity to perform this simple check will be when the mid-year estimate for 2022 is released by the ONS, some time in the summer of 2023.
 
 
 
@@ -223,7 +217,7 @@ When using NIMS data alone, calculating the percentage of the population that is
 
 It is curious that the 18-24 year olds seem to have a higher vaccination rate than the 25-29 and 30-34 year olds?
 
-Is this really true or is it more likely to be an artefact of the NIMS data over-estimating the 18-24 population?
+Is this really true or is it more likely to be an artefact of the NIMS database over-estimating the 18-24 population?
 
 ![img](img/nims_dip.png)
 
@@ -235,16 +229,18 @@ Is this really true or is it more likely to be an artefact of the NIMS data over
 
 NIMS should not be regarded as a population database. The PDS which feeds NIMS has explicitly stated that it is not a population database and contains a record for everyone who has ever been registered with the NHS, since 1991. The purpose of the PDS is primarily to identify patients, looking them up by name / address / postcode / dob, etc. It was never designed to be a population database but it does feed NIMS.
 
-The PDS and NIMS contain demographic information for everyone known to the NHS, thought to be resident in England. NIMS receives daily updates from the PDS and will be subject to the same data quality issues as the PDS itself; e.g. duplicate NHS numbers, confused records, incorrect demographic data, incorrectly set death status and people who have emigrated but their departure is unknown to the NHS.
+NIMS contains demographic information for everyone known to the NHS, thought to be resident in England. NIMS receives daily updates from the PDS and will be subject to the same data quality issues as the PDS itself; e.g. duplicate NHS numbers, confused records, incorrect demographic data, incorrectly set death status and people who have emigrated but their departure is unknown to the NHS.
 
-It seems implausible that such a system would ever be more accurate than a census which is carefully designed to produce the most accurate information at a population level. The census 2021 response rate was higher than ever, 97% (households and individuals) and the remaining 3% were imputed using proven statistical methods. How could it have missed a further 10% of the population? Is there any actual evidence?
+It seems implausible that such a system could ever be more accurate than a census which is carefully designed to produce the most accurate data possible at a population level. The census 2021 response rate was higher than ever before, 97% (households and individuals) and the remaining 3% were imputed using proven statistical methods. How could it have missed a further 10% (4.6 million) of the adult population? Is there any actual evidence?
 
 The reason that the ONS population estimates were originally doubted was use of 2019 population estimates with 2021 vaccination data. There are no such discrepancies when using the 2021 population estimate, based on the census three months prior. Creating a linked dataset using the 2021 census also appears to have produced samples likely to be representative of the total census population and a good foundation for further analysis.
 
-There is a curious artefact in the NIMS data that appears to show higher vaccination rates for 18-24 year olds, compared to 25-29 and 30-34 years olds. Why is that? It's clearly not impossible that the 18-24 have higher vaccination rates but is it plausible or is it due to the NIMS denominator?
+There is a curious artefact in the NIMS data that appears to show higher vaccination rates for 18-24 year olds, compared to 25-29 and 30-34 years olds. Why is that? It's clearly not impossible that the 18-24 have higher vaccination rates but is it more likely / plausible that it is due to the NIMS denominator?
 
 Neither NIMS, nor the PDS were created for estimating the population size and they should not be used for that purpose.
 
-Without exception, every substack article and viral chart either suggesting or claiming "vaccine harms" utilizes the NIMS denominators within their inner workings. Without that denominator the charts would tell a different story. When you see a chart, consider how the denominator was chosen and why!
+Without exception, every substack article and viral chart suggesting / claiming "vaccine harms" using ONS data utilizes the NIMS denominators within their inner workings. Without that denominator the charts would tell a different story. When you see a chart, consider how the denominator was chosen and why!
 
-TLDR - There is no excuse for using NIMS to calculate unvaccinated population estimates. Doing so is entirely inappropriate!
+TLDR - There is no excuse for using NIMS to calculate unvaccinated population estimates.
+
+Doing so is entirely inappropriate!
