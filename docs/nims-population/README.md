@@ -14,13 +14,13 @@ Ever since the launch of the National Immunisation Management System (NIMS), it 
 
 To summarise the problem, we have no real way to accurately determine the total number of people who are unvaccinated in England. An accurate figure is available for the number of people who have received a vaccination, but calculating the number of unvaccinated persons requires an accurate estimate of the population size. In age groups with high vaccination rates, any differences in population estimates have a huge impact.
 
-In essence, if a population estimate uses NIMS as its population estimate then the number of (allegedly) unvaccinated persons pretty much doubles for several age groups. This means that mortality rates calculated based on the "unvaccinated" population size are therefore halved. This is obviously a hugely significant issue when calculating and sharing vaccine statistics, so the big question is which source is best; NIMS or the ONS?
+In essence, if the estimate for unvaccinated persons relies on the difference between the NIMS total register and the NIMS vaccinated count, this doubles the estimate for unvaccinated persons in several age groups. This means that mortality rates calculated based on the "unvaccinated" population size are therefore halved. This is obviously a hugely significant issue when calculating and sharing vaccine statistics, so the big question is which source is best; NIMS or the ONS?
 
 
 
 ### Population Structure
 
-The image below shows the population structure according to the ONS census in March 2021. Every year some people born, some people die (mainly the elderly) and everyone moves to the right by one place. It should also be noted how there is a spike in the 73 and 74 year olds. Depending on when data is analysed this can have a big impact on the 70-74 and 75-79 year old age groups, especially in 2022 and 2023.
+The image below shows the population structure according to the ONS census in March 2021. Every year some people are born, some people die (mainly the elderly) and everyone moves to the right by one place. It should also be noted how there is a spike in the 73 and 74 year olds. Depending on when data is analysed this can have a big impact on the 70-74 and 75-79 year old age groups, especially in 2022 and 2023.
 
 This chart will be the only one in this article showing a breakdown by single year of age. All other graphs will use age ranges, typically of 5 or 10 years. However, I thought it useful so that readers can appreciate the variability across the various ages. These variations can have quite a significant impact on the number of people in each of the 5 year age groups over time.
 
