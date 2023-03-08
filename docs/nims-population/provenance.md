@@ -38,7 +38,7 @@ The PDS and the National Back Office (NBO) share responsibility for managing the
 
 NHS England commissioned the NHS South, Central and West CSU (which is part of NHS England) to implement a National Immunisation Management Service (NIMS). The implementation of NIMS delivers a centralised service for the management of seasonal flu immunisation and clinical cohorts as part of the call / recall service for COVID vaccinations
 
-NIMS initially received a bulk extract of patient details and demographical data from the PDS. Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where PDS does not have them flagged as deceased.
+NIMS initially received a bulk extract of patient details and demographical data from the PDS. Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where the PDS does not have them flagged as deceased.
 
 
 
@@ -123,7 +123,7 @@ People who wish to see details of the API and how it can be searched:
 
 
 
-### NIMS
+### National Immunisation Management System (NIMS)
 
 Now that the PDS has been described at length, it can be considered within the context of NIMS.
 
@@ -139,7 +139,7 @@ A few quotes from the DPIA confirm that the PDS is the source of the so-called "
 >
 > To this end the Immunisation Management System (IMS), the central database that supports the NIMS will be populated with demographic information from the Personal Demographics Service for everyone resident and registered with a GP in England.
 
-To summarise, NIMS contains demographic information from the Personal Demographics Service (PDS) for everyone known to the NHS, thought to be resident in England. NIMS receives daily updates from the PDS and will be subject to the same data quality issues as the PDS itself; e.g. duplicate NHS Numbers, confused records, incorrect demographic data, incorrectly set death status and people who have emigrated but their departure is unknown to the NHS.
+To summarise, NIMS contains demographic information from the Personal Demographics Service (PDS) for everyone known to the NHS, thought to be resident in England. NIMS receives daily updates from the PDS and will be subject to the same data quality issues as the PDS itself; e.g. duplicate NHS numbers, confused records, incorrect demographic data, incorrectly set death status and people who have emigrated but their departure is unknown to the NHS.
 
 
 
