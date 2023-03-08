@@ -20,7 +20,7 @@ In essence, if the estimate for unvaccinated persons relies on the difference be
 
 ### Population Structure
 
-The image below shows the population structure according to the ONS census in March 2021. Every year some people are born, some people die (mainly the elderly) and everyone moves to the right by one place. It should also be noted how there is a spike in the 73 and 74 year olds. Depending on when data is analysed this can have a big impact on the 70-74 and 75-79 year old age groups, especially in 2022 and 2023.
+The image below shows the population structure according to the ONS census in March 2021. Every year some people are born, some people die (mainly the elderly) and everyone who survives ages by one year. It should also be noted how there is a spike in the birth years of the 73 and 74 year olds. Depending on when data is analysed this can have a big impact on the 70-74 and 75-79 year old age groups, especially in 2022 and 2023.
 
 This chart will be the only one in this article showing a breakdown by single year of age. All other graphs will use age ranges, typically of 5 or 10 years. However, I thought it useful so that readers can appreciate the variability across the various ages. These variations can have quite a significant impact on the number of people in each of the 5 year age groups over time.
 
@@ -74,7 +74,7 @@ There wasn't a release of mid-year estimates for 2020 in the summer of 2021 beca
 
 ![img](img/mye_2020.png)
 
-Finally, actual mid-year estimates for 2021 were released in December 2022 and the chart looked to make even more sense:
+Finally, actual mid-year estimates for 2021 were released in December 2022 and the chart appeared to make more sense:
 
 ![img](img/mye_2021.png)
 
@@ -105,7 +105,7 @@ A couple of key points:
 
 Total adult population for England was reported to be 44.7 million which is a lot less than the 49.4 million in NIMS around the same time.
 
-During the 9 years prior to the next census, mid-year population estimates are produced using birth and death registrations and migration estimates, which are acquired from a variety of sources. The image below shows census figures a mid-year estimates dating back to the 1971 census.
+During the 9 years prior to the next census, mid-year population estimates are produced using birth and death registrations and migration estimates, which are acquired from a variety of sources. The image below shows census figures and mid-year estimates dating back to the 1971 census.
 
 Note that these figures show the total population, including persons under the age of 18.
 
@@ -119,23 +119,35 @@ Note that these figures show the total population, including persons under the a
 
 NHS England commissioned the NHS South, Central and West CSU (which is part of NHS England) to implement a National Immunisation Management Service (NIMS). The implementation of NIMS delivers a centralised service for the management of seasonal flu immunisation and clinical cohorts as part of the call / recall service for COVID vaccinations
 
-NIMS initially received a bulk extract of basic patient details (not medical history) and demographical data from the Personal Demographics Service (PDS). Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where the PDS does not have them flagged as deceased.
+NIMS initially received a bulk extract of basic patient details (not medical history) and demographic data from the Personal Demographics Service (PDS). Since the initial bulk load, NIMS has been receiving daily updates from the PDS. The list of patients is restricted to people believed to be living in England and where the PDS does not have them flagged as deceased.
 
 I have written a detailed [article](provenance.md) looking at the provenance of population data in NIMS. Feel free to read it if you wish but it can be summarised as follows:
 
-The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS). In the context of NIMS the PDS is a list of all patients ever registered with a GP practice in England since 1991, or ever treated by a health or care organisation who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated but where the NHS is unaware.
+The "national citizen list" in NIMS originates from the Personal Demographics Service (PDS). In the context of NIMS the PDS is a list of all patients ever registered with a GP practice in England since 1991, or ever treated by a health or care organisation and who are still thought to be alive. Any data quality issues present in the PDS can and will propagate directly into NIMS, so NIMS is prone to duplicate records, deceased patient records, and patients who have emigrated but where the NHS is unaware.
 
 The PDS explicitly states that it is not a population database:
 
 ![img](img/pds-population.png)
 
-Note how the PDS contained of 73 million records at that time, for the 50 million people living in England, approximately 3 million in Wales, people from other countries, duplicates, deceased and persons who had emigrated.
+The PDS contained 73 million records at that time; including the 50 million people living in England, plus approximately 3 million people living within Wales, plus patients from other countries. In addition to those persons it included duplicate records, deceased persons and patients who had emigrated.
 
 Additional information on the NHS Digital [website](https://digital.nhs.uk/developer/api-catalogue/personal-demographics-service-fhir#api-description__overview) is also pertinent:
 
 ![img](img/patients-in-dps.png)
 
 The patient lists from the PDS flow straight into NIMS so any data quality issues in the PDS will also be present in the NIMS database. The National Back Office (NBO) are responsible for the data in the PDS and the challenges they face should not be underestimated. Ghost records can and do occur in the system and I have discussed them in more detail in a separate [article](provenance.md) that I wrote regarding the data provenance.
+
+
+
+### Comments from the NHS
+
+Information about the denominators provided with NHS vaccination statistics is available on their [website](https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-vaccinations/covid-19-vaccinations-archive/).
+
+The following extract is from the [document](https://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2022/02/Denominators-for-COVID-19-vaccination-statistics.docx) at the bottom of the page:
+
+> National Immunisation Management System (NIMS) denominators are the numbers of individuals registered with the NHS who are currently alive in the resident population. Overall they likely overestimate the population and so underestimate vaccine uptake percentages, as death registration data is subject to a reporting lag (more information on this can be found on the [NHS Digital website](https://digital.nhs.uk/coronavirus/coronavirus-data-services-updates/mortality-data-review)) and there are also concerns about people who are no longer resident in England still being counted in NIMS. Coverage can therefore be viewed as being ‘at least’ the figures calculated using the NIMS denominators.
+
+The "concerns about people who are no longer resident in England still being counted in NIMS" should be noted.
 
 
 
@@ -196,7 +208,7 @@ Ideally, I'd have done similar comparisons for additional months and other age g
   - Since 12 April 2022, vaccination statistics have been based on the current age
 - Limited dates for ONS population estimates. Two datasets from 2021 are available but nothing for 2022, yet:
   - Census on 21 March 2021
-  - Mid-year estimate ofor30 June 2021
+  - Mid-year estimate for 30 June 2021
 
 I'd considered attempting to process the following dates but they all have their own issues:
 
