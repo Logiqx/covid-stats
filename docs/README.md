@@ -4,6 +4,10 @@
 
 Here are some of my studies and articles relating COVID-19 in England and the UK:
 
+- [Population Size - NIMS or ONS?](nims-population/README.md) - 8 March 2023
+
+- [National Immunisation Management System (NIMS) and the PDS](nims-population/provenance.md) - 8 March 2023
+
 - [Deaths by Vaccination Status - ETL overview](deaths-by-vax-status/README.md) - 25 February 2023
 
 - [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 4 February 2023
