@@ -4,15 +4,15 @@
 
 Here are some of my studies and articles relating COVID-19 in England and the UK:
 
-- [Population Size - NIMS or ONS?](nims-population/README.md) - 8 March 2023
+- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 21 March 2023
 
+- [Population Size - NIMS or ONS?](nims-population/README.md) - 8 March 2023
 - [National Immunisation Management System (NIMS) and the PDS](nims-population/provenance.md) - 8 March 2023
 
 - [Deaths by Vaccination Status - ETL overview](deaths-by-vax-status/README.md) - 25 February 2023
 
-- [Urgent and Emergency Care Daily Situation Reports](uec-sitreps/README.md) - 4 February 2023
-
 - [Weekly Deaths in England and Wales](weekly-deaths/README.md) - 9 January 2022
+
 - [Daily Trends for England](daily-trends/README.md) - Every few days (typically Tue, Thu, Sat)
 
 - [Estimating Regional Deaths by Date of Occurrence](estimating-regional-occurrences/README.md) - 1 February 2021
