@@ -37,12 +37,11 @@ p {
 }
 
 .gallery {
-  display: table;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center
 }
 
 .gallery figure {
-  display: inline;
   margin: 4px;
 }
 
@@ -55,29 +54,17 @@ p {
 }
 
 .gallery img {
-  border: 1px solid #cccccc;
-  max-width: 25%;
-  height: auto;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 800px) {
   .gallery figure {
     margin: 2px;
   }
-
-  .gallery img {
-    max-width: 22.5%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .gallery figure {
-    margin: 0;
-  }
 }
 
 @media screen and (max-width: 400px) {
-  .gallery img {
-    max-width: 20%;
+  .gallery figure {
+    margin: 1px;
   }
 }
